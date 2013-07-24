@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4009
+:revnumber: W4015
 :revdate: 2013-07-24
-//:revremark: Protected "[[Narrative Arcs Building]]" (â[edit=autoconfirmed] (indefinite) â[move=autoconfirmed] (indefinite))
+//:revremark: (Phases): Utilisation d'emplacements pour chaque niveau
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -69,6 +69,19 @@ est que la profondeur ne peut pas diminuer. (Exple : 1 - 1
 difficulté du donjon. On évite que le boss de fin apparaisse avant le
 gobelin apéritif.{_em}
 
+[none]
+* {em}Révision de l'idée : pour chaque donjon, il y a n emplacements
+(par exemple 6), correspondants aux niveaux des cartes. Les cartes sont
+posées dans l'emplacement correspondant à leur niveau. Certaines cartes
+peuvent éventuellement avoir plusieurs niveaux possibles. On peut
+empiler plusieurs cartes dans un emplacement, elles seront activées dans
+l'ordre _http://fr.wikipedia.org/wiki/LIFO[LIFO]_.{_em}
+
+[none]
+* Un donjon n'est pas ouvert à l'exploration tant qu'il n'y a pas une
+suite ininterrompues de cartes depuis le premier niveau (pas de "trous")
+{minus} voire même jusqu'au dernier niveau.{em}
+
 Lorsqu'il se sent prêt, un joueur peut lancer son aventurier dans
 l'exploitation d'un des donjons disponibles. La résolution se faut dans
 l'ordre de pousse des cartes donjons. Les cartes sont immédiatement
@@ -76,11 +89,18 @@ appliquées, avant de retourner la suivante. Un objet trouvé rejoint la
 main et pourra être utilisé dès la prochaine rencontre, un monstre
 déclenche immédiatement un combat ... Cette phase s'arrête avec
 l'épuisement des cartes donjon, ou la fuite ou la mort de l'aventurier
-(impact ?). Il sera probablement nécessaire de prévoir que le joueur
-puisse poser des cartes devant lui. Permet d'avoir plus de cartes, mais
-visibles et pas diapo pour donjons building. _(Ne serait-il pas
-préférable que l'exploration du donjon se fasse en phase avec les tours
-de jeu (plutôt que dans une phase spéciale ? => Pas d'attente des autres
+(impact ?).
+
+[none]
+* _Impact de la fuite d'un aventurier : il devra reprendre
+l'exploration du donjon depuis le premier niveau, puisque les premières
+cartes auront été éliminées._
+
+Il sera probablement nécessaire de prévoir que le joueur puisse poser
+des cartes devant lui. Permet d'avoir plus de cartes, mais visibles et
+pas diapo pour donjons building. _(Ne serait-il pas préférable
+que l'exploration du donjon se fasse en phase avec les tours de jeu
+(plutôt que dans une phase spéciale ? => Pas d'attente des autres
 joueurs, plus d'interaction, possibilité pour les autres joueurs
 d'intervenir sur le deck du donjon en cours d'exploration ...)_
 
