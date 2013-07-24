@@ -22,8 +22,14 @@ Les donjons pourraient se construire sur un plan quadrillé, se qui les amènera
 
 ''Autre idée pour le ''dungeon building'' : chaque carte correspond à un (plusieurs) niveaux de profondeur (exple : 2/3/4). La contrainte de pose est que la profondeur ne peut pas diminuer. (Exple : 1 - 1 - 1/2 - 3 - 3 - 3 - 6 - 6/7, mais pas 1, 1, 1/2, 2, 1 ...) Ainsi on garde une croissance en difficulté du donjon. On évite que le boss de fin apparaisse avant le gobelin apéritif.''
 
+: ''Révision de l'idée : pour chaque donjon, il y a n emplacements (par exemple 6), correspondants aux niveaux des cartes. Les cartes sont posées dans l'emplacement correspondant à leur niveau. Certaines cartes peuvent éventuellement avoir plusieurs niveaux possibles. On peut empiler plusieurs cartes dans un emplacement, elles seront activées dans l'ordre ''[http://fr.wikipedia.org/wiki/LIFO LIFO]''.''
+
+: Un donjon n'est pas ouvert à l'exploration tant qu'il n'y a pas une suite ininterrompues de cartes depuis le premier niveau (pas de "trous") - voire même jusqu'au dernier niveau.''
+
 Lorsqu'il se sent prêt, un joueur peut lancer son aventurier dans l'exploitation d'un des donjons disponibles. La résolution se faut dans l'ordre de pousse des cartes donjons. Les cartes sont immédiatement appliquées, avant de retourner la suivante. Un objet trouvé rejoint la main et pourra être utilisé dès la prochaine rencontre, un monstre déclenche immédiatement un combat ...
 Cette phase s'arrête avec l'épuisement des cartes donjon, ou la fuite ou la mort de l'aventurier (impact ?).
+: ''Impact de la fuite d'un aventurier : il devra reprendre l'exploration du donjon depuis le premier niveau, puisque les premières cartes auront été éliminées.''
+
 Il sera probablement nécessaire de prévoir que le joueur puisse poser des cartes devant lui. Permet d'avoir plus de cartes, mais visibles et pas diapo pour donjons building.
 ''(Ne serait-il pas préférable que l'exploration du donjon se fasse en phase avec les tours de jeu (plutôt que dans une phase spéciale ? => Pas d'attente des autres joueurs, plus d'interaction, possibilité pour les autres joueurs d'intervenir sur le deck du donjon en cours d'exploration ...)''
 
