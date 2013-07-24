@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4006
+:revnumber: W4009
 :revdate: 2013-07-24
-//:revremark: Imported from wikispaces
+//:revremark: Protected "[[Narrative Arcs Building]]" (â[edit=autoconfirmed] (indefinite) â[move=autoconfirmed] (indefinite))
 :doctype: article
 :lang: fr
 :encoding: utf8
