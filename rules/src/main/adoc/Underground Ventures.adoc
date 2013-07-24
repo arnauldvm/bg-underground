@@ -1,0 +1,99 @@
+Narrative arcs + multiple shared decks (building)
+=================================================
+:author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
+:revnumber: W4006
+:revdate: 2013-07-24
+//:revremark: Imported from wikispaces
+:doctype: article
+:lang: fr
+:encoding: utf8
+:toc:
+:toc-placement: manual
+:toclevels: 4
+:toc-title: Contenu
+//:numbered:
+:imagesdir: ../img
+//:data-uri: // This corrupts some images because of a bug in base64 encoding, see https://github.com/asciidoc/asciidoc/issues/98 and https://groups.google.com/d/topic/asciidoc/pC22vFTCxTc/discussion
+:br: pass:[<br>]
+:em: pass:[<em>]
+:_em: pass:[</em>]
+:beta: pass:[&beta;]
+:plus: pass:[&#43;]
+:minus: pass:[&#45;]
+:lcurl: pass:[&#123;]
+:tilde: pass:[&#126;]
+
+
+30-Jun-'13
+
+Le jeu
+~~~~~~
+
+Les joueurs incarnent des aventuriers qui partent explorer des donjons
+pour récolter des richesses.
+
+* donjons = des lignes de cartes constituées en commun par les joueurs
+* aventurier = la main de cartes de chaque joueur
+* le recto de chaque carte est divisé en deux parties :
+** côté "donjon" : un monstres, ou piège, ou trésor, ou autre rencontre
+** côté "aventurier" : 1 équipement, ou caractéristique spéciale, ou
+sort ... ; ou refill d'une jauge (x PV, x mana ...)
+
+(Le verso est uniforme et identique pour toutes les cartes.)
+
+Phases
+~~~~~~
+
+Les donjons doivent recéler des surprises, mais il faut limiter le
+hasard => une partie des cartes posées sur les donjons sont cachées
+(soit : 1 sur 2 ; soit : en fonction d'une indication sur la carte). À
+son tour un joueur pioche une carte et la prend dans sa main. Il choisit
+ensuite de poser 0 à n cartes sur un (des?) donjon(s). (_Éviter qu'un
+joueur pose tout un donjon en une seule fois => max 1/2/3 cartes par
+donjon à la fois ?_) Tant qu'une carte est en main, c'est le côté
+aventurier qui s'applique. Cela peut potentiellement même être un malus
+(incitation à poser vite les cartes donjons intéressantes). _(Les
+joueurs auront-ils tendance à garder les bonnes cartes et poser
+les mauvaises, pour créer des donjons peu intéressants pour les autres;
+ou à faire l'inverse, pour s'en créer des intéressants pour soi.
+Peut-être cela peut-il s'auto-équilibrer ?)_
+Limiter la taille de la main pourrait suffire. Les donjons
+ont-ils aussi une taille maximale ? Les donjons pourraient se
+construire sur un plan quadrillé, se qui les amèneraient à se rejoindre.
+
+{em}Autre idée pour le _dungeon building_ : chaque carte correspond à un
+(plusieurs) niveaux de profondeur (exple : 2/3/4). La contrainte de pose
+est que la profondeur ne peut pas diminuer. (Exple : 1 - 1
+{minus} 1/2 - 3 - 3 - 3 - 6 -
+6/7, mais pas 1, 1, 1/2, 2, 1 ...) Ainsi on garde une croissance en
+difficulté du donjon. On évite que le boss de fin apparaisse avant le
+gobelin apéritif.{_em}
+
+Lorsqu'il se sent prêt, un joueur peut lancer son aventurier dans
+l'exploitation d'un des donjons disponibles. La résolution se faut dans
+l'ordre de pousse des cartes donjons. Les cartes sont immédiatement
+appliquées, avant de retourner la suivante. Un objet trouvé rejoint la
+main et pourra être utilisé dès la prochaine rencontre, un monstre
+déclenche immédiatement un combat ... Cette phase s'arrête avec
+l'épuisement des cartes donjon, ou la fuite ou la mort de l'aventurier
+(impact ?). Il sera probablement nécessaire de prévoir que le joueur
+puisse poser des cartes devant lui. Permet d'avoir plus de cartes, mais
+visibles et pas diapo pour donjons building. _(Ne serait-il pas
+préférable que l'exploration du donjon se fasse en phase avec les tours
+de jeu (plutôt que dans une phase spéciale ? => Pas d'attente des autres
+joueurs, plus d'interaction, possibilité pour les autres joueurs
+d'intervenir sur le deck du donjon en cours d'exploration ...)_
+
+Les cartes
+~~~~~~~~~~
+
+Soit une taille de donjon moyenne de 7 (3 monstres, 1 item, 1 boss, 1
+trésor, 1 rencontre autre). Soit une taille de set d'aventurier moyenne
+de 5 (2 compétences, 2 item, 1 don) (sur table ou en main). Soit 5
+dépenses de jauge dépensée par donjon (PV, sorts ...) Si on veut que
+chaque joueur ait l'occasion d'explorer 3 donjons en moyenne : n x 3 x
+(7{plus}5) {plus} n x (5 - 2 [les items sont déjà comptés])
+= n x 39 : 39 carte par aventurier. Un deck permettant de jouer à 4
+devrait donc être constitué de 156 cartes environ. Il contiendrait : 36
+monstres, 12 items, 12 boss, 12 trésors, 12 rencontres autres, 8
+compétences, 4 dons. _(Revoir la proportion donjons/aventuriers ?)_
