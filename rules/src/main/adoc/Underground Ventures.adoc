@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4022
+:revnumber: W4023
 :revdate: 2013-08-26
-//:revremark: (Les cartes): CaractÃ©ristiques, rÃ¨gles de combat
+//:revremark: (Les cartes): Liste d'idÃ©es de cartes
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -180,6 +180,18 @@ d'utilisation liées à la caractéristique d'esprit.
 
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à
 sa constitution (sans jamais dépasser le maximum).
+
+{lcurl}|border=1 cellspacing=0 !Nom
+!!#!!niv!!att!!def!!PV!!con!!esprit!!Spécial |- |Goblin || || ||
+|| || || || || |- |Squelette || || || || || || || || |-
+|Orc || || || || || || || || |- |Vampire || || || || || || || ||
+|- |Araignée géante || || || || || || || || |-
+|Loup-Garou || || || || || || || || |- |Chevalier du
+chaos || || || || || || || || |- |Golem || || || || || || || ||
+|- |Momie || || || || || || || || |- |Nécromant || || ||
+|| || || || || |- |Ogre || || || || || || || || |-
+|Sorcière || || || || || || || || |- |Spectre || || || || || ||
+|| || |- |Zombie || || || || || || || || |}
 
 Autres aspects à développer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
