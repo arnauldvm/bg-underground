@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4017
+:revnumber: W4018
 :revdate: 2013-08-26
-//:revremark: Typos
+//:revremark: Pas besoin de cÃ´tÃ© "aventurier" sur les cartes si plus d'items dans les donjons
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -37,9 +37,15 @@ pour récolter des richesses.
 * le recto de chaque carte est divisé en deux parties :
 ** côté "donjon" : un monstres, ou piège, ou trésor, ou autre rencontre
 ** côté "aventurier" : 1 équipement, ou caractéristique spéciale, ou
-sort ... ; ou refill d'une jauge (x PV, x mana ...)
+sort ... ; ou _re-fill_ d'une jauge (x PV, x mana ...)
 
-(Le verso est uniforme et identique pour toutes les cartes.)
+[none]
+* {em}Ou pas. Si on met un peu plus d'items dans les donjons, le
+personnage peut évoluer par l'exploration des donjons _uniquement_. Cela
+simplifie et permet de recentrer le jeu sur les donjons. Dans ce cas pas
+besoin de côté "aventurier". Par contre une même carte devrait pouvoir
+combiner plusieurs choses (monstre et trésor, piège et trésor ...){_em} (Le
+verso est uniforme et identique pour toutes les cartes.)
 
 Phases
 ~~~~~~
