@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4020
+:revnumber: W4021
 :revdate: 2013-08-26
-//:revremark: (Phases): InterprÃ¨tation thÃ©matique des niveaux
+//:revremark: (Phases): ModalitÃ©s de modification d'un donjon en cours d'exploration
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -111,9 +111,12 @@ Il sera probablement nécessaire de prévoir que le joueur puisse poser
 des cartes devant lui. Permet d'avoir plus de cartes, mais visibles et
 pas dispo pour _dungeon building_. _(Ne serait-il pas préférable
 que l'exploration du donjon se fasse en phase avec les tours de jeu
-(plutôt que dans une phase spéciale) ? => Pas d'attente des autres
+(plutôt que dans une phase spéciale ? => Pas d'attente des autres
 joueurs, plus d'interaction, possibilité pour les autres joueurs
-d'intervenir sur le deck du donjon en cours d'exploration ...)_
+d'intervenir sur le deck du donjon en cours d'exploration ... Un joueur,
+qu'il soit l'explorateur ou l'un de ses exposants, peut ajouter une
+carte dans une salle du donjon en cours d'exploration, à condition que
+le personnage ne soit pas encore entré dans cette salle.)_
 
 Les cartes
 ~~~~~~~~~~
