@@ -67,6 +67,38 @@ Au début de chaque round, le joueur peut décider de déclencher l'effet d'une 
 
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa constitution (sans jamais dépasser le maximum).
 
+{|border=1 cellspacing=0
+!Nom                !!#!!niv!!att!!def!!PV!!con!!esprit!!Spécial
+|-
+|Goblin             || ||   ||   ||   ||  ||   ||      || 
+|-
+|Squelette          || ||   ||   ||   ||  ||   ||      || 
+|-
+|Orc                || ||   ||   ||   ||  ||   ||      || 
+|-
+|Vampire            || ||   ||   ||   ||  ||   ||      || 
+|-
+|Araignée géante    || ||   ||   ||   ||  ||   ||      || 
+|-
+|Loup-Garou         || ||   ||   ||   ||  ||   ||      || 
+|-
+|Chevalier du chaos || ||   ||   ||   ||  ||   ||      || 
+|-
+|Golem              || ||   ||   ||   ||  ||   ||      || 
+|-
+|Momie              || ||   ||   ||   ||  ||   ||      || 
+|-
+|Nécromant          || ||   ||   ||   ||  ||   ||      || 
+|-
+|Ogre               || ||   ||   ||   ||  ||   ||      || 
+|-
+|Sorcière           || ||   ||   ||   ||  ||   ||      || 
+|-
+|Spectre            || ||   ||   ||   ||  ||   ||      || 
+|-
+|Zombie             || ||   ||   ||   ||  ||   ||      || 
+|}
+
 == Autres aspects à développer ==
 ; Tutoriel
 : Le deck de carte est vendu trié suivant un ordre prédéfini, avec des cartes d'explication intégrées. Le joueur joue sa première aventure solo tout en découvrant l'essentiel des règles au fur et à mesure (cf. [http://www.boardgamegeek.com/boardgame/127398/legends-of-andor Andor]).
