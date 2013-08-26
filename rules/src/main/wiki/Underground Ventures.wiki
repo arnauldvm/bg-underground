@@ -23,7 +23,7 @@ Les donjons pourraient se construire sur un plan quadrillé, se qui les amènera
 
 ''Autre idée pour le ''dungeon building'' : chaque carte correspond à un (plusieurs) niveaux de profondeur (exple : 2/3/4). La contrainte de pose est que la profondeur ne peut pas diminuer. (Exple : 1 - 1 - 1/2 - 3 - 3 - 3 - 6 - 6/7, mais pas 1, 1, 1/2, 2, 1 ...) Ainsi on garde une croissance en difficulté du donjon. On évite que le boss de fin apparaisse avant le gobelin apéritif.''
 
-: ''Révision de l'idée : pour chaque donjon, il y a n emplacements (par exemple 6), correspondant aux niveaux des cartes. Les cartes sont posées dans l'emplacement correspondant à leur niveau. Certaines cartes peuvent éventuellement avoir plusieurs niveaux possibles. On peut empiler plusieurs cartes dans un emplacement, elles seront activées dans l'ordre ''[http://fr.wikipedia.org/wiki/LIFO LIFO]''.''
+: ''Révision de l'idée : pour chaque donjon, il y a n emplacements (par exemple 6), correspondant aux niveaux des cartes. Les cartes sont posées dans l'emplacement correspondant à leur niveau. Certaines cartes peuvent éventuellement avoir plusieurs niveaux possibles. On peut empiler plusieurs cartes dans un emplacement, elles seront activées dans l'ordre ''[http://fr.wikipedia.org/wiki/LIFO LIFO]''. Dans ce cas, l'alternance visible/caché se fait verticalement ''et'' horizontalement.''
 
 : Un donjon n'est pas ouvert à l'exploration tant qu'il n'y a pas une suite ininterrompues de cartes depuis le premier niveau (pas de "trous") - voire même jusqu'au dernier niveau.
 
