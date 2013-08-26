@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4019
+:revnumber: W4020
 :revdate: 2013-08-26
-//:revremark: (Phases): L'alternance visible/cachÃ© se fait verticalement et horizontalement
+//:revremark: (Phases): InterprÃ¨tation thÃ©matique des niveaux
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -77,12 +77,15 @@ gobelin apéritif.{_em}
 
 [none]
 * {em}Révision de l'idée : pour chaque donjon, il y a n emplacements
-(par exemple 6), correspondant aux niveaux des cartes. Les cartes sont
-posées dans l'emplacement correspondant à leur niveau. Certaines cartes
-peuvent éventuellement avoir plusieurs niveaux possibles. On peut
-empiler plusieurs cartes dans un emplacement, elles seront activées dans
-l'ordre _http://fr.wikipedia.org/wiki/LIFO[LIFO]_. Dans ce cas,
-l'alternance visible/caché se fait verticalement _et_ horizontalement.{_em}
+"verticaux" (par exemple 6), correspondant aux niveaux des cartes. Les
+cartes sont posées dans l'emplacement correspondant à leur niveau.
+Thématiquement, chacun de ces emplacements est une salle (un étage) du
+donjon. Certaines cartes peuvent éventuellement avoir plusieurs niveaux
+possibles. On peut empiler "horizontalement" plusieurs cartes dans un
+emplacement, plusieurs monstres/trésors pouvant être présent dans une
+même salle (étage) du donjon. Les cartes d'un même niveau seront
+activées dans l'ordre _http://fr.wikipedia.org/wiki/LIFO[LIFO]_.
+L'alternance visible/caché se fait verticalement _et_ horizontalement.{_em}
 
 [none]
 * Un donjon n'est pas ouvert à l'exploration tant qu'il n'y a pas une
