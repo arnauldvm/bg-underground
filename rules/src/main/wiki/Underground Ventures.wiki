@@ -32,7 +32,7 @@ Cette phase s'arrête soit avec l'épuisement des cartes donjon, soit avec la fu
 : ''Impact de la fuite d'un aventurier : il devra reprendre l'exploration du donjon depuis le premier niveau, mais comme les premières cartes auront été éliminées, il devra attendre pour cela que ces premiers niveaux soient à nouveau remplis.''
 
 Il sera probablement nécessaire de prévoir que le joueur puisse poser des cartes devant lui. Permet d'avoir plus de cartes, mais visibles et pas dispo pour ''dungeon building''.
-''(Ne serait-il pas préférable que l'exploration du donjon se fasse en phase avec les tours de jeu (plutôt que dans une phase spéciale) ? => Pas d'attente des autres joueurs, plus d'interaction, possibilité pour les autres joueurs d'intervenir sur le deck du donjon en cours d'exploration ...)''
+''(Ne serait-il pas préférable que l'exploration du donjon se fasse en phase avec les tours de jeu (plutôt que dans une phase spéciale ? => Pas d'attente des autres joueurs, plus d'interaction, possibilité pour les autres joueurs d'intervenir sur le deck du donjon en cours d'exploration ... Un joueur, qu'il soit l'explorateur ou l'un de ses exposants, peut ajouter une carte dans une salle du donjon en cours d'exploration, à condition que le personnage ne soit pas encore entré dans cette salle.)''
 
 ==Les cartes==
 
