@@ -43,6 +43,30 @@ Si on veut que chaque joueur ait l'occasion d'explorer 3 donjons en moyenne : n 
 ''(Revoir la proportion donjons/aventuriers ?)''
 ''(Moins de monstres plus d'items ?)''
 
+Un personnage (aventurier ou monstre) a les caractéristiques suivantes :
+* attaque
+* défense
+* vie
+* constitution
+* esprit (optionnel)
+Les autres cartes agissent sur ces caractéristiques (bonus, malus ...).
+Elles agissent, soit de manière permanente, soit un nombre de fois limité n (<=4).
+
+: ''Les cartes qui agissent un nombre de fois limité portent les numéros de n à 1 sur les côtés. Chaque fois qu'elle est utilisée, on fait faire un quart de tour à la carte de manière à ce que soit visible le nombre d'utilisations restantes.''
+
+La résolution du combat est déterministe. Un round de combat se résout en simultané pour les 2 protagonistes. Chacun perd en points de vie la différence entre l'attaque de l'adversaire et sa propre défense. Si sa défense est supérieure à l'attaque de l'adversaire il ne perd rien. On répète les rounds immédiatement jusqu'à ce que les points de vie d'un des adversaires tombe à 0 ou moins. À l'issue de chaque round l'aventurier peut rompre le combat en fuyant. Dans ce cas, il quitte immédiatement le donjon et revient devant son propriétaire.
+
+Une fois un monstre battu, on gagne sa carte (si elle comporte un/des items), ou on la défausse. La carte suivante ne pourra être résolue qu'au tour suivant. On ne pénètre dans une nouvelle salle qu'au moment où on commence à résoudre ses cartes.
+
+Une carte item se résout en la prenant immédiatement. Si la carte augmente le maximum de points de vie de n, le personnage augmente instantanément son total actuel de points de vie de n.
+
+Une carte piège se résout en appliquant les effets indiqués.
+
+Au début de chaque round, le joueur peut décider de déclencher l'effet d'une (''ou plusieurs ? combien max ?'') carte item.
+: Optionnel: Certaines cartes effets (sorts) ont des conditions d'utilisation liées à la caractéristique d'esprit.
+
+Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa constitution (sans jamais dépasser le maximum).
+
 == Autres aspects à développer ==
 ; Tutoriel
 : Le deck de carte est vendu trié suivant un ordre prédéfini, avec des cartes d'explication intégrées. Le joueur joue sa première aventure solo tout en découvrant l'essentiel des règles au fur et à mesure (cf. [http://www.boardgamegeek.com/boardgame/127398/legends-of-andor Andor]).

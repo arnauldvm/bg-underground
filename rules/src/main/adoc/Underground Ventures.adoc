@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4021
+:revnumber: W4022
 :revdate: 2013-08-26
-//:revremark: (Phases): ModalitÃ©s de modification d'un donjon en cours d'exploration
+//:revremark: (Les cartes): CaractÃ©ristiques, rÃ¨gles de combat
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -132,6 +132,54 @@ devrait donc être constitué de 156 cartes environ. Il contiendrait : 36
 monstres, 12 items, 12 boss, 12 trésors, 12 rencontres autres, 8
 compétences, 4 dons. _(Revoir la proportion donjons/aventuriers ?)_
 _(Moins de monstres plus d'items ?)_
+
+Un personnage (aventurier ou monstre) a les caractéristiques suivantes :
+
+* attaque
+* défense
+* vie
+* constitution
+* esprit (optionnel)
+
+Les autres cartes agissent sur ces caractéristiques (bonus, malus ...).
+Elles agissent, soit de manière permanente, soit un nombre de fois
+limité n (<=4).
+
+[none]
+* _Les cartes qui agissent un nombre de fois limité portent les
+numéros de n à 1 sur les côtés. Chaque fois qu'elle est utilisée, on
+fait faire un quart de tour à la carte de manière à ce que soit visible
+le nombre d'utilisations restantes._
+
+La résolution du combat est déterministe. Un round de combat se résout
+en simultané pour les 2 protagonistes. Chacun perd en points de vie la
+différence entre l'attaque de l'adversaire et sa propre défense. Si sa
+défense est supérieure à l'attaque de l'adversaire il ne perd rien. On
+répète les rounds immédiatement jusqu'à ce que les points de vie d'un
+des adversaires tombe à 0 ou moins. À l'issue de chaque round
+l'aventurier peut rompre le combat en fuyant. Dans ce cas, il quitte
+immédiatement le donjon et revient devant son propriétaire.
+
+Une fois un monstre battu, on gagne sa carte (si elle comporte un/des
+items), ou on la défausse. La carte suivante ne pourra être résolue
+qu'au tour suivant. On ne pénètre dans une nouvelle salle qu'au moment
+où on commence à résoudre ses cartes.
+
+Une carte item se résout en la prenant immédiatement. Si la carte
+augmente le maximum de points de vie de n, le personnage augmente
+instantanément son total actuel de points de vie de n.
+
+Une carte piège se résout en appliquant les effets indiqués.
+
+Au début de chaque round, le joueur peut décider de déclencher l'effet
+d'une (_ou plusieurs ? combien max ?_) carte item.
+
+[none]
+* Optionnel: Certaines cartes effets (sorts) ont des conditions
+d'utilisation liées à la caractéristique d'esprit.
+
+Entre chaque tour, un aventurier gagne un nombre de points de vie égal à
+sa constitution (sans jamais dépasser le maximum).
 
 Autres aspects à développer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
