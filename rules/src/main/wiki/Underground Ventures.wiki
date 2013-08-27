@@ -107,3 +107,4 @@ Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa co
 ; Tutoriel
 : Le deck de carte est vendu trié suivant un ordre prédéfini, avec des cartes d'explication intégrées. Le joueur joue sa première aventure solo tout en découvrant l'essentiel des règles au fur et à mesure (cf. [http://www.boardgamegeek.com/boardgame/127398/legends-of-andor Andor]).
 ; Règles de campagne ?
+; Règles solo !

@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4029
+:revnumber: W4030
 :revdate: 2013-08-27
-//:revremark: (Les cartes): table layout
+//:revremark: (Autres aspects Ã  dÃ©velopper): RÃ¨gles solo ...
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -206,3 +206,5 @@ solo tout en découvrant l'essentiel des règles au fur et à mesure (cf.
 http://www.boardgamegeek.com/boardgame/127398/legends-of-andor[Andor]).
 
 Règles de campagne ? ::
+
+Règles solo ! ::
