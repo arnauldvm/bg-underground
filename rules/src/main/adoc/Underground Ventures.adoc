@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4024
+:revnumber: W4025
 :revdate: 2013-08-27
-//:revremark: (Les cartes): +table id
+//:revremark: (Les cartes): + niveaux des monstres
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -182,16 +182,17 @@ Entre chaque tour, un aventurier gagne un nombre de points de vie égal à
 sa constitution (sans jamais dépasser le maximum).
 
 {lcurl}|border=1 cellspacing=0 id=monstres !Nom
-!!#!!niv!!att!!def!!PV!!con!!esprit!!Spécial |- |Goblin || || ||
-|| || || || || |- |Squelette || || || || || || || || |-
-|Orc || || || || || || || || |- |Vampire || || || || || || || ||
-|- |Araignée géante || || || || || || || || |-
-|Loup-Garou || || || || || || || || |- |Chevalier du
-chaos || || || || || || || || |- |Golem || || || || || || || ||
-|- |Momie || || || || || || || || |- |Nécromant || || ||
-|| || || || || |- |Ogre || || || || || || || || |-
-|Sorcière || || || || || || || || |- |Spectre || || || || || ||
-|| || |- |Zombie || || || || || || || || |}
+!!#!!niv!!att!!def!!PV!!con!!esprit!!Spécial |- |Goblin || ||2
+(4)|| || || || || || |- |Squelette || ||1 (1)|| || || || || ||
+|- |Orc || ||1 (3)|| || || || || || |- |Vampire || ||6
+(29)|| || || || || || |- |Araignée géante || ||1 (2)|| || || ||
+|| || |- |Loup-Garou || ||3 (8)|| || || || || ||
+|- |Chevalier du chaos || ||6 (20)|| || || || || || |-
+|Golem || ||6 (8/15/23/31)|| || || || || || |- |Momie || ||2
+(4)|| || || || || || |- |Nécromant || ||6 (39)|| || || || || ||
+|- |Ogre || ||3 (7)|| || || || || || |- |Sorcière || ||4
+(17)|| || || || || || |- |Spectre || ||4 (14)|| || || || || ||
+|- |Zombie || ||1 (2)|| || || || || || |}
 
 Autres aspects à développer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

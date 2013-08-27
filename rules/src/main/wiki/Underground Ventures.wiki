@@ -70,33 +70,33 @@ Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa co
 {|border=1 cellspacing=0 id=monstres
 !Nom                !!#!!niv!!att!!def!!PV!!con!!esprit!!Spécial
 |-
-|Goblin             || ||   ||   ||   ||  ||   ||      ||
+|Goblin             || ||2 (4)||   ||   ||  ||   ||      ||
 |-
-|Squelette          || ||   ||   ||   ||  ||   ||      ||
+|Squelette          || ||1 (1)||   ||   ||  ||   ||      ||
 |-
-|Orc                || ||   ||   ||   ||  ||   ||      ||
+|Orc                || ||1 (3)||   ||   ||  ||   ||      ||
 |-
-|Vampire            || ||   ||   ||   ||  ||   ||      ||
+|Vampire            || ||6 (29)||   ||   ||  ||   ||      ||
 |-
-|Araignée géante    || ||   ||   ||   ||  ||   ||      ||
+|Araignée géante    || ||1 (2)||   ||   ||  ||   ||      ||
 |-
-|Loup-Garou         || ||   ||   ||   ||  ||   ||      ||
+|Loup-Garou         || ||3 (8)||   ||   ||  ||   ||      ||
 |-
-|Chevalier du chaos || ||   ||   ||   ||  ||   ||      ||
+|Chevalier du chaos || ||6 (20)||   ||   ||  ||   ||      ||
 |-
-|Golem              || ||   ||   ||   ||  ||   ||      ||
+|Golem              || ||6 (8/15/23/31)||   ||   ||  ||   ||      ||
 |-
-|Momie              || ||   ||   ||   ||  ||   ||      ||
+|Momie              || ||2 (4)||   ||   ||  ||   ||      ||
 |-
-|Nécromant          || ||   ||   ||   ||  ||   ||      ||
+|Nécromant          || ||6 (39)||   ||   ||  ||   ||      ||
 |-
-|Ogre               || ||   ||   ||   ||  ||   ||      ||
+|Ogre               || ||3 (7)||   ||   ||  ||   ||      ||
 |-
-|Sorcière           || ||   ||   ||   ||  ||   ||      ||
+|Sorcière           || ||4 (17)||   ||   ||  ||   ||      ||
 |-
-|Spectre            || ||   ||   ||   ||  ||   ||      ||
+|Spectre            || ||4 (14)||   ||   ||  ||   ||      ||
 |-
-|Zombie             || ||   ||   ||   ||  ||   ||      ||
+|Zombie             || ||1 (2)||   ||   ||  ||   ||      ||
 |}
 
 == Autres aspects à développer ==
