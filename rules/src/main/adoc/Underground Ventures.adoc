@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4028
+:revnumber: W4029
 :revdate: 2013-08-27
-//:revremark: (Les cartes): + caractÃ©ristiques aventuriers
+//:revremark: (Les cartes): table layout
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -183,12 +183,12 @@ sa constitution (sans jamais dépasser le maximum).
 
 {lcurl}|border=1 cellspacing=0 id=monstres !Nom !!#!! niv
 !!att!!def!!PV!!con!!esprit!!Spécial |- |__Aventurier__
-||-|| - || || || || || || |- | |-
-|Araignée géante ||3||1 (2) || || || || || || |- |Orc ||3||1 (3)
-|| || || || || || |- |Squelette ||3||1 (1) || || || || || ||
-|- |Zombie ||3||1 (2) || || || || || || |- |Goblin
-||4||2 (4) || || || || || || |- |Momie ||4||2 (4) || || || || ||
-|| |- |Loup-Garou ||2||3 (8) || || || || || ||
+||-|| - || || || || || || |- |colspan=9|
+|- |Araignée géante ||3||1 (2) || || || || || || |- |Orc
+||3||1 (3) || || || || || || |- |Squelette ||3||1 (1) || || ||
+|| || || |- |Zombie ||3||1 (2) || || || || || || |-
+|Goblin ||4||2 (4) || || || || || || |- |Momie ||4||2 (4) || ||
+|| || || || |- |Loup-Garou ||2||3 (8) || || || || || ||
 |- |Ogre ||2||3 (7) || || || || || || |- |Sorcière
 ||2||4 (17)|| || || || || || |- |Spectre ||2||4 (14)|| || || ||
 || || |- |Chevalier du chaos ||2||6 (20)|| || || || || ||
