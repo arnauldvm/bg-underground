@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4023
-:revdate: 2013-08-26
-//:revremark: (Les cartes): Liste d'idÃ©es de cartes
+:revnumber: W4024
+:revdate: 2013-08-27
+//:revremark: (Les cartes): +table id
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -181,7 +181,7 @@ d'utilisation liées à la caractéristique d'esprit.
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à
 sa constitution (sans jamais dépasser le maximum).
 
-{lcurl}|border=1 cellspacing=0 !Nom
+{lcurl}|border=1 cellspacing=0 id=monstres !Nom
 !!#!!niv!!att!!def!!PV!!con!!esprit!!Spécial |- |Goblin || || ||
 || || || || || |- |Squelette || || || || || || || || |-
 |Orc || || || || || || || || |- |Vampire || || || || || || || ||

@@ -67,36 +67,36 @@ Au début de chaque round, le joueur peut décider de déclencher l'effet d'une 
 
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa constitution (sans jamais dépasser le maximum).
 
-{|border=1 cellspacing=0
+{|border=1 cellspacing=0 id=monstres
 !Nom                !!#!!niv!!att!!def!!PV!!con!!esprit!!Spécial
 |-
-|Goblin             || ||   ||   ||   ||  ||   ||      || 
+|Goblin             || ||   ||   ||   ||  ||   ||      ||
 |-
-|Squelette          || ||   ||   ||   ||  ||   ||      || 
+|Squelette          || ||   ||   ||   ||  ||   ||      ||
 |-
-|Orc                || ||   ||   ||   ||  ||   ||      || 
+|Orc                || ||   ||   ||   ||  ||   ||      ||
 |-
-|Vampire            || ||   ||   ||   ||  ||   ||      || 
+|Vampire            || ||   ||   ||   ||  ||   ||      ||
 |-
-|Araignée géante    || ||   ||   ||   ||  ||   ||      || 
+|Araignée géante    || ||   ||   ||   ||  ||   ||      ||
 |-
-|Loup-Garou         || ||   ||   ||   ||  ||   ||      || 
+|Loup-Garou         || ||   ||   ||   ||  ||   ||      ||
 |-
-|Chevalier du chaos || ||   ||   ||   ||  ||   ||      || 
+|Chevalier du chaos || ||   ||   ||   ||  ||   ||      ||
 |-
-|Golem              || ||   ||   ||   ||  ||   ||      || 
+|Golem              || ||   ||   ||   ||  ||   ||      ||
 |-
-|Momie              || ||   ||   ||   ||  ||   ||      || 
+|Momie              || ||   ||   ||   ||  ||   ||      ||
 |-
-|Nécromant          || ||   ||   ||   ||  ||   ||      || 
+|Nécromant          || ||   ||   ||   ||  ||   ||      ||
 |-
-|Ogre               || ||   ||   ||   ||  ||   ||      || 
+|Ogre               || ||   ||   ||   ||  ||   ||      ||
 |-
-|Sorcière           || ||   ||   ||   ||  ||   ||      || 
+|Sorcière           || ||   ||   ||   ||  ||   ||      ||
 |-
-|Spectre            || ||   ||   ||   ||  ||   ||      || 
+|Spectre            || ||   ||   ||   ||  ||   ||      ||
 |-
-|Zombie             || ||   ||   ||   ||  ||   ||      || 
+|Zombie             || ||   ||   ||   ||  ||   ||      ||
 |}
 
 == Autres aspects à développer ==
