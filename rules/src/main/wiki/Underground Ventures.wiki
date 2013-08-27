@@ -70,25 +70,19 @@ Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa co
 {|border=1 cellspacing=0 id=monstres
 !Nom                !!#!!niv!!att!!def!!PV!!con!!esprit!!Spécial
 |-
-|Goblin             || ||2 (4)||   ||   ||  ||   ||      ||
-|-
-|Squelette          || ||1 (1)||   ||   ||  ||   ||      ||
+|Araignée géante    || ||1 (2)||   ||   ||  ||   ||      ||
 |-
 |Orc                || ||1 (3)||   ||   ||  ||   ||      ||
 |-
-|Vampire            || ||6 (29)||   ||   ||  ||   ||      ||
+|Squelette          || ||1 (1)||   ||   ||  ||   ||      ||
 |-
-|Araignée géante    || ||1 (2)||   ||   ||  ||   ||      ||
+|Zombie             || ||1 (2)||   ||   ||  ||   ||      ||
 |-
-|Loup-Garou         || ||3 (8)||   ||   ||  ||   ||      ||
-|-
-|Chevalier du chaos || ||6 (20)||   ||   ||  ||   ||      ||
-|-
-|Golem              || ||6 (8/15/23/31)||   ||   ||  ||   ||      ||
+|Goblin             || ||2 (4)||   ||   ||  ||   ||      ||
 |-
 |Momie              || ||2 (4)||   ||   ||  ||   ||      ||
 |-
-|Nécromant          || ||6 (39)||   ||   ||  ||   ||      ||
+|Loup-Garou         || ||3 (8)||   ||   ||  ||   ||      ||
 |-
 |Ogre               || ||3 (7)||   ||   ||  ||   ||      ||
 |-
@@ -96,7 +90,13 @@ Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa co
 |-
 |Spectre            || ||4 (14)||   ||   ||  ||   ||      ||
 |-
-|Zombie             || ||1 (2)||   ||   ||  ||   ||      ||
+|Chevalier du chaos || ||6 (20)||   ||   ||  ||   ||      ||
+|-
+|Golem              || ||6 (8/15/23/31)||   ||   ||  ||   ||      ||
+|-
+|Nécromant          || ||6 (39)||   ||   ||  ||   ||      ||
+|-
+|Vampire            || ||6 (29)||   ||   ||  ||   ||      ||
 |}
 
 == Autres aspects à développer ==
