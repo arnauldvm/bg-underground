@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4027
+:revnumber: W4028
 :revdate: 2013-08-27
-//:revremark: (Les cartes): + nombre de chaque sorte de monstres
+//:revremark: (Les cartes): + caractÃ©ristiques aventuriers
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -181,18 +181,20 @@ d'utilisation liées à la caractéristique d'esprit.
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à
 sa constitution (sans jamais dépasser le maximum).
 
-{lcurl}|border=1 cellspacing=0 id=monstres !Nom
-!!#!!niv!!att!!def!!PV!!con!!esprit!!Spécial |- |Araignée géante
-||3||1 (2)|| || || || || || |- |Orc ||3||1 (3)|| || || || || ||
-|- |Squelette ||3||1 (1)|| || || || || || |- |Zombie
-||3||1 (2)|| || || || || || |- |Goblin ||4||2 (4)|| || || || ||
-|| |- |Momie ||4||2 (4)|| || || || || || |-
-|Loup-Garou ||2||3 (8)|| || || || || || |- |Ogre ||2||3
-(7)|| || || || || || |- |Sorcière ||2||4 (17)|| || || || || ||
-|- |Spectre ||2||4 (14)|| || || || || || |- |Chevalier
-du chaos ||2||6 (20)|| || || || || || |- |Golem ||2||6
-(8/15/23/31)|| || || || || || |- |Nécromant ||2||6 (39)|| || ||
-|| || || |- |Vampire ||2||6 (29)|| || || || || || |}
+{lcurl}|border=1 cellspacing=0 id=monstres !Nom !!#!! niv
+!!att!!def!!PV!!con!!esprit!!Spécial |- |__Aventurier__
+||-|| - || || || || || || |- | |-
+|Araignée géante ||3||1 (2) || || || || || || |- |Orc ||3||1 (3)
+|| || || || || || |- |Squelette ||3||1 (1) || || || || || ||
+|- |Zombie ||3||1 (2) || || || || || || |- |Goblin
+||4||2 (4) || || || || || || |- |Momie ||4||2 (4) || || || || ||
+|| |- |Loup-Garou ||2||3 (8) || || || || || ||
+|- |Ogre ||2||3 (7) || || || || || || |- |Sorcière
+||2||4 (17)|| || || || || || |- |Spectre ||2||4 (14)|| || || ||
+|| || |- |Chevalier du chaos ||2||6 (20)|| || || || || ||
+|- |Golem ||2||6 (8/15/23/31)|| || || || || || |-
+|Nécromant ||2||6 (39)|| || || || || || |- |Vampire ||2||6
+(29)|| || || || || || |}
 
 Autres aspects à développer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
