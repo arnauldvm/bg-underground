@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4033
+:revnumber: W4034
 :revdate: 2013-09-24
-//:revremark: (Les cartes): + cartes "portes" et aventurier
+//:revremark: (Recherche autour du nom): CrÃ©ation
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -216,3 +216,49 @@ http://www.boardgamegeek.com/boardgame/127398/legends-of-andor[Andor]).
 Règles de campagne ? ::
 
 Règles solo ! ::
+
+Recherche autour du nom
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Le nom que j'utilise actuellement "Narrative Arcs Building" (NAB) n'est
+pas très sexy et n'a plus grand-chose à voir avec ce qui se
+passe dans le jeu.
+
+Il faudrait donc trouver un nom plus sexy pour le proto.
+
+Recherche terminologique (fr vs. en): ::
+donjon - keep
+ +
+cachot - dungeon, oubliette
+ +
+oubliette - oubliette
+ +
+souterrain - tunnel, underground
+ +
+crypte, caveau - crypt, vault
+ +
+caverne - cave, cavern
+ +
+galerie - tunnel, gallery, (drift)
+ +
+grotte - cave
+ +
+antre - lair, den, haunt
+ +
+gouffre - chasm, abyss, gulf
+ +
+catacombes - catacombs
+ +
+repaire - den, lair
+ +
+paquet - deck
+ +
+carte - card
+ +
+monstre - monster
+ +
+{minus} explorer, adventurer, traveler, pathfinder, pioneer,
+wanderer, venturer, venture
+
+Idées retenues ::
+*Underground Ventures*
