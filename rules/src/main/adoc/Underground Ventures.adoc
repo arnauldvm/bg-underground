@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4034
-:revdate: 2013-09-24
-//:revremark: (Recherche autour du nom): CrÃ©ation
+:revnumber: W4035
+:revdate: 2013-09-25
+//:revremark: (Les cartes): + 60 "points de jauge"
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -129,11 +129,12 @@ d'aventurier moyenne de 6 (1 aventurier, 2 compétences, 2 item, 1 don)
 donjons en moyenne : n x 3 x (8{plus}5) {plus} n x (6 - 2
 [les items sont déjà comptés]) = n x 43 : 43 cartes par aventurier. Un
 deck permettant de jouer à 4 devrait donc être constitué de 172 cartes
-environ. Il contiendrait : 48 monstres (36 normaux {plus}12 boss), 12
-items, 12 trésors, 12 rencontres autres, 8 compétences, 4 dons, 12
-"portes", 4 aventuriers. _(Revoir la proportion donjons/aventuriers ?)_
-_(Moins de monstres plus d'items ?)_ _(Aventuriers identiques ou
-différents (si différents, prévoir plus que 4 pour choix) ?)_
+environ. Il contiendrait : 60 "points de jauge", 48 monstres (36 normaux
+{plus}12 boss), 12 items, 12 trésors, 12 rencontres autres, 8
+compétences, 4 dons, 12 "portes", 4 aventuriers. _(Revoir la proportion
+donjons/aventuriers ?)_ _(Moins de monstres plus d'items ?)_
+_(Aventuriers identiques ou différents (si différents, prévoir plus que
+4 pour choix) ?)_
 
 Un personnage (aventurier ou monstre) a les caractéristiques suivantes :
 
