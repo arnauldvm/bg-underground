@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4035
-:revdate: 2013-09-25
-//:revremark: (Les cartes): + 60 "points de jauge"
+:revnumber: W4036
+:revdate: 2013-09-27
+//:revremark: (Autres aspects Ã  dÃ©velopper): Chaque porte activant des rÃ¨gles particuliÃ¨res
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -217,6 +217,8 @@ http://www.boardgamegeek.com/boardgame/127398/legends-of-andor[Andor]).
 Règles de campagne ? ::
 
 Règles solo ! ::
+
+Chaque porte activant des règles particulières ::
 
 Recherche autour du nom
 ~~~~~~~~~~~~~~~~~~~~~~~
