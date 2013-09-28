@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4036
-:revdate: 2013-09-27
-//:revremark: (Autres aspects Ã  dÃ©velopper): Chaque porte activant des rÃ¨gles particuliÃ¨res
+:revnumber: W4037
+:revdate: 2013-09-28
+//:revremark: (Les cartes): Points d'esprit; fuite; repos
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -161,7 +161,15 @@ défense est supérieure à l'attaque de l'adversaire il ne perd rien. On
 répète les rounds immédiatement jusqu'à ce que les points de vie d'un
 des adversaires tombe à 0 ou moins. À l'issue de chaque round
 l'aventurier peut rompre le combat en fuyant. Dans ce cas, il quitte
-immédiatement le donjon et revient devant son propriétaire.
+immédiatement le donjon et revient devant son propriétaire. Le monstre
+remet toutes ses jauges au maximum.
+
+[none]
+* Optionnel: Il perd (et laisse sur place) 1 objet au hasard
+
+Une fois revenu devant le joueur, l'aventurier est au repos. Il regagne
+1 PV par tour, [underline]#ou# 1 point d'esprit en échange de 3(?) PV. (Sans
+jamais dépasser le max des jauges.)
 
 Une fois un monstre battu, on gagne sa carte (si elle comporte un/des
 items), ou on la défausse. La carte suivante ne pourra être résolue
@@ -178,8 +186,10 @@ Au début de chaque round, le joueur peut décider de déclencher l'effet
 d'une (_ou plusieurs ? combien max ?_) carte item.
 
 [none]
-* Optionnel: Certaines cartes effets (sorts) ont des conditions
-d'utilisation liées à la caractéristique d'esprit.
+* [line-through]#Optionnel: Certaines cartes effets (sorts) ont des conditions
+d'utilisation liées à la caractéristique d'esprit.#{br}La dépense
+d'un point d'esprit permet de s'immuniser des effets d'un pouvoir
+spécial.
 
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à
 sa constitution (sans jamais dépasser le maximum).

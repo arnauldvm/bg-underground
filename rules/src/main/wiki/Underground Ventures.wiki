@@ -52,7 +52,10 @@ Elles agissent, soit de manière permanente, soit un nombre de fois limité n (<
 
 : ''Les cartes qui agissent un nombre de fois limité portent les numéros de n à 1 sur les côtés. Chaque fois qu'elle est utilisée, on fait faire un quart de tour à la carte de manière à ce que soit visible le nombre d'utilisations restantes.''
 
-La résolution du combat est déterministe. Un round de combat se résout en simultané pour les 2 protagonistes. Chacun perd en points de vie la différence entre l'attaque de l'adversaire et sa propre défense. Si sa défense est supérieure à l'attaque de l'adversaire il ne perd rien. On répète les rounds immédiatement jusqu'à ce que les points de vie d'un des adversaires tombe à 0 ou moins. À l'issue de chaque round l'aventurier peut rompre le combat en fuyant. Dans ce cas, il quitte immédiatement le donjon et revient devant son propriétaire.
+La résolution du combat est déterministe. Un round de combat se résout en simultané pour les 2 protagonistes. Chacun perd en points de vie la différence entre l'attaque de l'adversaire et sa propre défense. Si sa défense est supérieure à l'attaque de l'adversaire il ne perd rien. On répète les rounds immédiatement jusqu'à ce que les points de vie d'un des adversaires tombe à 0 ou moins. À l'issue de chaque round l'aventurier peut rompre le combat en fuyant. Dans ce cas, il quitte immédiatement le donjon et revient devant son propriétaire. Le monstre remet toutes ses jauges au maximum.
+: Optionnel: Il perd (et laisse sur place) 1 objet au hasard
+
+Une fois revenu devant le joueur, l'aventurier est au repos. Il regagne 1 PV par tour, <u>ou</u> 1 point d'esprit en échange de 3(?) PV. (Sans jamais dépasser le max des jauges.)
 
 Une fois un monstre battu, on gagne sa carte (si elle comporte un/des items), ou on la défausse. La carte suivante ne pourra être résolue qu'au tour suivant. On ne pénètre dans une nouvelle salle qu'au moment où on commence à résoudre ses cartes.
 
@@ -61,7 +64,7 @@ Une carte item se résout en la prenant immédiatement. Si la carte augmente le 
 Une carte piège se résout en appliquant les effets indiqués.
 
 Au début de chaque round, le joueur peut décider de déclencher l'effet d'une (''ou plusieurs ? combien max ?'') carte item.
-: Optionnel: Certaines cartes effets (sorts) ont des conditions d'utilisation liées à la caractéristique d'esprit.
+: <s>Optionnel: Certaines cartes effets (sorts) ont des conditions d'utilisation liées à la caractéristique d'esprit.</s><br>La dépense d'un point d'esprit permet de s'immuniser des effets d'un pouvoir spécial.
 
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa constitution (sans jamais dépasser le maximum).
 
