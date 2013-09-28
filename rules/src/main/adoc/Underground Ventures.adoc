@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4037
+:revnumber: W4039
 :revdate: 2013-09-28
-//:revremark: (Les cartes): Points d'esprit; fuite; repos
+//:revremark: (Les cartes): ProblÃ©matique de la longueur des combats
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -159,10 +159,42 @@ en simultané pour les 2 protagonistes. Chacun perd en points de vie la
 différence entre l'attaque de l'adversaire et sa propre défense. Si sa
 défense est supérieure à l'attaque de l'adversaire il ne perd rien. On
 répète les rounds immédiatement jusqu'à ce que les points de vie d'un
-des adversaires tombe à 0 ou moins. À l'issue de chaque round
-l'aventurier peut rompre le combat en fuyant. Dans ce cas, il quitte
-immédiatement le donjon et revient devant son propriétaire. Le monstre
-remet toutes ses jauges au maximum.
+des adversaires tombe à 0 ou moins.
+
+
+****
+[underline]#!!!!!!!!
+
+Ce système n'est pas tenable. Une estimation rapide donne qu'il faudrait
+en moyenne 3 tours pour éliminer un monstre. À supposer que chaque
+joueur explore {tilde}3 donjons par partie, contenant {tilde}3
+monstres, cela ferait au minimum 27 tours par joueur, sans compter les
+tours passés à se reposer, les combats perdus ... Soit vraisemblablement
+40 tours de jeu par partie. En comptant 1'30" de réflexion par joueur,
+on arrive à 120 min par partie !
+
+C'est beaucoup trop long.
+
+D'autant plus que tous les tours passés à combattre un monstre sont
+autant de tours où l'adversaire peut continuer à renforcer les défenses
+du donjon en cours d'exploration. Cela risque de rendre les explorations
+interminables.
+
+Si on arrive à résoudre un combat en 1 tour, on arrive à 9 tours pour
+éliminer les monstres, soit max 20 tours au total ce qui ramènerait la
+durée à 60 min.
+
+C'est bien plus raisonnable.
+
+Cela semble tout à fait faisable, puisque les combats sont tout à fait
+déterministes. Cela les rendra d'ailleurs moins ennuyants.
+#
+****
+
+
+À l'issue de chaque round l'aventurier peut rompre le combat en fuyant.
+Dans ce cas, il quitte immédiatement le donjon et revient devant son
+propriétaire. Le monstre remet toutes ses jauges au maximum.
 
 [none]
 * Optionnel: Il perd (et laisse sur place) 1 objet au hasard
@@ -187,9 +219,9 @@ d'une (_ou plusieurs ? combien max ?_) carte item.
 
 [none]
 * [line-through]#Optionnel: Certaines cartes effets (sorts) ont des conditions
-d'utilisation liées à la caractéristique d'esprit.#{br}La dépense
-d'un point d'esprit permet de s'immuniser des effets d'un pouvoir
-spécial.
+d'utilisation liées à la caractéristique d'esprit.# +
+La dépense d'un point d'esprit permet de s'immuniser des effets d'un
+pouvoir spécial.
 
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à
 sa constitution (sans jamais dépasser le maximum).
