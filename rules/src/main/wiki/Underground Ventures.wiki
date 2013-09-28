@@ -52,7 +52,25 @@ Elles agissent, soit de manière permanente, soit un nombre de fois limité n (<
 
 : ''Les cartes qui agissent un nombre de fois limité portent les numéros de n à 1 sur les côtés. Chaque fois qu'elle est utilisée, on fait faire un quart de tour à la carte de manière à ce que soit visible le nombre d'utilisations restantes.''
 
-La résolution du combat est déterministe. Un round de combat se résout en simultané pour les 2 protagonistes. Chacun perd en points de vie la différence entre l'attaque de l'adversaire et sa propre défense. Si sa défense est supérieure à l'attaque de l'adversaire il ne perd rien. On répète les rounds immédiatement jusqu'à ce que les points de vie d'un des adversaires tombe à 0 ou moins. À l'issue de chaque round l'aventurier peut rompre le combat en fuyant. Dans ce cas, il quitte immédiatement le donjon et revient devant son propriétaire. Le monstre remet toutes ses jauges au maximum.
+La résolution du combat est déterministe. Un round de combat se résout en simultané pour les 2 protagonistes. Chacun perd en points de vie la différence entre l'attaque de l'adversaire et sa propre défense. Si sa défense est supérieure à l'attaque de l'adversaire il ne perd rien. On répète les rounds immédiatement jusqu'à ce que les points de vie d'un des adversaires tombe à 0 ou moins.
+
+<blockquote><u>
+!!!!!!!!
+
+Ce système n'est pas tenable. Une estimation rapide donne qu'il faudrait en moyenne 3 tours pour éliminer un monstre. À supposer que chaque joueur explore ~3 donjons par partie, contenant ~3 monstres, cela ferait au minimum 27 tours par joueur, sans compter les tours passés à se reposer, les combats perdus ... Soit vraisemblablement 40 tours de jeu par partie. En comptant 1'30" de réflexion par joueur, on arrive à 120 min par partie !
+
+C'est beaucoup trop long.
+    
+D'autant plus que tous les tours passés à combattre un monstre sont autant de tours où l'adversaire peut continuer à renforcer les défenses du donjon en cours d'exploration. Cela risque de rendre les explorations interminables.
+
+Si on arrive à résoudre un combat en 1 tour, on arrive à 9 tours pour éliminer les monstres, soit max 20 tours au total ce qui ramènerait la durée à 60 min.
+
+C'est bien plus raisonnable.
+
+Cela semble tout à fait faisable, puisque les combats sont tout à fait déterministes. Cela les rendra d'ailleurs moins ennuyants.
+</u></blockquote>
+
+À l'issue de chaque round l'aventurier peut rompre le combat en fuyant. Dans ce cas, il quitte immédiatement le donjon et revient devant son propriétaire. Le monstre remet toutes ses jauges au maximum.
 : Optionnel: Il perd (et laisse sur place) 1 objet au hasard
 
 Une fois revenu devant le joueur, l'aventurier est au repos. Il regagne 1 PV par tour, <u>ou</u> 1 point d'esprit en échange de 3(?) PV. (Sans jamais dépasser le max des jauges.)
@@ -64,7 +82,7 @@ Une carte item se résout en la prenant immédiatement. Si la carte augmente le 
 Une carte piège se résout en appliquant les effets indiqués.
 
 Au début de chaque round, le joueur peut décider de déclencher l'effet d'une (''ou plusieurs ? combien max ?'') carte item.
-: <s>Optionnel: Certaines cartes effets (sorts) ont des conditions d'utilisation liées à la caractéristique d'esprit.</s><br>La dépense d'un point d'esprit permet de s'immuniser des effets d'un pouvoir spécial.
+: <s>Optionnel: Certaines cartes effets (sorts) ont des conditions d'utilisation liées à la caractéristique d'esprit.</s><br />La dépense d'un point d'esprit permet de s'immuniser des effets d'un pouvoir spécial.
 
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa constitution (sans jamais dépasser le maximum).
 
