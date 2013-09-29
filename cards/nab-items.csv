@@ -1,0 +1,7 @@
+id;class;pix;Nom;#;niv;niv_salle;att;d_a;def;PV;con;esprit;type;value;special;fluff
+15;item;torch;Torche;2;-;4-5;;2*;;;;;objet, arme, feu;;(*) Efficace contre les vampires;(fluff)
+16;item;silver;Épée argentée;2;-;2-3;+1*;;;;;;objet, argent;3;(*) Efficace contre les morts-vivants et les lycanthropes;(fluff)
+17;item;mace;Masse de combat;2;-;1-2;+1*;;;;;;objet, arme, choc;;(*) Efficace contre les squelettes;(fluff)
+18a;item;heal1;Potion de soin min;12;-;2-3;;;;+1;;;objet, soin, usage unique;1;+1 PV, défaussez après utilisation;(fluff)
+18b;item;heal2;Potion de soin;6;-;3-4;;;;+3;;;objet, soin, usage unique;5;+3 PV, défaussez après utilisation;(fluff)
+18c;item;heal3;Potion de soin sup;4;-;5-6;;;;+5;;;objet, soin, usage unique;15;+5 PV, défaussez après utilisation;(fluff)

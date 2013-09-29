@@ -1,0 +1,9 @@
+INCLUDE="nab-declarations.nde"
+
+LINKSEP=;
+LINKMULTI=#
+LINK=nab-treasures.csv
+
+INCLUDE="nab-header.nde"
+
+INCLUDE="nab-footer.nde"

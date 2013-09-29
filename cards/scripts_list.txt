@@ -1,0 +1,8 @@
+Z:\Users\avm\Documents\j2s\NAB\nab-declarations.nde
+Z:\Users\avm\Documents\j2s\NAB\nab-header.nde
+Z:\Users\avm\Documents\j2s\NAB\nab-monsters.nde
+Z:\Users\avm\Documents\j2s\NAB\nab-items.nde
+Z:\Users\avm\Documents\j2s\NAB\nab-treasures.nde
+Z:\Users\avm\Documents\j2s\NAB\nab-encounters.nde
+Z:\Users\avm\Documents\j2s\NAB\nab-doors.nde
+Z:\Users\avm\Documents\j2s\NAB\nab-footer.nde
