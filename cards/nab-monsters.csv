@@ -1,0 +1,15 @@
+pix;Nom;#;niv_salle;niv;niv_org;att;d_a;def;PV;con;esprit;special
+spider;Araignée géante;3;1;1;2;1;0;1;4;0;-;
+goblin;Goblin;3;1;1;1;2;0;0;4;0;;
+skeleton;Squelette;3;1-2;1;1;1;0;0;3;1;-;Encaisse 1 dégât supplémentaire si arme argentée
+zombie;Zombie;3;1-2;1;2;1;1;0;2;1;-;Encaisse 1 dégât supplémentaire si arme argentée<br>Inflige 1 dégât automatique (d.a)
+orc;Orc;4;2-3;2;3;3;0;1;6;0;;
+mummy;Momie;4;2-3;2;4;2;1;1;8;0;-;Encaisse 1 dégât supplémentaire si arme argentée<br>Inflige 1 dégât automatique (d.a)
+werewolf;Loup-Garou;2;3-4;3;8;4;0;2;8;1;;Encaisse 1 dégât supplémentaire si arme argentée
+ogre;Ogre;2;3-4;3;7;4;0;2;10;0;;
+witch;Sorcière;2;4-5;4;17;2;0;0;6;0;;"Détruit tous les items (ou "n" items)"
+specter;Spectre;2;4-5;4;14;0;2;0;5;0;-;"Encaisse 1 dégât, uniquement si arme argentée<br>Inflige 2 dégâts automatiques (d.a) - "Rapporte" une malédiction"
+chaos_knight;Chevalier du chaos;2;6;6;20;5;0;2;8;0;;
+golem;Golem;2;6;6;8/15/23/31;5;0;3;12;2;;
+necromancer;Nécromant;2;6;6;39;4;1;1;10;0;;Inflige 1 dégât automatique (d.a)
+vampire;Vampire;2;6;6;29;4;2;2;8;1;;Encaisse 1 dégât supplémentaire si arme argentée<br>Inflige 2 dégâts automatiques (d.a)
