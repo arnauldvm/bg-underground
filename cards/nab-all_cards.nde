@@ -2,7 +2,7 @@ INCLUDE="nab-declarations.nde"
 
 LINKSEP=;
 LINKMULTI=#
-LINK=nab-treasures.csv
+LINK=nab-all_cards.csv
 
 INCLUDE="nab-header.nde"
 

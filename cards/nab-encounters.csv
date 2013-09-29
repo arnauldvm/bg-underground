@@ -1,6 +1,0 @@
-id;class;pix;Nom;#;niv;niv_salle;att;def;PV;con;esprit;type;d_a;value;special;fluff
-24;encounter;pit;Fosse;4;-;2-4;;;;;;piège, objet;2;1;Perdez 2 PV, puis conservez cette carte comme objet transporté<br>Vous trouvez une pièce au fond du trou;(fluff)
-25;encounter;gladiator;Gladiateur;2;-;3-4;+2;;;;;allié, compétence;;-2;Si vous le désirez, ce gladiateur peut vous enseigner son art du combat (+2 en attaque) moyennant un salaire de 2 pièces. Conservez cette carte si vous acceptez la proposition, sinon défaussez-la;(fluff)
-26;encounter;chest;Coffre piégé;2;-;3-5;;;;;;piège, objet;4;3;Perdez 4 PV, puis conservez cette carte comme objet transporté<br>Vous trouvez 3 pièces dans le coffre;(fluff)
-27;encounter;monk;Moine;2;-;4-5;;+2;;;;allié, compétence;;-4;Si vous le désirez, ce moine peut vous enseigner sa science de l'esquive (+2 en défense) moyennant un salaire de 4 pièces. Conservez cette carte si vous acceptez la proposition, sinon défaussez-la;(fluff)
-28;encounter;druid;Druidesse;2;-;5-6;;;mx;;;allié, soin;;;Une jeune druidesse propose de vous soigner toutes vos blessures en échange d'une épée argentée, défaussez les 2 cartes si vous acceptez, défaussez uniquement cette carte sinon;(fluff)

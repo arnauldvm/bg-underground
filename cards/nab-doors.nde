@@ -1,9 +1,0 @@
-INCLUDE="nab-declarations.nde"
-
-LINKSEP=;
-LINKMULTI=#
-LINK=nab-doors.csv
-
-INCLUDE="nab-header.nde"
-
-INCLUDE="nab-footer.nde"

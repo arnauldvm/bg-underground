@@ -1,6 +1,0 @@
-id;class;pix;Nom;#;niv;niv_salle;att;d_a;def;PV;con;esprit;type;value;special;fluff
-19;treasure;purse;Pièces d'or;4;-;3-4;;;;;;;objet;5;;(fluff)
-20;treasure;ring;Anneau;2;-;4-5;;;;;;;objet, magique;3;Immunise contre la 'Main de mort';(fluff)
-21;treasure;necklace;Collier;2;-;4-5;;;;;;;objet;10;;(fluff)
-22;treasure;staff;Bâton magique;2;-;5;;2*;;;;;objet, magique;7;(*) 2 dégâts automatiques (en plus de l'arme) contre les morts-vivants;(fluff)
-23;treasure;gems;Gemmes;2;-;6;;;;;;;objet;20;;(fluff)
