@@ -24,18 +24,19 @@
 [points_dim]=([points_frm_w]-[icon_dim])
 [icon_sz]=[icon_dim],[icon_dim]
 [title_col]=[white]
-[attack_img]="icons/attack.png"
-[damage_img]="icons/damage.png"
-[spirit_img]="icons/spirit.png"
+[icons_folder]="img/icons"
+[attack_img]=JOIN([icons_folder], "/attack.png")
+[damage_img]=JOIN([icons_folder], "/damage.png")
+[spirit_img]=JOIN([icons_folder], "/spirit.png")
 [attack_col]=[red]
-[life_img]="icons/heart.png"
-[defense_img]="icons/defense.png"
-[heal_img]="icons/heal.png"
+[life_img]=JOIN([icons_folder], "/heart.png")
+[defense_img]=JOIN([icons_folder], "/defense.png")
+[heal_img]=JOIN([icons_folder], "/heal.png")
 [defense_col]=[green]
-[coins_img]="icons/coins.png"
+[coins_img]=JOIN([icons_folder], "/coins.png")
 [coins_col]=[goldenrod]
 [text_col]=[black]
-[deck_img]="icons/deck_sign.png"
+[deck_img]=JOIN([icons_folder], "/deck_sign.png")
 
 UNIT=inch
 CARDSIZE=2.3,3.3

@@ -1,4 +1,4 @@
-[img_folder]=JOIN([class], "s_img/")
+[img_folder]=JOIN("img/",[class])
 
 [color_monster]=[maroon][green]%75$2
 [color_item]=[navy][blue]%75$2
@@ -8,7 +8,7 @@
 [color_venturer]=[crimson]
 [title_bgcol]=[color_[class]]
 
-[card_img]=JOIN([img_folder],[pix],".jpg")
+[card_img]=JOIN([img_folder],"/",[pix],".jpg")
 
 'basic settings
    [version]=V1.0
