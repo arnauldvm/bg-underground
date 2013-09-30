@@ -1,4 +1,4 @@
-Z:\Users\avm\Documents\j2s\NAB\nab-declarations.nde
-Z:\Users\avm\Documents\j2s\NAB\nab-header.nde
-Z:\Users\avm\Documents\j2s\NAB\nab-all_cards.nde
-Z:\Users\avm\Documents\j2s\NAB\nab-footer.nde
+Z:\Users\avm\Documents\j2s\NAB\declarations.nde
+Z:\Users\avm\Documents\j2s\NAB\header.nde
+Z:\Users\avm\Documents\j2s\NAB\all_cards.nde
+Z:\Users\avm\Documents\j2s\NAB\footer.nde
