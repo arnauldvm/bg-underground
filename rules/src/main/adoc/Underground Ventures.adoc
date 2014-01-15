@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4050
+:revnumber: W4051
 :revdate: 2014-01-15
-//:revremark: (Nouvelle analyse */ / /* Jauges */; /* DÃ©s):
+//:revremark: (Cartes): Created
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -280,6 +280,45 @@ Symboles::
 * étoile = attaque magique réussie
 * bouclier = défense
 * etc.
+
+Cartes
+++++++
+
+L'ensemble des cartes actuel est trop vaste et manque de consistance. Je
+me propose de réduire ce problème en considérant que le jeu est
+constitué de plusieurs modules, chaque module ayant une unité thématique
+(e.g. goblinoïdes, draconiques, morts-vivants, chaotiques ...).
+Cela permet également d'ajuster facilement la taille du jeu au nombre de
+joueurs (un module par joueur) tout en garantissant la bonne répartition
+des cartes. Et, last but not least, cela permet d'envisager très
+facilement des extensions.
+
+La taille d'un module reste à affiner. Sur base des chiffres plus haut,
+il faut (172-4x3x5=) 112 cartes pour 4 joueurs (on n'a plus
+besoins de cartes de jauge si on utilise des jetons). Cela ferait
+112/4=28 cartes, cela rejoint mon idée intuitive d'une taille de l'ordre
+de 32 ...
+
+De quoi serait constitué un module ? Sur base de la répartition calculée
+plus haut :
+
+* 9 monstres, 3 boss; soit 12
+* 1 aventurier
+* 3 portes
+* 3 rencontres
+* 3 objets, 3 trésors; soit 6
+* 2 compétences, 1 don; soit 3
+
+En reconsidérant :
+
+* 14 monstres : 4L1, 4L2, 2L3, 2L4, 1L5, 1L6
+* 1 aventurier
+* 3 portes
+* 3 rencontres
+* 3 objets, 5 trésors; soit 8
+* 3 compétences/dons
+
+Soit 32 cartes.
 
 Autres aspects à développer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
