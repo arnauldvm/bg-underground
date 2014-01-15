@@ -36,6 +36,13 @@ Il sera probablement nécessaire de prévoir que le joueur puisse poser des cart
 
 ==Les cartes==
 
+* [[#Étude_initiale]]
+* [[#Nouvelle_analyse]]
+
+[https://docs.google.com/spreadsheet/ccc?key=0Av0yUaMsCLd0dGRNMUZMdmFZMVpBMDNNem5LOGZQVGc&usp=sharing Liste des cartes sur Google Drive]
+
+===Étude initiale===
+
 Soit une taille de donjon moyenne de 8 (3 monstres, 1 item, 1 boss, 1 trésor, 1 rencontre autre, 1 "porte").
 Soit une taille de set d'aventurier moyenne de 6 (1 aventurier, 2 compétences, 2 item, 1 don) (sur table ou en main).
 Soit 5 dépenses de jauge dépensée par donjon (PV, sorts ...)
@@ -58,6 +65,7 @@ La résolution du combat est déterministe. Un round de combat se résout en sim
 !!!!!!!! </u>
 
 
+
 <u>Ce système n'est pas tenable. Une estimation rapide donne qu'il faudrait en moyenne 3 tours pour éliminer un monstre. À supposer que chaque joueur explore ~3 donjons par partie, contenant ~3 monstres, cela ferait au minimum 27 tours par joueur, sans compter les tours passés à se reposer, les combats perdus ... Soit vraisemblablement 40 tours de jeu par partie. En comptant 1'30" de réflexion par joueur, on arrive à 120 min par partie ! </u>
 
 <u>C'est beaucoup trop long. </u>
@@ -69,6 +77,7 @@ La résolution du combat est déterministe. Un round de combat se résout en sim
 
 <u>Cela semble tout à fait faisable, puisque les combats sont tout à fait déterministes. Cela les rendra d'ailleurs moins ennuyants.
 </u>
+
 </blockquote>
 
 À l'issue de chaque round l'aventurier peut rompre le combat en fuyant. Dans ce cas, il quitte immédiatement le donjon et revient devant son propriétaire. Le monstre remet toutes ses jauges au maximum.
@@ -87,7 +96,7 @@ Au début de chaque round, le joueur peut décider de déclencher l'effet d'une 
 
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa constitution (sans jamais dépasser le maximum).
 
-[https://docs.google.com/spreadsheet/ccc?key=0Av0yUaMsCLd0dGRNMUZMdmFZMVpBMDNNem5LOGZQVGc&usp=sharing Liste des cartes sur Google Drive]
+=== Nouvelle analyse ===
 
 == Autres aspects à développer ==
 ; Tutoriel

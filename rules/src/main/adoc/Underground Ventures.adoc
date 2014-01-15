@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4046
+:revnumber: W4049
 :revdate: 2014-01-15
-//:revremark: Arnauldvm moved page [[Narrative Arcs Building]] to [[Underground Ventures]]: Nom choisi pour le jeu
+//:revremark: (Les cartes */ Starting /* Nouvelle analyse):
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -121,6 +121,15 @@ le personnage ne soit pas encore entré dans cette salle.)_
 Les cartes
 ~~~~~~~~~~
 
+* <<_étude_initiale,Étude_initiale>>
+* <<_nouvelle_analyse,Nouvelle_analyse>>
+
+https://docs.google.com/spreadsheet/ccc?key=0Av0yUaMsCLd0dGRNMUZMdmFZMVpBMDNNem5LOGZQVGc&usp=sharing[Liste
+des cartes sur Google Drive]
+
+Étude initiale
+^^^^^^^^^^^^^^
+
 Soit une taille de donjon moyenne de 8 (3 monstres, 1 item, 1 boss, 1
 trésor, 1 rencontre autre, 1 "porte"). Soit une taille de set
 d'aventurier moyenne de 6 (1 aventurier, 2 compétences, 2 item, 1 don)
@@ -187,6 +196,7 @@ la durée à 60 min.#
 [underline]#Cela semble tout à fait faisable, puisque les combats sont tout à
 fait déterministes. Cela les rendra d'ailleurs moins ennuyants.#
 
+
 ****
 
 
@@ -224,8 +234,8 @@ pouvoir spécial.
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à
 sa constitution (sans jamais dépasser le maximum).
 
-https://docs.google.com/spreadsheet/ccc?key=0Av0yUaMsCLd0dGRNMUZMdmFZMVpBMDNNem5LOGZQVGc&usp=sharing[Liste
-des cartes sur Google Drive]
+Nouvelle analyse
+^^^^^^^^^^^^^^^^
 
 Autres aspects à développer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
