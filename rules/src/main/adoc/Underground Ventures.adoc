@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4045
+:revnumber: W4046
 :revdate: 2014-01-15
-//:revremark: (Autres aspects Ã  dÃ©velopper): + Autre option de dÃ©veloppement
+//:revremark: Arnauldvm moved page [[Narrative Arcs Building]] to [[Underground Ventures]]: Nom choisi pour le jeu
 :doctype: article
 :lang: fr
 :encoding: utf8
