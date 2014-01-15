@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4040
-:revdate: 2013-10-01
-//:revremark: (Les cartes): Suppression de la table des cartes (pour l'instant gÃ©rÃ©e sur Google Drive)
+:revnumber: W4045
+:revdate: 2014-01-15
+//:revremark: (Autres aspects Ã  dÃ©velopper): + Autre option de dÃ©veloppement
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -241,6 +241,11 @@ Règles de campagne ? ::
 Règles solo ! ::
 
 Chaque porte activant des règles particulières ::
+
+Autre option de développement : les joueurs ne contrôlent pas 1 ::
+aventurier en particulier, mais incarnent des puissances divines qui
+manipulent l'ensemble des aventuriers pour renforcer leur influence sur
+le monde (...?)
 
 Recherche autour du nom
 ~~~~~~~~~~~~~~~~~~~~~~~
