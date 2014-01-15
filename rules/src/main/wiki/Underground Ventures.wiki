@@ -98,6 +98,29 @@ Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa co
 
 === Nouvelle analyse ===
 
+==== Jauges ====
+
+(Inspiration : Mice & Mystics (M&M), Zombie 15' (Z15) ...)
+* La plupart des monstres n'ont qu'1 PV => pas besoin de faire le décompte des PV, il suffit de retirer la carte quand elle est détruite
+* Quelques gros monstres peuvent avoir quelques PV
+* Les aventuriers ont quelques PV (genre 3-4).
+* On tient le compte en déposant des jetons blessure. Lorsque le perso est soigné, il suffit de retirer toutes les blessures. les blessures peuvent être de différents types (normale, poison, magique ...) selon couleur (rouge, vert, bleu ...)
+De plus ça permet d'éliminer les monstres (sauf les plus gros) plus rapidement (1-2 tours), ce qui répond à une des critiques ci-dessus.
+
+==== Dés ====
+
+Autre idée : Le système actuel rend les combats prédéterminés, ce qui risque de rendre le jeu trop calculatoire et peu dynamique. De plus on risque d'avoir vite des situations de blocage par manque de granularité => très complexe à équilibrer. Donc, je me propose de rendre le système plus aléatoire par l'introduction de dés.
+
+Utiliser des dés standard rendrait le jeu moins fluide (E.g. : j'ai une épée qui touche sur un 3, mais l'adversaire à un bouclier ... et j'ai un bonus de force ... :-/).
+
+On pourrait utiliser des dés style FFG/M&M : les face présentent des symboles qui déterminent les actions réussies (=> granularité des taux de réussite = 17%). J'imagine même qu'on fonction du type de créature / arme / ..., on utilise un dé différent, avec une répartition différente des symboles.
+
+;Symboles
+* épées = attaque (combat) réussie
+* étoile = attaque magique réussie
+* bouclier = défense
+* etc.
+
 == Autres aspects à développer ==
 ; Tutoriel
 : Le deck de carte est vendu trié suivant un ordre prédéfini, avec des cartes d'explication intégrées. Le joueur joue sa première aventure solo tout en découvrant l'essentiel des règles au fur et à mesure (cf. [http://www.boardgamegeek.com/boardgame/127398/legends-of-andor Andor]).
