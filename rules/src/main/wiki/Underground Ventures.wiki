@@ -95,6 +95,7 @@ Entre chaque tour, un aventurier gagne un nombre de points de vie égal à sa co
 ; Règles de campagne ?
 ; Règles solo !
 ; Chaque porte activant des règles particulières
+; Autre option de développement : les joueurs ne contrôlent pas 1 aventurier en particulier, mais incarnent des puissances divines qui manipulent l'ensemble des aventuriers pour renforcer leur influence sur le monde (...?)
 
 == Recherche autour du nom ==
 Le nom que j'utilise actuellement "Narrative Arcs Building" (NAB) n'est pas très sexy et n'a plus grand-chose à voir avec ce qui se passe dans le jeu.
