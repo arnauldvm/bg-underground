@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4051
-:revdate: 2014-01-15
-//:revremark: (Cartes): Created
+:revnumber: W4054
+:revdate: 2014-08-29
+//:revremark: Nouvelle version
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -25,6 +25,35 @@ Narrative arcs + multiple shared decks (building)
 
 
 30-Jun-'13
+
+Nouvelle version
+----------------
+
+* Cartes : deck de pioche : monstres {lcurl}-}, pièges
+{lcurl}-}, trésors {lcurl}{plus}}, améliorations
+{lcurl}{plus}} ({lcurl}-}=dos rouge,
+{lcurl}{plus}}=dos bleu)
+** {plus} 3 cartes de niveau et/ou escaliers par donjon {plus} 1
+carte aventurier ({plus}1 pion) par joueur
+* 4 Niveaux, n{plus}1 donjons
+* 5 cartes en main par joueur {plus} draft
+* on révèle les 3 premières carte de la pioche
+* à son tour un joueur exécute 2 phases : le dungeon building, puis le
+dungeon crawling (ou l'inverse ?)
+* Building : le joueur pose autant de cartes qu'il veut sur les donjons
+(max 2 par donjon), puis il tire des cartes (cachées ou visibles) pour
+compléter
+* règles de pose : sur n'importe quel niveau, de gauche à droite,
+retournée dos visible
+* Crawling : 2 possibilités : repos au village, aventure dans un donjon
+* repos au village : le pion doit être présent devant le joueur au début
+du tour, il récupère tous ses curseur au max (vie, pouvoir)
+* aventure au donjon : le joueur enchaîne des actions parmi les
+suivantes (il s'arrête quand il veut) : entrée dans un donjon, avancer
+dans la carte suivante, revenir au village
+
+Ancienne version
+----------------
 
 Le jeu
 ~~~~~~
@@ -335,10 +364,10 @@ Règles solo ! ::
 
 Chaque porte activant des règles particulières ::
 
-Autre option de développement : les joueurs ne contrôlent pas 1 ::
-aventurier en particulier, mais incarnent des puissances divines qui
-manipulent l'ensemble des aventuriers pour renforcer leur influence sur
-le monde (...?)
+Autre option de développement ::
+les joueurs ne contrôlent pas 1 aventurier en particulier, mais
+incarnent des puissances divines qui manipulent l'ensemble des
+aventuriers pour renforcer leur influence sur le monde (...?)
 
 Recherche autour du nom
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -349,7 +378,9 @@ passe dans le jeu.
 
 Il faudrait donc trouver un nom plus sexy pour le proto.
 
-Recherche terminologique (fr vs. en): ::
+Recherche terminologique (fr vs. en) ::
+
+ +
 donjon - keep
  +
 cachot - dungeon, oubliette
