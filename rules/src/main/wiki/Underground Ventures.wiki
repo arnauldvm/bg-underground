@@ -3,17 +3,39 @@
 
 = Nouvelle version =
 
-* Cartes : deck de pioche : monstres {-}, pièges {-},  trésors {+},  améliorations {+} ({-}=dos rouge, {+}=dos bleu)
-** + 3 cartes de niveau et/ou escaliers par donjon + 1 carte aventurier (+1 pion) par joueur
-* 4 Niveaux,  n+1 donjons
+== Carnet de notes ==
+* Cartes : deck de pioche : monstres {-}, pièges {-}, trésors {+}, améliorations {+} ({-}=dos rouge, {+}=dos bleu)
+** + 4 cartes porte et/ou escalier par donjon (1 par niveau) + 1 carte aventurier (+1 pion) par joueur
+** on garde l'idée des modules
+* 4 Niveaux, n+1 donjons, les portes pourraient être imprimées sur des feuilles pour économiser des cartes
 * 5 cartes en main par joueur + draft
 * on révèle les 3 premières carte de la pioche
 * à son tour un joueur exécute 2 phases : le dungeon building, puis le dungeon crawling (ou l'inverse ?)
 * Building : le joueur pose autant de cartes qu'il veut sur les donjons (max 2 par donjon), puis il tire des cartes (cachées ou visibles) pour compléter
 * règles de pose : sur n'importe quel niveau, de gauche à droite, retournée dos visible
 * Crawling : 2 possibilités : repos au village, aventure dans un donjon
-* repos au village : le pion doit être présent devant le joueur au début du tour, il récupère tous ses curseur au max (vie,  pouvoir)
-* aventure au donjon : le joueur enchaîne des actions parmi les suivantes (il s'arrête quand il veut) : entrée dans un donjon, avancer dans la carte suivante, revenir au village
+* repos au village : le pion doit être présent devant le joueur au début du tour, il récupère tous ses curseur au max (vie, pouvoir)
+* aventure au donjon : le joueur enchaîne des actions parmi les suivantes (il s'arrête quand il veut) : entrée dans un donjon, avancer sur la carte suivante, revenir au village, passer
+* entrée au donjon : le pion doit se trouver au village, choisir un donjon et poser le pion sur la porte du 1er niveau, il faut qu'il y ait au moins une carte dans le 1er niveau de ce donjon
+* revenir au village : placer le pion au village, le joueur ne peut plus que passer (il devra attendre le tour suivant s'il veut passer)
+* passer : fin de la phase de crawling, c'est au tour du joueur suivant
+* avancer sur la carte suivante : il faut qu'il y ait une carte "suivante", retourner face visible la première carte (à gauche) du niveau où se trouve le pion du joueur, placer le pion sur cette carte, résoudre la carte :
+** trésor : placer la carte dans les possessions de l'aventurier (à côté de la carte aventurier), si la carte représente des pièces, remplacer par des jetons pièces d'or et mettre la carte dans la défausse
+** amélioration : placer la carte dans les possessions de l'aventurier, les nouvelles valeurs de compétences sont directement applicables
+*** l'effet d'une amélioration peut être à usage unique, permanent, ou immédiat, on remet la carte dans la défausse après utilisation (sauf si permanent)
+** monstre/piège :
+*** la première ligne indique la/les condition(s) à remplir par l'aventurier pour remporter le combat
+*** la deuxième ligne indique la/les conséquence(s) pour l'aventurier en cas de victoire
+*** la troisième ligne indique la/les conséquence(s) pour l'aventurier en cas de défaite
+::: Exemple :
+:::: <u>Condition</u>: Force >=4
+:::: <u>Victoire</u>: Vie - 2, Or + 1
+:::: <u>Défaite</u>: Vie - 3
+::* mort de l'aventurier : lorsque les points de vie arrivent à 0 (ou moins), le pion revient au village, une carte de l'équipement tirée au hasard est défaussée, (et il faudra encore passer un tour pour récupérer tous les points de vie)
+::* en cas de victoire, la carte de monstre est récupérée dans l'équipement de l'aventurier si elle comporte un trésor, elle est défaussée sinon
+::* en cas de défaite, le joueur passe
+* lorsqu'il n'y a pas de carte suivante, on peut passer au niveau suivant, pour autant qu'il y ait au moins une carte sur ce niveau, sinon fin de donjon et retour au village
+* on pourrait imposer l'utilisation d'une échelle pour passer au niveau suivant, auquel cas les échelles se poseraient face visible et clôtureraient (ou pas?) un niveau -> à voir pendant les tests
 
 
 = Ancienne version =
@@ -84,6 +106,7 @@ La résolution du combat est déterministe. Un round de combat se résout en sim
 
 
 
+
 <u>Ce système n'est pas tenable. Une estimation rapide donne qu'il faudrait en moyenne 3 tours pour éliminer un monstre. À supposer que chaque joueur explore ~3 donjons par partie, contenant ~3 monstres, cela ferait au minimum 27 tours par joueur, sans compter les tours passés à se reposer, les combats perdus ... Soit vraisemblablement 40 tours de jeu par partie. En comptant 1'30" de réflexion par joueur, on arrive à 120 min par partie ! </u>
 
 <u>C'est beaucoup trop long. </u>
@@ -95,6 +118,8 @@ La résolution du combat est déterministe. Un round de combat se résout en sim
 
 <u>Cela semble tout à fait faisable, puisque les combats sont tout à fait déterministes. Cela les rendra d'ailleurs moins ennuyants.
 </u>
+
+
 
 
 
