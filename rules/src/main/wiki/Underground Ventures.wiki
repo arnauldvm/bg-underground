@@ -13,8 +13,9 @@
 * à son tour un joueur exécute 2 phases : le dungeon building, puis le dungeon crawling (ou l'inverse ?)
 * Building : le joueur pose autant de cartes qu'il veut sur les donjons (max 2 par donjon), puis il tire des cartes (cachées ou visibles) pour compléter
 * règles de pose : sur n'importe quel niveau, de gauche à droite, retournée dos visible
-* Crawling : 2 possibilités : repos au village, aventure dans un donjon
+* Crawling : 2 possibilités : repos au village, repos dans un donjon, aventure dans un donjon
 * repos au village : le pion doit être présent devant le joueur au début du tour, il récupère tous ses curseur au max (vie, pouvoir)
+* repos dans un donjon : le pion doit être présent dans un donjon au début du tour,  l'aventurier ne peut rien faire d'autre pendant le tour, chaque(?) curseur (vie, force, pouvoir) peut remonter d'1(?) unité à concurrence de son maximum
 * aventure au donjon : le joueur enchaîne des actions parmi les suivantes (il s'arrête quand il veut) : entrée dans un donjon, avancer sur la carte suivante, revenir au village, passer
 * entrée au donjon : le pion doit se trouver au village, choisir un donjon et poser le pion sur la porte du 1er niveau, il faut qu'il y ait au moins une carte dans le 1er niveau de ce donjon
 * revenir au village : placer le pion au village, le joueur ne peut plus que passer (il devra attendre le tour suivant s'il veut passer)
@@ -31,6 +32,8 @@
 :::: <u>Condition</u>: Force >=4
 :::: <u>Victoire</u>: Vie - 2, Or + 1
 :::: <u>Défaite</u>: Vie - 3
+:::: (Les conditions et conséquences peuvent utiliser des opérateurs logiques (&, |))
+
 ::* mort de l'aventurier : lorsque les points de vie arrivent à 0 (ou moins), le pion revient au village, une carte de l'équipement tirée au hasard est défaussée, (et il faudra encore passer un tour pour récupérer tous les points de vie)
 ::* en cas de victoire, la carte de monstre est récupérée dans l'équipement de l'aventurier si elle comporte un trésor, elle est défaussée sinon
 ::* en cas de défaite, le joueur passe
@@ -107,6 +110,8 @@ La résolution du combat est déterministe. Un round de combat se résout en sim
 
 
 
+
+
 <u>Ce système n'est pas tenable. Une estimation rapide donne qu'il faudrait en moyenne 3 tours pour éliminer un monstre. À supposer que chaque joueur explore ~3 donjons par partie, contenant ~3 monstres, cela ferait au minimum 27 tours par joueur, sans compter les tours passés à se reposer, les combats perdus ... Soit vraisemblablement 40 tours de jeu par partie. En comptant 1'30" de réflexion par joueur, on arrive à 120 min par partie ! </u>
 
 <u>C'est beaucoup trop long. </u>
@@ -118,6 +123,10 @@ La résolution du combat est déterministe. Un round de combat se résout en sim
 
 <u>Cela semble tout à fait faisable, puisque les combats sont tout à fait déterministes. Cela les rendra d'ailleurs moins ennuyants.
 </u>
+
+
+
+
 
 
 
