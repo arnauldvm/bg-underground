@@ -7,7 +7,7 @@
 === Matériel ===
 * Cartes : deck de pioche : '''monstres''' {-}, '''pièges''' {-}, '''trésors''' {+}, '''améliorations''' {+} ({-}=dos rouge, {+}=dos bleu)
 ** + 4 cartes '''porte''' et/ou '''escalier''' par '''donjon''' (1 par niveau) + 1 carte '''aventurier''' (+1 pion) par joueur
-** on garde l'idée des '''modules''' (càd le deck est constitué de plusieurs paquets de cartes (un par joueur), thématisé (morts-vivants, peaux vertes, chaos ...) et comprennant le nombre de cartes nécessaires pour un joueur.
+** on garde l'idée des '''modules''' (càd le deck est constitué de plusieurs paquets de cartes (un par joueur), chaque module étant thématisé (morts-vivants, peaux vertes, chaos ...) et comprennant le nombre de cartes suffisant pour un joueur.
 * 4 Niveaux, ''n''+1 donjons (si ''n'' joueurs), les portes pourraient être imprimées sur des plateaux de jeu au lieu de cartes
 
 === But du jeu ===
@@ -22,10 +22,11 @@
 
 '''Building''' :
 * le joueur pose autant de cartes qu'il veut sur les donjons (max 2 par donjon)
-* règles de pose : sur n'importe quel niveau de n'importe quel donjon, de gauche à droite, face cachée (uniquement la couleur du dos, et donc le type de carte, est visible)
+* règles de pose : sur n'importe quel niveau de n'importe quel donjon, de gauche à droite, face cachée (uniquement la couleur du dos, et donc le type de carte, est visible), de plus il faut respecter la contrainte de niveau de la carte (exemple : "2-3" → niveaux 2 à 3 uniquement)
 * lorsqu'il a terminé, il tire des cartes pour compléter sa main, chaque carte est tirée au choix soit de la pioche (cachées), soit de la rivière (visibles), à chaque fois qu'il choisit une carte visible il la remplace immédiatement en retournant une carte de la pioche
 '''Crawling''' : 2 possibilités : '''repos''', '''aventure'''
 * <u>repos</u>
+
 ** ''au village'' : le pion doit être présent devant le joueur au début du tour, l'aventurier ne peut rien faire d'autre pendant le tour, il récupère tous ses curseur au max (force, vie, pouvoir)
 ** ''dans un donjon'' : le pion doit être présent dans un donjon au début du tour, l'aventurier ne peut rien faire d'autre pendant le tour, chaque(?) curseur (vie, force, pouvoir) peut remonter d'1(?) unité à concurrence de son maximum
 * <u>aventure au donjon</u> : le joueur enchaîne des actions parmi les suivantes (il s'arrête quand il veut) : '''entrée''' dans un donjon, '''revenir''' au village, '''avancer''' sur la carte suivante, '''passer'''
@@ -55,6 +56,16 @@
 :* mort de l'aventurier : lorsque les points de vie arrivent à 0 (ou moins), le pion revient au village, une carte de l'équipement tirée au hasard est défaussée, (et il faudra encore passer un tour pour récupérer tous les points de vie) (respawn)
 :* en cas de victoire, la carte de monstre est défaussée, à moins qu'elle ne figure un trésor, auquel cas elle est traitée comme une carte trésor
 :* en cas de défaite, le joueur passe, son pion reste bloqué sur la carte et il ne pourra pas continuer sa progression tant que cette carte n'est pas battue
+
+=== Composition d'un module ===
+50 cartes :
+* 2 aventuriers (1 carte devra être écartée)
+* 8 escaliers(?)
+* 12 monstres répartis entre les niveaux 1 à 4, par exemple : 4L1, 4L2, 2L3, 2L4
+* 6 pièges
+* 8 trésors
+* 8 améliorations
+* 6 événements spéciaux
 
 = Ancienne version =
 
