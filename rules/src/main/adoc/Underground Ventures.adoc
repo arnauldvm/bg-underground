@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4057
+:revnumber: W4058
 :revdate: 2014-09-02
-//:revremark: (Carnet de notes): mise en page, formulations
+//:revremark: (Composition d'un module): Ajout
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -42,9 +42,9 @@ Matériel
 ** {plus} 4 cartes *porte* et/ou *escalier* par *donjon* (1 par
 niveau) {plus} 1 carte *aventurier* ({plus}1 pion) par joueur
 ** on garde l'idée des *modules* (càd le deck est constitué de plusieurs
-paquets de cartes (un par joueur), thématisé (morts-vivants,
-peaux vertes, chaos ...) et comprennant le nombre de cartes nécessaires
-pour un joueur.
+paquets de cartes (un par joueur), chaque module étant thématisé
+(morts-vivants, peaux vertes, chaos ...) et comprennant le
+nombre de cartes suffisant pour un joueur.
 * 4 Niveaux, _n_{plus}1 donjons (si _n_ joueurs), les portes
 pourraient être imprimées sur des plateaux de jeu au lieu de cartes
 
@@ -71,7 +71,9 @@ dungeon *crawling* (ou l'inverse ?)
 donjon)
 * règles de pose : sur n'importe quel niveau de n'importe quel donjon,
 de gauche à droite, face cachée (uniquement la couleur du dos, et donc
-le type de carte, est visible)
+le type de carte, est visible), de plus il faut respecter la contrainte
+de niveau de la carte (exemple : "2-3" → niveaux 2 à 3
+uniquement)
 * lorsqu'il a terminé, il tire des cartes pour compléter sa main, chaque
 carte est tirée au choix soit de la pioche (cachées), soit de la rivière
 (visibles), à chaque fois qu'il choisit une carte visible il la remplace
@@ -147,6 +149,20 @@ trésor
 ** en cas de défaite, le joueur passe, son pion reste bloqué sur la
 carte et il ne pourra pas continuer sa progression tant que cette carte
 n'est pas battue
+
+Composition d'un module
+^^^^^^^^^^^^^^^^^^^^^^^
+
+50 cartes :
+
+* 2 aventuriers (1 carte devra être écartée)
+* 8 escaliers(?)
+* 12 monstres répartis entre les niveaux 1 à 4, par exemple : 4L1, 4L2,
+2L3, 2L4
+* 6 pièges
+* 8 trésors
+* 8 améliorations
+* 6 événements spéciaux
 
 Ancienne version
 ----------------
