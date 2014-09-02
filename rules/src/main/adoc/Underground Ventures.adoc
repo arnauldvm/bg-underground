@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4055
-:revdate: 2014-08-29
-//:revremark: Nouvelle version (cont'd)
+:revnumber: W4056
+:revdate: 2014-09-02
+//:revremark: Repos dans un donjon. OpÃ©rateurs logiques.
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -50,9 +50,14 @@ dungeon crawling (ou l'inverse ?)
 compléter
 * règles de pose : sur n'importe quel niveau, de gauche à droite,
 retournée dos visible
-* Crawling : 2 possibilités : repos au village, aventure dans un donjon
+* Crawling : 2 possibilités : repos au village, repos dans un donjon,
+aventure dans un donjon
 * repos au village : le pion doit être présent devant le joueur au début
 du tour, il récupère tous ses curseur au max (vie, pouvoir)
+* repos dans un donjon : le pion doit être présent dans un donjon au
+début du tour, l'aventurier ne peut rien faire d'autre pendant le tour,
+chaque(?) curseur (vie, force, pouvoir) peut remonter d'1(?) unité à
+concurrence de son maximum
 * aventure au donjon : le joueur enchaîne des actions parmi les
 suivantes (il s'arrête quand il veut) : entrée dans un donjon, avancer
 sur la carte suivante, revenir au village, passer
@@ -85,6 +90,8 @@ en cas de défaite
 :::: [underline]#Condition#: Force >=4
 :::: [underline]#Victoire#: Vie - 2, Or {plus} 1
 :::: [underline]#Défaite#: Vie - 3
+:::: (Les conditions et conséquences peuvent utiliser des opérateurs
+logiques (&, |))
 *** mort de l'aventurier : lorsque les points de vie arrivent à 0 (ou
 moins), le pion revient au village, une carte de l'équipement tirée au
 hasard est défaussée, (et il faudra encore passer un tour pour récupérer
