@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4058
-:revdate: 2014-09-02
-//:revremark: (Composition d'un module): Ajout
+:revnumber: W4061
+:revdate: 2014-09-10
+//:revremark: (Composition d'un module): + lien Google Drive
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -163,6 +163,10 @@ Composition d'un module
 * 8 trésors
 * 8 améliorations
 * 6 événements spéciaux
+
+{minus}>
+https://docs.google.com/spreadsheets/d/1OQAYdWOY2dhdnjVGGqx_NlSOnSvBfDpd-nKg32b-MZ0/edit?usp=sharing[liste
+des cartes par module]
 
 Ancienne version
 ----------------

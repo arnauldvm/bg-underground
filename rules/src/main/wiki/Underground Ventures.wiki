@@ -66,6 +66,7 @@
 * 8 trésors
 * 8 améliorations
 * 6 événements spéciaux
+-> [https://docs.google.com/spreadsheets/d/1OQAYdWOY2dhdnjVGGqx_NlSOnSvBfDpd-nKg32b-MZ0/edit?usp=sharing liste des cartes par module]
 
 = Ancienne version =
 
