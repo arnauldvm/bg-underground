@@ -4,7 +4,7 @@
 for cmd in git xmlstarlet perl pandoc; do
     command -v "$cmd" >/dev/null 2>&1 || { echo >&2 "Could not find required command '$cmd', aborting."; exit 1; }
 done
-for mod in utf8 Text::Unidecode Encode; do
+for mod in utf8 Encode; do
     perl -e "use $mod" >/dev/null 2>&1 || { echo >&2 "Could not find required perl module '$mod', aborting."; exit 1; }
 done
 
@@ -85,7 +85,7 @@ for revision in ${revisions[@]}; do
 	pandoc -f mediawiki -t asciidoc --toc | \
 		perl -pe 'BEGIN {
 			use utf8;
-			use Text::Unidecode;
+			#use Text::Unidecode;
 			use Encode "decode";
 			}
 			($. == 1) and s{$}{
