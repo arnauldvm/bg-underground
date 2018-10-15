@@ -4,7 +4,9 @@
 for cmd in git xmlstarlet perl pandoc; do
     command -v "$cmd" >/dev/null 2>&1 || { echo >&2 "Could not find required command '$cmd', aborting."; exit 1; }
 done
-# perl : Text::Unidecode
+for mod in utf8 Text::Unidecode Encode; do
+    perl -e "use $mod" >/dev/null 2>&1 || { echo >&2 "Could not find required perl module '$mod', aborting."; exit 1; }
+done
 
 infile="$1"
 if [ \! -s "$infile" ]; then
