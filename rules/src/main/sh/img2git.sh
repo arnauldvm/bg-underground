@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Dependencies
+for cmd in git curl tidy xml; do
+    command -v "$cmd" >/dev/null 2>&1 || { echo >&2 "Could not find required command '$cmd', aborting."; exit 1; }
+done
+
 branch_prefix='rules/'
 script_dir=$(dirname "$0")
 page_names=()
