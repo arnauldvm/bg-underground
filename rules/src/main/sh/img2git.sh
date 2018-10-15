@@ -1,5 +1,6 @@
 #!/bin/bash
 
+branch_prefix='rules/'
 script_dir=$(dirname "$0")
 page_names=()
 dir_name=../../..
@@ -80,7 +81,7 @@ for page_name in "${page_names[@]}"; do
 echo "* Processing page $page_name"
 mkdir -p "$base_dir/$img_sub_dir"
 
-git co wikia/images
+git co "$branch_prefix"wikia/images
 grep -p "^$page_name"'\t' "$images_file_data" | \
 sort -k2 | \
 while read image_record; do
@@ -133,6 +134,6 @@ done
 
 done
 
-git checkout master
-git merge --no-edit wikia/images
+git checkout "$branch_prefix"master
+git merge --no-edit "$branch_prefix"wikia/images
 

@@ -6,6 +6,7 @@ if [ \! -s "$infile" ]; then
 	exit 1
 fi
 
+branch_prefix='rules/'
 script_dir=$(dirname "$0")
 dir_name=../../..
 base_dir="$script_dir/$dir_name"
@@ -30,17 +31,17 @@ adoc_page_path="$base_dir/$adoc_sub_dir/${page_title}.adoc"
 work_dir="$base_dir/$work_subdir/$page_title"
 mkdir -p "$work_dir"
 git stash save "Saved before importing files"; git stash apply
-git checkout master
-git reset --hard import/code
-git branch -D wikia/pages
-git branch -D wikia/images
-git branch -D adoc
+git checkout "$branch_prefix"master
+git reset --hard "$branch_prefix"import/code
+git branch -D "$branch_prefix"wikia/pages
+git branch -D "$branch_prefix"wikia/images
+git branch -D "$branch_prefix"adoc
 git gc
-git branch wikia/pages
-git branch wikia/images
-git branch adoc
+git branch "$branch_prefix"wikia/pages
+git branch "$branch_prefix"wikia/images
+git branch "$branch_prefix"adoc
 for revision in ${revisions[@]}; do
-	git checkout wikia/pages
+	git checkout "$branch_prefix"wikia/pages
 	xmlstarlet sel -T -N w=$ns -E utf-8 \
 		-t -m "//w:revision[w:id='$revision']" -v 'w:text' \
 		"$infile" > "$wiki_page_path"
@@ -56,8 +57,8 @@ for revision in ${revisions[@]}; do
 	git commit --date="$timestamp" -m "$comment"
 	git log -n 1
 	#cp "$wiki_page_path" "$work_dir"
-	git checkout adoc
-	git merge --no-commit wikia/pages
+	git checkout "$branch_prefix"adoc
+	git merge --no-commit "$branch_prefix"wikia/pages
 	perl -pe '
 		s:^'"'''"'(.*?)'"'''"'<br.*?/>$:$1\n:; # fix hardcoded document title
 		s:^<h2.*?>(.*?)</h2>$:==$1==:; # fix hardcoded heading
@@ -110,8 +111,8 @@ Arnauld Van Muysewinkel <arnauldvm\@gmail.com>'"
 	git commit --date="$timestamp" -m "convert: $comment"
 	git log -n 1
 done
-git checkout master
-git merge --no-edit adoc
+git checkout "$branch_prefix"master
+git merge --no-edit "$branch_prefix"adoc
 
 src/main/sh/img2git.sh -p ${page_title}
 
