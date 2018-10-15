@@ -16,7 +16,7 @@ base_dir="$script_dir/$dir_name"
 wiki_sub_dir="src/main/wiki"
 adoc_sub_dir="src/main/adoc"
 work_subdir="target/work"
-ns=http://www.mediawiki.org/xml/export-0.6/
+ns=http://www.mediawiki.org/xml/export-0.10/
 
 page_title=$( xmlstarlet sel -T -N w=$ns \
 	-t -m "//w:page" -v "w:title" \
