@@ -125,7 +125,7 @@ done
 git checkout "$branch_prefix"master
 git merge --no-edit "$branch_prefix"adoc
 
-src/main/sh/img2git.sh -p ${page_title}
+src/main/sh/img2git.sh -p "${page_title}"
 
-asciidoc $adoc_page_path
+asciidoc "$adoc_page_path"
 
