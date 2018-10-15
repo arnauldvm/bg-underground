@@ -3,6 +3,9 @@
 infile="$1"
 if [ \! -s "$infile" ]; then
 	echo Missing infile argument, aborting.
+	echo "Go to https://j2s-pendragon.wikia.com/wiki/Special:Export"
+	echo "    and export the whole history of the page you want to convert"
+	echo "    (only one page can be converted at a time)"
 	exit 1
 fi
 
