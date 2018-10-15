@@ -88,8 +88,9 @@ for revision in ${revisions[@]}; do
 			#use Text::Unidecode;
 			use Encode "decode";
 			}
+			$sub = "=" x (length($_)-1);
 			($. == 1) and s{$}{
-=======
+$sub
 :author: Arnauld Van Muysewinkel <arnauldvm\@gmail.com>'"
 :revnumber: W$revision
 :revdate: ${timestamp:0:10}
