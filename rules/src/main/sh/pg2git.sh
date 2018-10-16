@@ -88,6 +88,7 @@ for revision in ${revisions[@]}; do
 			use utf8;
 			use Text::Unidecode;
 			use Encode "decode";
+			$in_side_block = 0;
 			}
 			$sub = "=" x (length($_)-1);
 			($. == 1) and s{$}{
@@ -119,6 +120,15 @@ $sub
 			s:%%beta%%:{beta}:g; # fix beta character
 			s/(image:.*?\[)(.*?),/\1"\2",/g; # fix images alt attribute
 			s:\]%%thumb%%:,width=180]:g; # fix thumb images
+			if (s/^::$/****/) {
+				$in_side_block = 1;
+			} elsif ($in_side_block) {
+				if (s/^$/****\n/) {
+					$in_side_block = 0;
+				} else {
+					s/^  //;
+				}
+			}
 		' > "$adoc_page_path"
 	git add "$adoc_page_path"
 	git commit --date="$timestamp" -m "convert: $comment"
