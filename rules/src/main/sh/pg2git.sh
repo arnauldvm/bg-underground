@@ -77,6 +77,7 @@ for revision in ${revisions[@]}; do
 		s:^=(.*)=$:$1:; # promote all headers
 		s:^<div\s+style="page-break-after\:\s+always"></div>$:\n>> PAGEBREAK HERE <<\n:; # remember hardcoded page break
 		s:<s>(.*?)</s>:%%s%$1%/s%%:g; # remember strike-through
+		s:<u>(.*?)</u>:%%u%$1%/u%%:g; # remember underline
 		s:(?<!'\'')'\''([^ '\'']+?)'\''(?!'\''):%%'\''%$1%'\''%%:g; # remember single quoted words
 		s#[\|\!](:?(r)ow|(c)ol)span="(\d+)".*?\|#$&%%$2$3$4%%#g; # remember colspan/rowspan
 		s:<br>:%%br%%:g; # remember line breaks
@@ -114,6 +115,8 @@ $sub
 			s/^\[\[.*?\]\]$/unidecode(decode "UTF-8", $&)/e; # fix identifiers with accents
 			s:%%s%:[line-through]#:g; # fix strike-through
 			s:%/s%%:#:g; # fix strike-through
+			s:%%u%:[underline]#:g; # fix underline
+			s:%/u%%:#:g; # fix underline
 			s:%%'\''%([^ '\'']+?)%'\''%%:'\''$1'\'':g; # fix single quoted words
 			s:\|%%c(\d+)%%:$1+|:g; # fix colspan
 			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
