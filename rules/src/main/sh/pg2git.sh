@@ -113,7 +113,7 @@ $sub
 			s/>> PAGEBREAK HERE <</<<<\ntoc::[]\n<<</; # fix hardcoded page break
 			s/^\[\[.*?\]\]$/unidecode(decode "UTF-8", $&)/e; # fix identifiers with accents
 			s:%%s%(.*?)%/s%%:[line-through]#$1#:g; # fix strike-through
-			s:%%'\''%([^ '\'']+?)%'\''%%:\\'\''$1'\'':g; # fix single quoted words
+			s:%%'\''%([^ '\'']+?)%'\''%%:'\''$1'\'':g; # fix single quoted words
 			s:\|%%c(\d+)%%:$1+|:g; # fix colspan
 			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
 			s:%%br%%:{br}:g; # fix line breaks
