@@ -76,6 +76,7 @@ for revision in ${revisions[@]}; do
 		s:^=\s*([^=]*?)\s*=$:'"'''"'$1'"'''"':; # fix level 1 pseudo-header
 		s:^=(.*)=$:$1:; # promote all headers
 		s:^<div\s+style="page-break-after\:\s+always"></div>$:\n>> PAGEBREAK HERE <<\n:; # remember hardcoded page break
+		s:\+:%%plus%%:g; # remember plus sign
 		s:<s>(.*?)</s>:%%s%$1%/s%%:g; # remember strike-through
 		s:<u>(.*?)</u>:%%u%$1%/u%%:g; # remember underline
 		s:(?<!'\'')'\''([^ '\'']+?)'\''(?!'\''):%%'\''%$1%'\''%%:g; # remember single quoted words
@@ -91,8 +92,10 @@ for revision in ${revisions[@]}; do
 			use Encode "decode";
 			$in_side_block = 0;
 			}
-			$sub = "=" x (length($_)-1);
-			($. == 1) and s{$}{
+			if ($. == 1) {
+				s:%%plus%%:+:g; # fix plus sign
+				$sub = "=" x (length($_)-1);
+				s{$}{
 $sub
 :author: Arnauld Van Muysewinkel <arnauldvm\@gmail.com>'"
 :revnumber: W$revision
@@ -110,9 +113,12 @@ $sub
 //:data-uri: // This corrupts some images because of a bug in base64 encoding, see https://github.com/asciidoc/asciidoc/issues/98 and https://groups.google.com/d/topic/asciidoc/pC22vFTCxTc/discussion
 :br: pass:[<br>]
 :beta: pass:[&beta;]
+:plus: pass:[&#43;]
 };
+			}
 			s/>> PAGEBREAK HERE <</<<<\ntoc::[]\n<<</; # fix hardcoded page break
 			s/^\[\[.*?\]\]$/unidecode(decode "UTF-8", $&)/e; # fix identifiers with accents
+			s:%%plus%%:{plus}:g; # fix plus sign
 			s:%%s%:[line-through]#:g; # fix strike-through
 			s:%/s%%:#:g; # fix strike-through
 			s:%%u%:[underline]#:g; # fix underline
