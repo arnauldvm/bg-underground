@@ -78,8 +78,10 @@ for revision in ${revisions[@]}; do
 		s:^<div\s+style="page-break-after\:\s+always"></div>$:\n>> PAGEBREAK HERE <<\n:; # remember hardcoded page break
 		s:\+:%%plus%%:g; # remember plus sign
 		s:~:%%tilde%%:g; # remember tilde sign
-		s:<s>(.*?)</s>:%%s%$1%/s%%:g; # remember strike-through
-		s:<u>(.*?)</u>:%%u%$1%/u%%:g; # remember underline
+		s:<s>:%%s%:g; # remember strike-through
+		s:</s>:%/s%%:g; # remember strike-through
+		s:<u>:%%u%:g; # remember underline
+		s:</u>:%/u%%:g; # remember underline
 		s:<blockquote>:%%blockquote%:g; # remember blockquote
 		s:</blockquote>:%blockquote%%:g; # remember blockquote
 		s:(?<!'\'')'\''([^ '\'']+?)'\''(?!'\''):%%'\''%$1%'\''%%:g; # remember single quoted words
@@ -124,10 +126,10 @@ $sub
 			s/^\[\[.*?\]\]$/unidecode(decode "UTF-8", $&)/e; # fix identifiers with accents
 			s:%%plus%%:{plus}:g; # fix plus sign
 			s:%%tilde%%:{tilde}:g; # fix tilde sign
-			s:%%s%:[line-through]#:g; # fix strike-through
-			s:%/s%%:#:g; # fix strike-through
-			s:%%u%:[underline]#:g; # fix underline
-			s:%/u%%:#:g; # fix underline
+			s:%%s%\s*:[line-through]#:g; # fix strike-through
+			s:\s*%/s%%:#:g; # fix strike-through
+			s:%%u%\s*:[underline]#:g; # fix underline
+			s:\s*%/u%%:#:g; # fix underline
 			s:%%'\''%([^ '\'']+?)%'\''%%:'\''$1'\'':g; # fix single quoted words
 			s:\|%%c(\d+)%%:$1+|:g; # fix colspan
 			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
