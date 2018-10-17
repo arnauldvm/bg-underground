@@ -77,6 +77,7 @@ for revision in ${revisions[@]}; do
 		s:^=(.*)=$:$1:; # promote all headers
 		s:^<div\s+style="page-break-after\:\s+always"></div>$:\n>> PAGEBREAK HERE <<\n:; # remember hardcoded page break
 		s:\+:%%plus%%:g; # remember plus sign
+		s:~:%%tilde%%:g; # remember tilde sign
 		s:<s>(.*?)</s>:%%s%$1%/s%%:g; # remember strike-through
 		s:<u>(.*?)</u>:%%u%$1%/u%%:g; # remember underline
 		s:<blockquote>:%%blockquote%:g; # remember blockquote
@@ -116,11 +117,13 @@ $sub
 :br: pass:[<br>]
 :beta: pass:[&beta;]
 :plus: pass:[&#43;]
+:tilde: pass:[&#126;]
 };
 			}
 			s/>> PAGEBREAK HERE <</<<<\ntoc::[]\n<<</; # fix hardcoded page break
 			s/^\[\[.*?\]\]$/unidecode(decode "UTF-8", $&)/e; # fix identifiers with accents
 			s:%%plus%%:{plus}:g; # fix plus sign
+			s:%%tilde%%:{tilde}:g; # fix tilde sign
 			s:%%s%:[line-through]#:g; # fix strike-through
 			s:%/s%%:#:g; # fix strike-through
 			s:%%u%:[underline]#:g; # fix underline
