@@ -79,6 +79,8 @@ for revision in ${revisions[@]}; do
 		s:\+:%%plus%%:g; # remember plus sign
 		s:<s>(.*?)</s>:%%s%$1%/s%%:g; # remember strike-through
 		s:<u>(.*?)</u>:%%u%$1%/u%%:g; # remember underline
+		s:<blockquote>:%%blockquote%:g; # remember blockquote
+		s:</blockquote>:%blockquote%%:g; # remember blockquote
 		s:(?<!'\'')'\''([^ '\'']+?)'\''(?!'\''):%%'\''%$1%'\''%%:g; # remember single quoted words
 		s#[\|\!](:?(r)ow|(c)ol)span="(\d+)".*?\|#$&%%$2$3$4%%#g; # remember colspan/rowspan
 		s:<br>:%%br%%:g; # remember line breaks
@@ -128,6 +130,8 @@ $sub
 			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
 			s:%%br%%:{br}:g; # fix line breaks
 			s:%%beta%%:{beta}:g; # fix beta character
+			s:%%blockquote%:\n****\n:g; # fix blockquote
+			s:%blockquote%%:\n****\n:g; # fix blockquote
 			s/(image:.*?\[)(.*?),/\1"\2",/g; # fix images alt attribute
 			s:\]%%thumb%%:,width=180]:g; # fix thumb images
 			if (s/^::$/****/) {
