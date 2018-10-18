@@ -97,6 +97,7 @@ for revision in ${revisions[@]}; do
 		s:<u>:%%u%:g; # remember underline
 		s:</u>:%/u%%:g; # remember underline
 		s:\[\[#([^\]]+)\]\]:%%anchor%$1%/anchor%%:g; # remember anchor
+		s/^(:[:\*]*)/\n%$1%%/; # remember indent
 		s:<blockquote>:%%blockquote%:g; # remember blockquote
 		s:</blockquote>:%blockquote%%:g; # remember blockquote
 		s:(?<!'\'')'\''([^ '\'']+?)'\''(?!'\''):%%'\''%$1%'\''%%:g; # remember single quoted words
@@ -112,8 +113,23 @@ for revision in ${revisions[@]}; do
 			use Encode "decode";
 			binmode STDIN, ":utf8";
 			binmode STDOUT, ":utf8";
+			$last_line_empty = 0;
+			$in_list = 0;
 			$in_em_block = 0;
-			$in_side_block = 0;
+			}
+			if ($last_line_empty) {
+				if (m/^%:[:\*]*%%/ && $in_list) {
+					# dismiss empty line
+				} else {
+					print "\n"; # keep empty line
+				}
+				$in_list = 0;
+				$last_line_empty = 0;
+			}
+			if (m:^$:) {
+				$last_line_empty = 1;
+				$_ = "";
+				next;
 			}
 			if ($. == 1) {
 				s:%%plus%%:+:g; # fix plus sign
@@ -156,10 +172,15 @@ $sub
 			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
 			s:%%br%%:{br}:g; # fix line breaks
 			s:%%beta%%:{beta}:g; # fix beta character
+			s/^%(:[:\*]*)%%/$1/; # fix indent
+			s/ %(:[:\*]*)%%/\n$1/g; # fix indent
 			s:%%blockquote%:\n****\n:g; # fix blockquote
 			s:%blockquote%%:\n****\n:g; # fix blockquote
 			s/(image:.*?\[)(.*?),/\1"\2",/g; # fix images alt attribute
 			s:\]%%thumb%%:,width=180]:g; # fix thumb images
+			if (m/^[:*]+ /) {
+				$in_list = 1;
+			}
 			if ($in_em_block) {
 				if (s:'\'\'':{_em}:) {
 					$in_em_block = 0;
@@ -167,15 +188,6 @@ $sub
 			} elsif (s:'\'\'':{em}:) {
 				# fix remaining double single quotes (italic in wiki)
 				$in_em_block = 1;
-			}
-			if (s/^::$/****/) {
-				$in_side_block = 1;
-			} elsif ($in_side_block) {
-				if (s/^$/****\n/) {
-					$in_side_block = 0;
-				} else {
-					s/^  //;
-				}
 			}
 		' > "$adoc_page_path"
 	git add "$adoc_page_path"
