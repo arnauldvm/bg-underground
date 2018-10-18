@@ -71,6 +71,20 @@ for revision in ${revisions[@]}; do
 	git checkout "$branch_prefix"adoc
 	git merge --no-commit "$branch_prefix"wikia/pages
 	perl -pe '
+		BEGIN {
+			$last_line_empty = 0;
+		}
+		if ($last_line_empty) {
+			if (! m:^\*\*:) {
+				print "\n";
+			}
+			$last_line_empty = 0;
+		}
+		if (m:^$:) {
+			$last_line_empty = 1;
+			$_ = "";
+			next;
+		}
 		s:^'"'''"'(.*?)'"'''"'<br.*?/>$:$1\n:; # fix hardcoded document title
 		s:^<h2.*?>(.*?)</h2>$:==$1==:; # fix hardcoded heading
 		s:^=\s*([^=]*?)\s*=$:'"'''"'$1'"'''"':; # fix level 1 pseudo-header
