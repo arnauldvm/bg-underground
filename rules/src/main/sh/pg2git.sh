@@ -104,8 +104,8 @@ for revision in ${revisions[@]}; do
 		s:<br>:%%br%%:g; # remember line breaks
 		s:&beta;:%%beta%%:g; # remember beta character
 		s:\|thumb\]\]:$&%%thumb%%:g; # remember thumb images
-	' "$wiki_page_path" | \
-	pandoc -f mediawiki -t asciidoc --toc | \
+	' "$wiki_page_path" | tee "$wiki_page_path".fix | \
+	pandoc -f mediawiki -t asciidoc --toc | tee "$adoc_page_path".temp | \
 		perl -pe 'BEGIN {
 			use utf8;
 			use Text::Unidecode;
