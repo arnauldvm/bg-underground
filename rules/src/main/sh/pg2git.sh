@@ -82,6 +82,7 @@ for revision in ${revisions[@]}; do
 		s:</s>:%/s%%:g; # remember strike-through
 		s:<u>:%%u%:g; # remember underline
 		s:</u>:%/u%%:g; # remember underline
+		s:\[\[#([^\]]+)\]\]:%%anchor%$1%/anchor%%:g; # remember anchor
 		s:<blockquote>:%%blockquote%:g; # remember blockquote
 		s:</blockquote>:%blockquote%%:g; # remember blockquote
 		s:(?<!'\'')'\''([^ '\'']+?)'\''(?!'\''):%%'\''%$1%'\''%%:g; # remember single quoted words
@@ -132,6 +133,7 @@ $sub
 			s:\s*%/s%%:#:g; # fix strike-through
 			s:%%u%\s*:[underline]#:g; # fix underline
 			s:\s*%/u%%:#:g; # fix underline
+			s:%%anchor%(.*)%/anchor%%:<<_@{[lc($1)]},$1>>:g; # fix anchor
 			s:%%'\''%([^ '\'']+?)%'\''%%:'\''$1'\'':g; # fix single quoted words
 			s:\|%%c(\d+)%%:$1+|:g; # fix colspan
 			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
