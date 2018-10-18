@@ -95,6 +95,8 @@ for revision in ${revisions[@]}; do
 			use utf8;
 			use Text::Unidecode;
 			use Encode "decode";
+			binmode STDIN, ":utf8";
+			binmode STDOUT, ":utf8";
 			$in_side_block = 0;
 			}
 			if ($. == 1) {
