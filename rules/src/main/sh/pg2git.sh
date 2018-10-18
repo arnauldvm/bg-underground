@@ -172,8 +172,10 @@ $sub
 			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
 			s:%%br%%:{br}:g; # fix line breaks
 			s:%%beta%%:{beta}:g; # fix beta character
-			s/^%(:[:\*]*)%%/$1/; # fix indent
-			s/ %(:[:\*]*)%%/\n$1/g; # fix indent
+			s/^%(:+)%%/$1/; # fix indent
+			s/ %(:+)%%/\n$1/g; # fix indent
+			s/^%(:[:\*]*\*)%%/@{[length($1) x "*"]}/; # fix indent
+			s/ %(:[:\*]*\*)%%/\n@{[length($1) x "*"]}/g; # fix indent
 			s:%%blockquote%:\n****\n:g; # fix blockquote
 			s:%blockquote%%:\n****\n:g; # fix blockquote
 			s/(image:.*?\[)(.*?),/\1"\2",/g; # fix images alt attribute
