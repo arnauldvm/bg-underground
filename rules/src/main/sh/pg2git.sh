@@ -98,6 +98,7 @@ for revision in ${revisions[@]}; do
 			use Encode "decode";
 			binmode STDIN, ":utf8";
 			binmode STDOUT, ":utf8";
+			$in_em_block = 0;
 			$in_side_block = 0;
 			}
 			if ($. == 1) {
@@ -120,6 +121,8 @@ $sub
 :imagesdir: ../img
 //:data-uri: // This corrupts some images because of a bug in base64 encoding, see https://github.com/asciidoc/asciidoc/issues/98 and https://groups.google.com/d/topic/asciidoc/pC22vFTCxTc/discussion
 :br: pass:[<br>]
+:em: pass:[<em>]
+:_em: pass:[</em>]
 :beta: pass:[&beta;]
 :plus: pass:[&#43;]
 :tilde: pass:[&#126;]
@@ -143,6 +146,14 @@ $sub
 			s:%blockquote%%:\n****\n:g; # fix blockquote
 			s/(image:.*?\[)(.*?),/\1"\2",/g; # fix images alt attribute
 			s:\]%%thumb%%:,width=180]:g; # fix thumb images
+			if ($in_em_block) {
+				if (s:'\'\'':{_em}:) {
+					$in_em_block = 0;
+				}
+			} elsif (s:'\'\'':{em}:) {
+				# fix remaining double single quotes (italic in wiki)
+				$in_em_block = 1;
+			}
 			if (s/^::$/****/) {
 				$in_side_block = 1;
 			} elsif ($in_side_block) {
