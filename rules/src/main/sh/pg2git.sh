@@ -114,16 +114,18 @@ for revision in ${revisions[@]}; do
 			binmode STDIN, ":utf8";
 			binmode STDOUT, ":utf8";
 			$last_line_empty = 0;
-			$in_list = 0;
+			$list_level = 0;
 			$in_em_block = 0;
 			}
 			if ($last_line_empty) {
-				if (m/^%:[:\*]*%%/ && $in_list) {
+				if (m/^%(:[:\*]*\*)%%/ && $list_level) {
+					# dismiss empty line
+				} elsif (m/^%(:[:\*]*)%%/ && (length($1)>=$list_level) && $list_level) {
 					# dismiss empty line
 				} else {
 					print "\n"; # keep empty line
+				  $list_level = 0;
 				}
-				$in_list = 0;
 				$last_line_empty = 0;
 			}
 			if (m:^$:) {
@@ -174,14 +176,14 @@ $sub
 			s:%%beta%%:{beta}:g; # fix beta character
 			s/^%(:+)%%/$1/; # fix indent
 			s/ %(:+)%%/\n$1/g; # fix indent
-			s/^%(:[:\*]*\*)%%/@{[length($1) x "*"]}/; # fix indent
-			s/ %(:[:\*]*\*)%%/\n@{[length($1) x "*"]}/g; # fix indent
+			s/^%(:[:\*]*\*)%%/@{["*" x length($1)]}/; # fix indent
+			s/ %(:[:\*]*\*)%%/\n@{["x" x length($1)]}/g; # fix indent
 			s:%%blockquote%:\n****\n:g; # fix blockquote
 			s:%blockquote%%:\n****\n:g; # fix blockquote
 			s/(image:.*?\[)(.*?),/\1"\2",/g; # fix images alt attribute
 			s:\]%%thumb%%:,width=180]:g; # fix thumb images
-			if (m/^[:*]+ /) {
-				$in_list = 1;
+			if (m/^([:*]+) /) {
+				$list_level = length($1);
 			}
 			if ($in_em_block) {
 				if (s:'\'\'':{_em}:) {
