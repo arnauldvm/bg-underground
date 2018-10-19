@@ -73,6 +73,7 @@ for revision in ${revisions[@]}; do
 	perl -pe '
 		BEGIN {
 			$last_line_empty = 0;
+			$in_definition = 0;
 		}
 		if ($last_line_empty) {
 			if (! m:^\*\*:) {
@@ -98,6 +99,8 @@ for revision in ${revisions[@]}; do
 		s:</s>:%/s%%:g; # remember strike-through
 		s:<u>:%%u%:g; # remember underline
 		s:</u>:%/u%%:g; # remember underline
+		$in_definition_list and $in_definition_list = s/^:( |$)/\n%%dt%$1/; # definition list
+		$in_definition_list |= s/^; /\n%%dl% /; # definition list
 		s:\[\[#([^\]]+)\]\]:%%anchor%$1%/anchor%%:g; # remember anchor
 		s/^(:[:\*]*)/\n%$1%%/; # remember indent
 		s:<blockquote>:%%blockquote%:g; # remember blockquote
@@ -118,15 +121,29 @@ for revision in ${revisions[@]}; do
 			$last_line_empty = 0;
 			$list_level = 0;
 			$in_em_block = 0;
+			$in_definition = 0;
+			$in_definition_term = 0;
 			}
+			$dismiss = 0;
 			if ($last_line_empty) {
-				if (m/^%(:[:\*]*\*)%%/ && $list_level) {
-					# dismiss empty line
-				} elsif (m/^%(:[:\*]*)%%/ && (length($1)>=$list_level) && $list_level) {
-					# dismiss empty line
-				} else {
+				if ($list_level) {
+					if (m/^%(:[:\*]*\*)%%/) {
+						$dismiss = 1;
+					} elsif (m/^%(:[:\*]*)%%/ && (length($1)>=$list_level)) {
+						$dismiss = 1;
+					} else {
+						$list_level = 0;
+					}
+				}
+				if ($in_definition) {
+					if (m/^%%dt%/) {
+						$dismiss = 1;
+					} else {
+						$in_definition = 0;
+					}
+				}
+				unless ($dismiss) {
 					print "\n"; # keep empty line
-				  $list_level = 0;
 				}
 				$last_line_empty = 0;
 			}
@@ -167,8 +184,6 @@ $sub
 			s/>> PAGEBREAK HERE <</<<<\ntoc::[]\n<<</; # fix hardcoded page break
 			s/^\[\[.*?\]\]$/unidecode(decode "UTF-8", $&)/e; # fix identifiers with accents
 			s:%%plus%%:{plus}:g; # fix plus sign
-			s:^%%minus%%:{minus}:g; # fix minus sign
-			s:%%minus%%:-:g; # fix minus sign
 			s:%%lcurl%%:{lcurl}:g; # fix left curly bracket
 			s:%%tilde%%:{tilde}:g; # fix tilde sign
 			s:%%s%\s*:[line-through]#:g; # fix strike-through
@@ -192,6 +207,16 @@ $sub
 			s/ %(:[:\*]*\*)%%/\n@{["x" x length($1)]}/g; # fix indent
 			s:%%blockquote%:\n****\n:g; # fix blockquote
 			s:%blockquote%%:\n****\n:g; # fix blockquote
+			s/%%dl% (.*)$/$1 ::/ and $in_definition = 1; # definition list
+			if ($in_definition_term) {
+				$in_definition_term = s/%%dt% (.*)$/ +\n$1/; # definition list
+				$in_definition_term |= s/%%dt%\n$//; # definition list
+			} else {
+				$in_definition_term = s/%%dt% ?(.*)$/$1/; # definition list
+			}
+			$in_definition_term and $in_definition = 1;
+			s:^%%minus%%:{minus}:gm; # fix minus sign
+			s:%%minus%%:-:g; # fix minus sign
 			s/(image:.*?\[)(.*?),/\1"\2",/g; # fix images alt attribute
 			s:\]%%thumb%%:,width=180]:g; # fix thumb images
 			if (m/^([:*]+) /) {
