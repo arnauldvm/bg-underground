@@ -92,6 +92,7 @@ for revision in ${revisions[@]}; do
 		s:^<div\s+style="page-break-after\:\s+always"></div>$:\n>> PAGEBREAK HERE <<\n:; # remember hardcoded page break
 		s:\+:%%plus%%:g; # remember plus sign
 		s:(?<!-)-(?!–):%%minus%%:g; # remember isolated minus sign
+		s:{:%%lcurl%%:g; # remember left curly bracket
 		s:~:%%tilde%%:g; # remember tilde sign
 		s:<s>:%%s%:g; # remember strike-through
 		s:</s>:%/s%%:g; # remember strike-through
@@ -159,6 +160,7 @@ $sub
 :beta: pass:[&beta;]
 :plus: pass:[&#43;]
 :minus: pass:[&#45;]
+:lcurl: pass:[&#123;]
 :tilde: pass:[&#126;]
 };
 			}
@@ -167,6 +169,7 @@ $sub
 			s:%%plus%%:{plus}:g; # fix plus sign
 			s:^%%minus%%:{minus}:g; # fix minus sign
 			s:%%minus%%:-:g; # fix minus sign
+			s:%%lcurl%%:{lcurl}:g; # fix left curly bracket
 			s:%%tilde%%:{tilde}:g; # fix tilde sign
 			s:%%s%\s*:[line-through]#:g; # fix strike-through
 			s:\s*%/s%%:#:g; # fix strike-through
