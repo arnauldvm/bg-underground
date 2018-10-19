@@ -174,8 +174,13 @@ $sub
 			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
 			s:%%br%%:{br}:g; # fix line breaks
 			s:%%beta%%:{beta}:g; # fix beta character
-			s/^%(:+)%%/$1/; # fix indent
-			s/ %(:+)%%/\n$1/g; # fix indent
+			unless ($list_level) {
+				s/^%(:+)%%/[none]\n@{["*" x length($1)]}/; # fix indent
+				s/ %(:+)%%/\n[none]\n@{["*" x length($1)]}/g; # fix indent
+			} else {
+				s/^%(:+)%%/$1/; # fix indent
+				s/ %(:+)%%/\n$1/g; # fix indent
+			}
 			s/^%(:[:\*]*\*)%%/@{["*" x length($1)]}/; # fix indent
 			s/ %(:[:\*]*\*)%%/\n@{["x" x length($1)]}/g; # fix indent
 			s:%%blockquote%:\n****\n:g; # fix blockquote
