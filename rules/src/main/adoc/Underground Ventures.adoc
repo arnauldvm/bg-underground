@@ -189,11 +189,11 @@ Phases
 ~~~~~~
 
 Les donjons doivent recéler des surprises, mais il faut limiter le
-hasard => une partie des cartes posées sur les donjons sont cachées
+hasard &rArr; une partie des cartes posées sur les donjons sont cachées
 (soit : 1 sur 2 ; soit : en fonction d'une indication sur la carte). À
 son tour un joueur pioche une carte et la prend dans sa main. Il choisit
 ensuite de poser 0 à n cartes sur un (des?) donjon(s). (_Éviter qu'un
-joueur pose tout un donjon en une seule fois => max 1/2/3 cartes par
+joueur pose tout un donjon en une seule fois &rArr; max 1/2/3 cartes par
 donjon à la fois ?_) Tant qu'une carte est en main, c'est le côté
 aventurier qui s'applique. Cela peut potentiellement même être un malus
 (incitation à poser vite les cartes donjons intéressantes). _(Les
@@ -250,7 +250,7 @@ Il sera probablement nécessaire de prévoir que le joueur puisse poser
 des cartes devant lui. Permet d'avoir plus de cartes, mais visibles et
 pas dispo pour _dungeon building_. _(Ne serait-il pas préférable
 que l'exploration du donjon se fasse en phase avec les tours de jeu
-(plutôt que dans une phase spéciale ? => Pas d'attente des autres
+(plutôt que dans une phase spéciale ? &rArr; Pas d'attente des autres
 joueurs, plus d'interaction, possibilité pour les autres joueurs
 d'intervenir sur le deck du donjon en cours d'exploration ... Un joueur,
 qu'il soit l'explorateur ou l'un de ses exposants, peut ajouter une
@@ -384,7 +384,7 @@ Jauges
 
 (Inspiration : Mice & Mystics (M&M), Zombie 15' (Z15) ...)
 
-* La plupart des monstres n'ont qu'1 PV => pas besoin de faire le
+* La plupart des monstres n'ont qu'1 PV &rArr; pas besoin de faire le
 décompte des PV, il suffit de retirer la carte quand elle est détruite
 * Quelques gros monstres peuvent avoir quelques PV
 * Les aventuriers ont quelques PV (genre 3-4).
@@ -403,7 +403,7 @@ Dés
 Autre idée : Le système actuel rend les combats prédéterminés, ce qui
 risque de rendre le jeu trop calculatoire et peu dynamique. De plus on
 risque d'avoir vite des situations de blocage par manque de granularité
-=> très complexe à équilibrer. Donc, je me propose de rendre le système
+&rArr; très complexe à équilibrer. Donc, je me propose de rendre le système
 plus aléatoire par l'introduction de dés.
 
 Utiliser des dés standard rendrait le jeu moins fluide (E.g. : j'ai une
@@ -411,7 +411,7 @@ Utiliser des dés standard rendrait le jeu moins fluide (E.g. : j'ai une
 bonus de force ... :-/).
 
 On pourrait utiliser des dés style FFG/M&M : les face présentent des
-symboles qui déterminent les actions réussies (=> granularité des taux
+symboles qui déterminent les actions réussies (&rArr; granularité des taux
 de réussite = 17%). J'imagine même qu'on fonction du type de créature /
 arme / ..., on utilise un dé différent, avec une répartition différente
 des symboles.
