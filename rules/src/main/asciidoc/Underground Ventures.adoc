@@ -9,12 +9,16 @@ ifdef::env-maven[]
 include::{outputdir}/build_properties.adoc[]
 endif::env-maven[]
 ifdef::env-github[]
-// hardcoded here because GitHub prevents includes
+// ! GitHub runs asciidoctor in SECURE mode!
+//     => no icons, include, stylesheets, data-uri, etc.
+//    see http://asciidoctor.org/docs/user-manual/#running-asciidoctor-securely// hardcoded here because GitHub prevents includes
 :revnumber: 0.1.0
 //    as in pom.xml
 :revdate: 2018-10-20
 //    as in pom.xml
 :revstatus: WiP
+:buildnumber: online
+:buildtime: github
 endif::env-github[]
 :doctype: article
 :lang: fr
@@ -32,6 +36,9 @@ ifdef::env-maven[]
 endif::env-maven[]
 
 ifdef::env-github[]
+// ! GitHub runs asciidoctor in SECURE mode!
+//     => no icons, include, stylesheets, data-uri, etc.
+//    see http://asciidoctor.org/docs/user-manual/#running-asciidoctor-securely
 :delstyle: .cm-strikethrough
 // replacement for icons:
 :caution-caption: :fire:
@@ -45,7 +52,8 @@ endif::env-github[]
 30-Jun-'13
 
 *Contact:* {author} <{email}> +
-*Version:* {revnumber} ({revdate})
+*Version:* {revnumber} ({revdate}) +
+*Build:* {buildnumber}@{buildtime}
 
 <<<
 toc::[]
