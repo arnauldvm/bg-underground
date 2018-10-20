@@ -19,7 +19,6 @@ Narrative arcs + multiple shared decks (building)
 :_em: pass:[</em>]
 :beta: pass:[&beta;]
 :plus: pass:[&#43;]
-:minus: pass:[&#45;]
 :lcurl: pass:[&#123;]
 :tilde: pass:[&#126;]
 
@@ -214,9 +213,9 @@ construire sur un plan quadrillé, se qui les amèneraient à se rejoindre.
 
 {em}Autre idée pour le _dungeon building_ : chaque carte correspond à un
 (plusieurs) niveaux de profondeur (exple : 2/3/4). La contrainte de pose
-est que la profondeur ne peut pas diminuer. (Exple : 1 - 1
-{minus} 1/2 - 3 - 3 - 3 - 6 -
-6/7, mais pas 1, 1, 1/2, 2, 1 ...) Ainsi on garde une croissance en
+est que la profondeur ne peut pas diminuer.
+(Exple : 1 - 1 - 1/2 - 3 - 3 - 3 - 6 - 6/7, mais pas 1, 1, 1/2, 2, 1 ...)
+Ainsi on garde une croissance en
 difficulté du donjon. On évite que le boss de fin apparaisse avant le
 gobelin apéritif.{_em}
 
@@ -234,8 +233,8 @@ L'alternance visible/caché se fait verticalement _et_ horizontalement.{_em}
 
 [none]
 * Un donjon n'est pas ouvert à l'exploration tant qu'il n'y a pas une
-suite ininterrompues de cartes depuis le premier niveau (pas de "trous")
-{minus} voire même jusqu'au dernier niveau.
+suite ininterrompues de cartes depuis le premier niveau
+(pas de "trous") - voire même jusqu'au dernier niveau.
 
 Lorsqu'il se sent prêt, un joueur peut lancer son aventurier dans
 l'exploration d'un des donjons disponibles. La résolution se fait dans
@@ -510,7 +509,7 @@ repaire - den, lair +
 paquet - deck +
 carte - card +
 monstre - monster +
-{minus} explorer, adventurer, traveler, pathfinder, pioneer,
+&nbsp; - explorer, adventurer, traveler, pathfinder, pioneer,
 wanderer, venturer, venture
 
 Idées retenues ::
