@@ -13,12 +13,15 @@ Narrative arcs + multiple shared decks (building)
 :toc-title: Contenu
 //:numbered:
 
+:delstyle: line-through
+
 ifdef::env-maven[]
 // make the document more portable:
 :icons: font
 endif::env-maven[]
 
 ifdef::env-github[]
+:delstyle: .cm-strikethrough
 // replacement for icons:
 :caution-caption: :fire:
 :important-caption: :exclamation:
@@ -376,7 +379,7 @@ Au début de chaque round, le joueur peut décider de déclencher l'effet
 d'une (_ou plusieurs ? combien max ?_) carte item.
 
 ****
-[line-through]#Optionnel: Certaines cartes effets (sorts) ont des conditions
+&#9986; [{delstyle}]#Optionnel: Certaines cartes effets (sorts) ont des conditions
 d'utilisation liées à la caractéristique d'esprit.# +
 La dépense d'un point d'esprit permet de s'immuniser des effets d'un
 pouvoir spécial.
