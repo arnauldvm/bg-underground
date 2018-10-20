@@ -3,7 +3,7 @@ Narrative arcs + multiple shared decks (building)
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
 :revnumber: 0.1
 :revdate: 2016-10-20
-//:revremark: (Composition d'un module): + lien Google Drive
+:revstatus: WiP
 :doctype: article
 :lang: fr
 :encoding: utf8
