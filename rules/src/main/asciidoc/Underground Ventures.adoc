@@ -1,9 +1,21 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
-:author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: 0.1
-:revdate: 2016-10-20
+:author: Arnauld Van Muysewinkel
+:email: arnauldvm@gmail.com
+ifndef::env-maven,env-github[]
+include::../resources/build_properties.adoc[]
+endif::env-maven,env-github[]
+ifdef::env-maven[]
+include::{outputdir}/build_properties.adoc[]
+endif::env-maven[]
+ifdef::env-github[]
+// hardcoded here because GitHub prevents includes
+:revnumber: 0.1.0
+//    as in pom.xml
+:revdate: 2018-10-20
+//    as in pom.xml
 :revstatus: WiP
+endif::env-github[]
 :doctype: article
 :lang: fr
 :encoding: utf8
