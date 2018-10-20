@@ -176,13 +176,14 @@ pour récolter des richesses.
 ** côté "aventurier" : 1 équipement, ou caractéristique spéciale, ou
 sort ... ; ou _re-fill_ d'une jauge (x PV, x mana ...)
 
-[none]
-* _Ou pas. Si on met un peu plus d'items dans les donjons, le
+****
+_Ou pas. Si on met un peu plus d'items dans les donjons, le
 personnage peut évoluer par l'exploration des donjons __uniquement__. Cela
 simplifie et permet de recentrer le jeu sur les donjons. Dans ce cas pas
 besoin de côté "aventurier". Par contre une même carte devrait pouvoir
 combiner plusieurs choses (monstre et trésor, piège et trésor ...)_ (Le
 verso est uniforme et identique pour toutes les cartes.)
+****
 
 Phases
 ~~~~~~
@@ -212,8 +213,8 @@ Ainsi on garde une croissance en
 difficulté du donjon. On évite que le boss de fin apparaisse avant le
 gobelin apéritif._
 
-[none]
-* _Révision de l'idée : pour chaque donjon, il y a n emplacements
+****
+_Révision de l'idée : pour chaque donjon, il y a n emplacements
 "verticaux" (par exemple 6), correspondant aux niveaux des cartes. Les
 cartes sont posées dans l'emplacement correspondant à leur niveau.
 Thématiquement, chacun de ces emplacements est une salle (un étage) du
@@ -224,10 +225,10 @@ même salle (étage) du donjon. Les cartes d'un même niveau seront
 activées dans l'ordre __http://fr.wikipedia.org/wiki/LIFO[LIFO]__.
 L'alternance visible/caché se fait verticalement __et__ horizontalement._
 
-[none]
-* Un donjon n'est pas ouvert à l'exploration tant qu'il n'y a pas une
+Un donjon n'est pas ouvert à l'exploration tant qu'il n'y a pas une
 suite ininterrompues de cartes depuis le premier niveau
 (pas de "trous") - voire même jusqu'au dernier niveau.
+****
 
 Lorsqu'il se sent prêt, un joueur peut lancer son aventurier dans
 l'exploration d'un des donjons disponibles. La résolution se fait dans
@@ -238,11 +239,12 @@ monstre déclenche immédiatement un combat ... Cette phase s'arrête soit
 avec l'épuisement des cartes donjon, soit avec la fuite ou la mort de
 l'aventurier (impact ?).
 
-[none]
-* _Impact de la fuite d'un aventurier : il devra reprendre
+****
+_Impact de la fuite d'un aventurier : il devra reprendre
 l'exploration du donjon depuis le premier niveau, mais comme les
 premières cartes auront été éliminées, il devra attendre pour cela que
 ces premiers niveaux soient à nouveau remplis._
+****
 
 Il sera probablement nécessaire de prévoir que le joueur puisse poser
 des cartes devant lui. Permet d'avoir plus de cartes, mais visibles et
@@ -294,11 +296,12 @@ Les autres cartes agissent sur ces caractéristiques (bonus, malus ...).
 Elles agissent, soit de manière permanente, soit un nombre de fois
 limité n (<=4).
 
-[none]
-* _Les cartes qui agissent un nombre de fois limité portent les
+****
+_Les cartes qui agissent un nombre de fois limité portent les
 numéros de n à 1 sur les côtés. Chaque fois qu'elle est utilisée, on
 fait faire un quart de tour à la carte de manière à ce que soit visible
 le nombre d'utilisations restantes._
+****
 
 La résolution du combat est déterministe. Un round de combat se résout
 en simultané pour les 2 protagonistes. Chacun perd en points de vie la
@@ -341,8 +344,9 @@ fait déterministes. Cela les rendra d'ailleurs moins ennuyants.#
 Dans ce cas, il quitte immédiatement le donjon et revient devant son
 propriétaire. Le monstre remet toutes ses jauges au maximum.
 
-[none]
-* Optionnel: Il perd (et laisse sur place) 1 objet au hasard
+****
+Optionnel: Il perd (et laisse sur place) 1 objet au hasard
+****
 
 Une fois revenu devant le joueur, l'aventurier est au repos. Il regagne
 1 PV par tour, [underline]#ou# 1 point d'esprit en échange de 3(?) PV. (Sans
@@ -362,11 +366,12 @@ Une carte piège se résout en appliquant les effets indiqués.
 Au début de chaque round, le joueur peut décider de déclencher l'effet
 d'une (_ou plusieurs ? combien max ?_) carte item.
 
-[none]
-* [line-through]#Optionnel: Certaines cartes effets (sorts) ont des conditions
+****
+[line-through]#Optionnel: Certaines cartes effets (sorts) ont des conditions
 d'utilisation liées à la caractéristique d'esprit.# +
 La dépense d'un point d'esprit permet de s'immuniser des effets d'un
 pouvoir spécial.
+****
 
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à
 sa constitution (sans jamais dépasser le maximum).
