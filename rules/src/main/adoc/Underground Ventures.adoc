@@ -31,10 +31,10 @@ Carnet de notes
 Matériel
 ^^^^^^^^
 
-* Cartes : deck de pioche : *monstres* {lcurl}-}, *pièges*
-{lcurl}-}, *trésors* {lcurl}+}, *améliorations*
-{lcurl}+} ({lcurl}-}=dos rouge,
-{lcurl}+}=dos bleu)
+* Cartes : deck de pioche : *monstres* {-}, *pièges*
+{-}, *trésors* +++{+}+++, *améliorations*
++++{+}+++ ({-}=dos rouge,
++++{+}+++=dos bleu)
 ** + 4 cartes *porte* et/ou *escalier* par *donjon* (1 par
 niveau) + 1 carte *aventurier* (+1 pion) par joueur
 ** on garde l'idée des *modules* (càd le deck est constitué de plusieurs
