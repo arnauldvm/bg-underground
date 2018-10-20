@@ -44,6 +44,9 @@ endif::env-github[]
 
 30-Jun-'13
 
+*Contact:* {author} <{email}> +
+*Version:* {revnumber} ({revdate})
+
 <<<
 toc::[]
 <<<
