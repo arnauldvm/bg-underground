@@ -14,7 +14,6 @@ Narrative arcs + multiple shared decks (building)
 //:numbered:
 :imagesdir: ../img
 //:data-uri: // This corrupts some images because of a bug in base64 encoding, see https://github.com/asciidoc/asciidoc/issues/98 and https://groups.google.com/d/topic/asciidoc/pC22vFTCxTc/discussion
-:br: pass:[<br>]
 :em: pass:[<em>]
 :_em: pass:[</em>]
 :lcurl: pass:[&#123;]
