@@ -18,7 +18,6 @@ Narrative arcs + multiple shared decks (building)
 :em: pass:[<em>]
 :_em: pass:[</em>]
 :beta: pass:[&beta;]
-:plus: pass:[&#43;]
 :lcurl: pass:[&#123;]
 :tilde: pass:[&#126;]
 
@@ -35,16 +34,16 @@ Matériel
 ^^^^^^^^
 
 * Cartes : deck de pioche : *monstres* {lcurl}-}, *pièges*
-{lcurl}-}, *trésors* {lcurl}{plus}}, *améliorations*
-{lcurl}{plus}} ({lcurl}-}=dos rouge,
-{lcurl}{plus}}=dos bleu)
-** {plus} 4 cartes *porte* et/ou *escalier* par *donjon* (1 par
-niveau) {plus} 1 carte *aventurier* ({plus}1 pion) par joueur
+{lcurl}-}, *trésors* {lcurl}+}, *améliorations*
+{lcurl}+} ({lcurl}-}=dos rouge,
+{lcurl}+}=dos bleu)
+** + 4 cartes *porte* et/ou *escalier* par *donjon* (1 par
+niveau) + 1 carte *aventurier* (+1 pion) par joueur
 ** on garde l'idée des *modules* (càd le deck est constitué de plusieurs
 paquets de cartes (un par joueur), chaque module étant thématisé
 (morts-vivants, peaux vertes, chaos ...) et comprennant le
 nombre de cartes suffisant pour un joueur.
-* 4 Niveaux, _n_{plus}1 donjons (si _n_ joueurs), les portes
+* 4 Niveaux, _n_+1 donjons (si _n_ joueurs), les portes
 pourraient être imprimées sur des plateaux de jeu au lieu de cartes
 
 But du jeu
@@ -55,7 +54,7 @@ But du jeu
 Préparation
 ^^^^^^^^^^^
 
-* au début : 5 cartes en main par joueur {plus} draft
+* au début : 5 cartes en main par joueur + draft
 * on révèle les 3 premières carte de la pioche (= la rivière)
 
 Tour de jeu
@@ -134,7 +133,7 @@ en cas de *victoire*
 en cas de *défaite*
 :: Exemple :
 ::: [underline]#Condition#: Force >=4 | Pouvoir >=2
-::: [underline]#Victoire#: Vie -2 & Or {plus}1
+::: [underline]#Victoire#: Vie -2 & Or +1
 ::: [underline]#Défaite#: Vie -3
 ::: (Les conditions et conséquences peuvent utiliser des opérateurs
 logiques (&, |))
@@ -279,11 +278,11 @@ trésor, 1 rencontre autre, 1 "porte"). Soit une taille de set
 d'aventurier moyenne de 6 (1 aventurier, 2 compétences, 2 item, 1 don)
 (sur table ou en main). Soit 5 dépenses de jauge dépensée par donjon
 (PV, sorts ...) Si on veut que chaque joueur ait l'occasion d'explorer 3
-donjons en moyenne : n x 3 x (8{plus}5) {plus} n x (6 - 2
+donjons en moyenne : n x 3 x (8+5) + n x (6 - 2
 [les items sont déjà comptés]) = n x 43 : 43 cartes par aventurier. Un
 deck permettant de jouer à 4 devrait donc être constitué de 172 cartes
 environ. Il contiendrait : 60 "points de jauge", 48 monstres (36 normaux
-{plus}12 boss), 12 items, 12 trésors, 12 rencontres autres, 8
++12 boss), 12 items, 12 trésors, 12 rencontres autres, 8
 compétences, 4 dons, 12 "portes", 4 aventuriers. _(Revoir la proportion
 donjons/aventuriers ?)_ _(Moins de monstres plus d'items ?)_
 _(Aventuriers identiques ou différents (si différents, prévoir plus que
