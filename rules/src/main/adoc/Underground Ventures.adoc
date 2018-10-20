@@ -14,8 +14,6 @@ Narrative arcs + multiple shared decks (building)
 //:numbered:
 :imagesdir: ../img
 //:data-uri: // This corrupts some images because of a bug in base64 encoding, see https://github.com/asciidoc/asciidoc/issues/98 and https://groups.google.com/d/topic/asciidoc/pC22vFTCxTc/discussion
-:em: pass:[<em>]
-:_em: pass:[</em>]
 
 
 30-Jun-'13
@@ -179,11 +177,11 @@ pour récolter des richesses.
 sort ... ; ou _re-fill_ d'une jauge (x PV, x mana ...)
 
 [none]
-* {em}Ou pas. Si on met un peu plus d'items dans les donjons, le
-personnage peut évoluer par l'exploration des donjons _uniquement_. Cela
+* _Ou pas. Si on met un peu plus d'items dans les donjons, le
+personnage peut évoluer par l'exploration des donjons __uniquement__. Cela
 simplifie et permet de recentrer le jeu sur les donjons. Dans ce cas pas
 besoin de côté "aventurier". Par contre une même carte devrait pouvoir
-combiner plusieurs choses (monstre et trésor, piège et trésor ...){_em} (Le
+combiner plusieurs choses (monstre et trésor, piège et trésor ...)_ (Le
 verso est uniforme et identique pour toutes les cartes.)
 
 Phases
@@ -206,16 +204,16 @@ Limiter la taille de la main pourrait suffire. Les donjons
 ont-ils aussi une taille maximale ? Les donjons pourraient se
 construire sur un plan quadrillé, se qui les amèneraient à se rejoindre.
 
-{em}Autre idée pour le _dungeon building_ : chaque carte correspond à un
+_Autre idée pour le __dungeon building__ : chaque carte correspond à un
 (plusieurs) niveaux de profondeur (exple : 2/3/4). La contrainte de pose
 est que la profondeur ne peut pas diminuer.
 (Exple : 1 - 1 - 1/2 - 3 - 3 - 3 - 6 - 6/7, mais pas 1, 1, 1/2, 2, 1 ...)
 Ainsi on garde une croissance en
 difficulté du donjon. On évite que le boss de fin apparaisse avant le
-gobelin apéritif.{_em}
+gobelin apéritif._
 
 [none]
-* {em}Révision de l'idée : pour chaque donjon, il y a n emplacements
+* _Révision de l'idée : pour chaque donjon, il y a n emplacements
 "verticaux" (par exemple 6), correspondant aux niveaux des cartes. Les
 cartes sont posées dans l'emplacement correspondant à leur niveau.
 Thématiquement, chacun de ces emplacements est une salle (un étage) du
@@ -223,8 +221,8 @@ donjon. Certaines cartes peuvent éventuellement avoir plusieurs niveaux
 possibles. On peut empiler "horizontalement" plusieurs cartes dans un
 emplacement, plusieurs monstres/trésors pouvant être présent dans une
 même salle (étage) du donjon. Les cartes d'un même niveau seront
-activées dans l'ordre _http://fr.wikipedia.org/wiki/LIFO[LIFO]_.
-L'alternance visible/caché se fait verticalement _et_ horizontalement.{_em}
+activées dans l'ordre __http://fr.wikipedia.org/wiki/LIFO[LIFO]__.
+L'alternance visible/caché se fait verticalement __et__ horizontalement._
 
 [none]
 * Un donjon n'est pas ouvert à l'exploration tant qu'il n'y a pas une
