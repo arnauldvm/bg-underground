@@ -1,0 +1,109 @@
+Étude initiale
+^^^^^^^^^^^^^^
+
+Soit une taille de donjon moyenne de 8 (3 monstres, 1 item, 1 boss, 1
+trésor, 1 rencontre autre, 1 "porte"). Soit une taille de set
+d'aventurier moyenne de 6 (1 aventurier, 2 compétences, 2 item, 1 don)
+(sur table ou en main). Soit 5 dépenses de jauge dépensée par donjon
+(PV, sorts ...) Si on veut que chaque joueur ait l'occasion d'explorer 3
+donjons en moyenne : n x 3 x (8+5) + n x (6 - 2
+[les items sont déjà comptés]) = n x 43 : 43 cartes par aventurier. Un
+deck permettant de jouer à 4 devrait donc être constitué de 172 cartes
+environ. Il contiendrait : 60 "points de jauge", 48 monstres (36 normaux
++12 boss), 12 items, 12 trésors, 12 rencontres autres, 8
+compétences, 4 dons, 12 "portes", 4 aventuriers. _(Revoir la proportion
+donjons/aventuriers ?)_ _(Moins de monstres plus d'items ?)_
+_(Aventuriers identiques ou différents (si différents, prévoir plus que
+4 pour choix) ?)_
+
+Un personnage (aventurier ou monstre) a les caractéristiques suivantes :
+
+* attaque
+* défense
+* vie
+* constitution
+* esprit (optionnel)
+
+Les autres cartes agissent sur ces caractéristiques (bonus, malus ...).
+Elles agissent, soit de manière permanente, soit un nombre de fois
+limité n (<=4).
+
+****
+_Les cartes qui agissent un nombre de fois limité portent les
+numéros de n à 1 sur les côtés. Chaque fois qu'elle est utilisée, on
+fait faire un quart de tour à la carte de manière à ce que soit visible
+le nombre d'utilisations restantes._
+****
+
+La résolution du combat est déterministe. Un round de combat se résout
+en simultané pour les 2 protagonistes. Chacun perd en points de vie la
+différence entre l'attaque de l'adversaire et sa propre défense. Si sa
+défense est supérieure à l'attaque de l'adversaire il ne perd rien. On
+répète les rounds immédiatement jusqu'à ce que les points de vie d'un
+des adversaires tombe à 0 ou moins.
+
+
+****
+[underline]#!!!!!!!!#
+
+[underline]#Ce système n'est pas tenable. Une estimation rapide donne qu'il
+faudrait en moyenne 3 tours pour éliminer un monstre. À supposer que
+chaque joueur explore +++~+++3 donjons par partie, contenant
++++~+++3 monstres, cela ferait au minimum 27 tours par joueur, sans
+compter les tours passés à se reposer, les combats perdus ... Soit
+vraisemblablement 40 tours de jeu par partie. En comptant 1'30" de
+réflexion par joueur, on arrive à 120 min par partie !#
+
+[underline]#C'est beaucoup trop long.# [underline]#D'autant plus que tous les tours
+passés à combattre un monstre sont autant de tours où l'adversaire peut
+continuer à renforcer les défenses du donjon en cours d'exploration.
+Cela risque de rendre les explorations interminables.#
+
+[underline]#Si on arrive à résoudre un combat en 1 tour, on arrive à 9 tours
+pour éliminer les monstres, soit max 20 tours au total ce qui ramènerait
+la durée à 60 min.#
+
+[underline]#C'est bien plus raisonnable.#
+
+[underline]#Cela semble tout à fait faisable, puisque les combats sont tout à
+fait déterministes. Cela les rendra d'ailleurs moins ennuyants.#
+
+
+****
+
+
+À l'issue de chaque round l'aventurier peut rompre le combat en fuyant.
+Dans ce cas, il quitte immédiatement le donjon et revient devant son
+propriétaire. Le monstre remet toutes ses jauges au maximum.
+
+****
+Optionnel: Il perd (et laisse sur place) 1 objet au hasard
+****
+
+Une fois revenu devant le joueur, l'aventurier est au repos. Il regagne
+1 PV par tour, [underline]#ou# 1 point d'esprit en échange de 3(?) PV. (Sans
+jamais dépasser le max des jauges.)
+
+Une fois un monstre battu, on gagne sa carte (si elle comporte un/des
+items), ou on la défausse. La carte suivante ne pourra être résolue
+qu'au tour suivant. On ne pénètre dans une nouvelle salle qu'au moment
+où on commence à résoudre ses cartes.
+
+Une carte item se résout en la prenant immédiatement. Si la carte
+augmente le maximum de points de vie de n, le personnage augmente
+instantanément son total actuel de points de vie de n.
+
+Une carte piège se résout en appliquant les effets indiqués.
+
+Au début de chaque round, le joueur peut décider de déclencher l'effet
+d'une (_ou plusieurs ? combien max ?_) carte item.
+
+****
+&#9986; [{delstyle}]#Optionnel: Certaines cartes effets (sorts) ont des conditions
+d'utilisation liées à la caractéristique d'esprit.# +
+La dépense d'un point d'esprit permet de s'immuniser des effets d'un
+pouvoir spécial.
+****
+
+Entre chaque tour, un aventurier gagne un nombre de points de vie égal à
+sa constitution (sans jamais dépasser le maximum).

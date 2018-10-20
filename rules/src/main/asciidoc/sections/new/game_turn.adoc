@@ -1,0 +1,55 @@
+Tour de jeu
+^^^^^^^^^^^
+
+À son tour un joueur exécute 2 phases : le dungeon *building*, puis le
+dungeon *crawling* (ou l'inverse ?)
+
+*Building* :
+
+* le joueur pose autant de cartes qu'il veut sur les donjons (max 2 par
+donjon)
+* règles de pose : sur n'importe quel niveau de n'importe quel donjon,
+de gauche à droite, face cachée (uniquement la couleur du dos, et donc
+le type de carte, est visible), de plus il faut respecter la contrainte
+de niveau de la carte (exemple : "2-3" → niveaux 2 à 3
+uniquement)
+* lorsqu'il a terminé, il tire des cartes pour compléter sa main, chaque
+carte est tirée au choix soit de la pioche (cachées), soit de la rivière
+(visibles), à chaque fois qu'il choisit une carte visible il la remplace
+immédiatement en retournant une carte de la pioche
+
+*Crawling* : 2 possibilités : *repos*, *aventure*
+
+* [underline]#repos#
+** _au village_ : le pion doit être présent devant le joueur au début du
+tour, l'aventurier ne peut rien faire d'autre pendant le tour, il
+récupère tous ses curseur au max (force, vie, pouvoir)
+** _dans un donjon_ : le pion doit être présent dans un donjon au début
+du tour, l'aventurier ne peut rien faire d'autre pendant le tour,
+chaque(?) curseur (vie, force, pouvoir) peut remonter d'1(?) unité à
+concurrence de son maximum
+* [underline]#aventure au donjon# : le joueur enchaîne des actions parmi les
+suivantes (il s'arrête quand il veut) : *entrée* dans un donjon,
+*revenir* au village, *avancer* sur la carte suivante, *passer*
+** _entrée au donjon_ : le pion doit se trouver au village, choisir un
+donjon et poser le pion sur la porte du 1er niveau, [underline]#il faut qu'il y
+ait au moins une carte dans le 1er niveau de ce donjon#
+** _revenir au village_ : placer le pion au village, le joueur ne peut
+plus que passer (il devra attendre le tour suivant s'il veut passer)
+** _passer_ : fin de la phase de crawling, c'est au tour du joueur
+suivant
+** _avancer sur la carte suivante_ : il faut qu'il y ait une carte
+"suivante", retourner face visible la première carte (à gauche) du
+niveau où se trouve le pion du joueur, placer le pion sur cette carte,
+résoudre immédiatement la rencontre décrite par la carte
+*** lorsqu'il n'y a pas de carte suivante sur le niveau actuel du
+donjon, on peut passer au niveau suivant immédiatement, pour autant
+qu'il y ait au moins une carte sur ce niveau, sinon fin de donjon et
+retour automatique au village
+*** on pourrait imposer l'utilisation d'un escalier pour passer au
+niveau suivant, auquel cas les escaliers se poseraient face visible
+(sauf escaliers cachés ?) et clôtureraient (ou pas?) un niveau
+&rarr; à voir pendant les tests
+
+? Ajouter un 'marché' pour améliorer l'aventurier hors donjon ?
+&rarr; uniquement si ça peut résoudre des problèmes d'équilibrage.

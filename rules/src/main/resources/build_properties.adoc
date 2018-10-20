@@ -1,0 +1,5 @@
+:revnumber: ${project.version}
+:revdate: ${project.date}
+:revstatus: WiP
+:buildnumber: ${buildNumber}
+:buildtime: ${timestamp}

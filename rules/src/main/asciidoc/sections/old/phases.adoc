@@ -1,0 +1,71 @@
+Phases
+~~~~~~
+
+Les donjons doivent recéler des surprises, mais il faut limiter le
+hasard &rArr; une partie des cartes posées sur les donjons sont cachées
+(soit : 1 sur 2 ; soit : en fonction d'une indication sur la carte). À
+son tour un joueur pioche une carte et la prend dans sa main. Il choisit
+ensuite de poser 0 à n cartes sur un (des?) donjon(s). (_Éviter qu'un
+joueur pose tout un donjon en une seule fois &rArr; max 1/2/3 cartes par
+donjon à la fois ?_) Tant qu'une carte est en main, c'est le côté
+aventurier qui s'applique. Cela peut potentiellement même être un malus
+(incitation à poser vite les cartes donjons intéressantes). _(Les
+joueurs auront-ils tendance à garder les bonnes cartes et poser
+les mauvaises, pour créer des donjons peu intéressants pour les autres;
+ou à faire l'inverse, pour s'en créer des intéressants pour soi.
+Peut-être cela peut-il s'auto-équilibrer ?)_
+Limiter la taille de la main pourrait suffire. Les donjons
+ont-ils aussi une taille maximale ? Les donjons pourraient se
+construire sur un plan quadrillé, se qui les amèneraient à se rejoindre.
+
+_Autre idée pour le __dungeon building__ : chaque carte correspond à un
+(plusieurs) niveaux de profondeur (exple : 2/3/4). La contrainte de pose
+est que la profondeur ne peut pas diminuer.
+(Exple : 1 - 1 - 1/2 - 3 - 3 - 3 - 6 - 6/7, mais pas 1, 1, 1/2, 2, 1 ...)
+Ainsi on garde une croissance en
+difficulté du donjon. On évite que le boss de fin apparaisse avant le
+gobelin apéritif._
+
+****
+_Révision de l'idée : pour chaque donjon, il y a n emplacements
+"verticaux" (par exemple 6), correspondant aux niveaux des cartes. Les
+cartes sont posées dans l'emplacement correspondant à leur niveau.
+Thématiquement, chacun de ces emplacements est une salle (un étage) du
+donjon. Certaines cartes peuvent éventuellement avoir plusieurs niveaux
+possibles. On peut empiler "horizontalement" plusieurs cartes dans un
+emplacement, plusieurs monstres/trésors pouvant être présent dans une
+même salle (étage) du donjon. Les cartes d'un même niveau seront
+activées dans l'ordre __http://fr.wikipedia.org/wiki/LIFO[LIFO]__.
+L'alternance visible/caché se fait verticalement __et__ horizontalement._
+
+Un donjon n'est pas ouvert à l'exploration tant qu'il n'y a pas une
+suite ininterrompues de cartes depuis le premier niveau
+(pas de "trous") - voire même jusqu'au dernier niveau.
+****
+
+Lorsqu'il se sent prêt, un joueur peut lancer son aventurier dans
+l'exploration d'un des donjons disponibles. La résolution se fait dans
+l'ordre de pose des cartes donjons. Les effets des cartes sont
+immédiatement appliqués, avant de retourner la suivante. Un objet trouvé
+rejoint la main et pourra être utilisé dès la prochaine rencontre, un
+monstre déclenche immédiatement un combat ... Cette phase s'arrête soit
+avec l'épuisement des cartes donjon, soit avec la fuite ou la mort de
+l'aventurier (impact ?).
+
+****
+_Impact de la fuite d'un aventurier : il devra reprendre
+l'exploration du donjon depuis le premier niveau, mais comme les
+premières cartes auront été éliminées, il devra attendre pour cela que
+ces premiers niveaux soient à nouveau remplis._
+****
+
+Il sera probablement nécessaire de prévoir que le joueur puisse poser
+des cartes devant lui. Permet d'avoir plus de cartes, mais visibles et
+pas dispo pour _dungeon building_. _(Ne serait-il pas préférable
+que l'exploration du donjon se fasse en phase avec les tours de jeu
+(plutôt que dans une phase spéciale ? &rArr; Pas d'attente des autres
+joueurs, plus d'interaction, possibilité pour les autres joueurs
+d'intervenir sur le deck du donjon en cours d'exploration ... Un joueur,
+qu'il soit l'explorateur ou l'un de ses exposants, peut ajouter une
+carte dans une salle du donjon en cours d'exploration, à condition que
+le personnage ne soit pas encore entré dans cette salle.)_
