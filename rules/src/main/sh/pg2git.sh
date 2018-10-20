@@ -88,8 +88,8 @@ for revision in ${revisions[@]}; do
 		}
 		s:^'"'''"'(.*?)'"'''"'<br.*?/>$:$1\n:; # fix hardcoded document title
 		s:^<h2.*?>(.*?)</h2>$:==$1==:; # fix hardcoded heading
-		s:^=\s*([^=]*?)\s*=$:'"'''"'$1'"'''"':; # fix level 1 pseudo-header
-		s:^=(.*)=$:$1:; # promote all headers
+		# s:^=\s*([^=]*?)\s*=$:'"'''"'$1'"'''"':; # fix level 1 pseudo-header
+		#s:^=(.*)=$:$1:; # promote all headers
 		s:^<div\s+style="page-break-after\:\s+always"></div>$:\n>> PAGEBREAK HERE <<\n:; # remember hardcoded page break
 		s:\+:%%plus%%:g; # remember plus sign
 		s:(?<!-)-(?!–):%%minus%%:g; # remember isolated minus sign
