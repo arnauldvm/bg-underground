@@ -110,10 +110,10 @@ retour automatique au village
 *** on pourrait imposer l'utilisation d'un escalier pour passer au
 niveau suivant, auquel cas les escaliers se poseraient face visible
 (sauf escaliers cachés ?) et clôtureraient (ou pas?) un niveau
-{minus}> à voir pendant les tests
+&rarr; à voir pendant les tests
 
 ? Ajouter un 'marché' pour améliorer l'aventurier hors donjon ?
-{minus}> uniquement si ça peut résoudre des problèmes d'équilibrage.
+&rarr; uniquement si ça peut résoudre des problèmes d'équilibrage.
 
 Résolution des rencontres
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -164,7 +164,7 @@ Composition d'un module
 * 8 améliorations
 * 6 événements spéciaux
 
-{minus}>
+&rarr;
 https://docs.google.com/spreadsheets/d/1OQAYdWOY2dhdnjVGGqx_NlSOnSvBfDpd-nKg32b-MZ0/edit?usp=sharing[liste
 des cartes par module]
 
