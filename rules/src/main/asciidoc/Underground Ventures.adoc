@@ -7,8 +7,7 @@ Narrative arcs + multiple shared decks (building)
 :doctype: article
 :lang: fr
 :encoding: utf8
-:toc:
-:toc-placement: manual
+:toc: macro
 :toclevels: 4
 :toc-title: Contenu
 //:numbered:
@@ -32,6 +31,10 @@ endif::env-github[]
 
 
 30-Jun-'13
+
+<<<
+toc::[]
+<<<
 
 Nouvelle version
 ----------------
