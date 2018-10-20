@@ -1,0 +1,15 @@
+Matériel
+^^^^^^^^
+
+* Cartes : deck de pioche : *monstres* {-}, *pièges*
+{-}, *trésors* +++{+}+++, *améliorations*
++++{+}+++ ({-}=dos rouge,
++++{+}+++=dos bleu)
+** + 4 cartes *porte* et/ou *escalier* par *donjon* (1 par
+niveau) + 1 carte *aventurier* (+1 pion) par joueur
+** on garde l'idée des *modules* (càd le deck est constitué de plusieurs
+paquets de cartes (un par joueur), chaque module étant thématisé
+(morts-vivants, peaux vertes, chaos ...) et comprennant le
+nombre de cartes suffisant pour un joueur.
+* 4 Niveaux, _n_+1 donjons (si _n_ joueurs), les portes
+pourraient être imprimées sur des plateaux de jeu au lieu de cartes
