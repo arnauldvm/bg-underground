@@ -495,38 +495,21 @@ passe dans le jeu.
 Il faudrait donc trouver un nom plus sexy pour le proto.
 
 Recherche terminologique (fr vs. en) ::
-
- +
-donjon - keep
- +
-cachot - dungeon, oubliette
- +
-oubliette - oubliette
- +
-souterrain - tunnel, underground
- +
-crypte, caveau - crypt, vault
- +
-caverne - cave, cavern
- +
-galerie - tunnel, gallery, (drift)
- +
-grotte - cave
- +
-antre - lair, den, haunt
- +
-gouffre - chasm, abyss, gulf
- +
-catacombes - catacombs
- +
-repaire - den, lair
- +
-paquet - deck
- +
-carte - card
- +
-monstre - monster
- +
+donjon - keep +
+cachot - dungeon, oubliette +
+oubliette - oubliette +
+souterrain - tunnel, underground +
+crypte, caveau - crypt, vault +
+caverne - cave, cavern +
+galerie - tunnel, gallery, (drift) +
+grotte - cave +
+antre - lair, den, haunt +
+gouffre - chasm, abyss, gulf +
+catacombes - catacombs +
+repaire - den, lair +
+paquet - deck +
+carte - card +
+monstre - monster +
 {minus} explorer, adventurer, traveler, pathfinder, pioneer,
 wanderer, venturer, venture
 
