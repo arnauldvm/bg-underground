@@ -16,8 +16,6 @@ Narrative arcs + multiple shared decks (building)
 //:data-uri: // This corrupts some images because of a bug in base64 encoding, see https://github.com/asciidoc/asciidoc/issues/98 and https://groups.google.com/d/topic/asciidoc/pC22vFTCxTc/discussion
 :em: pass:[<em>]
 :_em: pass:[</em>]
-:lcurl: pass:[&#123;]
-:tilde: pass:[&#126;]
 
 
 30-Jun-'13
@@ -317,8 +315,8 @@ des adversaires tombe à 0 ou moins.
 
 [underline]#Ce système n'est pas tenable. Une estimation rapide donne qu'il
 faudrait en moyenne 3 tours pour éliminer un monstre. À supposer que
-chaque joueur explore {tilde}3 donjons par partie, contenant
-{tilde}3 monstres, cela ferait au minimum 27 tours par joueur, sans
+chaque joueur explore +++~+++3 donjons par partie, contenant
++++~+++3 monstres, cela ferait au minimum 27 tours par joueur, sans
 compter les tours passés à se reposer, les combats perdus ... Soit
 vraisemblablement 40 tours de jeu par partie. En comptant 1'30" de
 réflexion par joueur, on arrive à 120 min par partie !#
