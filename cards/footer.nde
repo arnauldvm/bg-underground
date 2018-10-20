@@ -1,0 +1,25 @@
+'Special text + fluff
+   <special_frm>=<bottom_frm,CC,2.1,1.1>
+   htmlfont=special,Arial,7,,[text_col]
+   htmlfont=special_i,Arial,7,I,[text_col]
+   htmlfont=fluff,Arial,6,I,[text_col]
+   [htmltext_w_font]=JOIN("<special>",[special],"</special><hr><fluff>",[fluff],"<br></fluff>")
+   [htmltext_w_font_empty]=JOIN("<special_i>(Aucun effet particulier.)</special_i><hr><fluff>",[fluff],"<br></fluff>")
+   IF= ""=[special]
+      htmltext=[range],[htmltext_w_font_empty],<special_frm>
+   ELSE
+      htmltext=[range],[htmltext_w_font],<special_frm>
+   ENDIF
+
+'Type of card
+   <type_frm_sup>=<bottom_frm,BL,1.6,.2>
+   font=Arial,10,BUT,[black]
+   text=[range],[type],<type_frm_sup,HR,1.4>,left,bottom
+
+'Deck sign + num cards
+   <deck_frm_sup>=<bottom_frm,BR,.45,.1>
+   <deck_frm>=<deck_frm_sup,HL,.35>
+   font="Times New Roman",6,,[black],[white]
+   [count_text]=JOIN([id],". (",[#],") ")
+   text=[range],[count_text],<deck_frm,HL,.2>,right,center
+   image=[range],[deck_img],<deck_frm,HR,.1>,0,AP

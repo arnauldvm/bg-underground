@@ -1,0 +1,94 @@
+[img_folder]=JOIN("img/",[class])
+
+[color_monster]=[maroon][green]%75$2
+[color_item]=[navy][blue]%75$2
+[color_treasure]=[coins_col][yellow]%40$2
+[color_encounter]=[green][lime]%50$2
+[color_door]=[saddlebrown][goldenrod][black]%75$2
+[color_venturer]=[crimson]
+[title_bgcol]=[color_[class]]
+
+[card_img]=JOIN([img_folder],"/",[pix],".jpg")
+
+'basic settings
+   [version]=V1.0
+   [range]="1-{(Nom)}"
+   <frame>=.1,.1,2.1,3.1
+   <top_frm>=<frame,TW,1.4>
+   [points_cells_h]=.3
+   [points_cells_cnt]=4
+   <topleft_frm>=<top_frm,TL,[points_frm_w],([points_cells_cnt]*[points_cells_h]+.1)>
+   [topleft_frmbox]=FRAMEBOX(<topleft_frm>,[points_frm_w],[points_cells_h],N)
+   <topright_frm>=<top_frm,TR,[points_frm_w],([points_cells_cnt]*[points_cells_h]+.1)>
+   [topright_frmbox]=FRAMEBOX(<topright_frm>,[points_frm_w],[points_cells_h],N)
+   <center_frm>=<frame,CC,2.3,.4>
+   <bottom_frm>=<frame,BC,2.3,1.4>
+
+<titlelevel_frm>=<center_frm,BC,2.3,.3>
+rectangle=[range],<titlelevel_frm>,[title_bgcol]
+'Name of card center middle
+   <title_frm>=<titlelevel_frm,HR,1.9>
+   font=Arial,12,BT,[title_col]
+   text=[range],[Nom],<title_frm>,center,center
+'Card picture
+   <pix_frm>=<top_frm,BC,2.3,1.0>
+   image=[range],[card_img],<pix_frm>,0,APTN
+'level
+   <titleleft_frm>=<titlelevel_frm,CL,.5,.4>
+   <level_frm>=<titleleft_frm,HR,.4>
+   pie=[range],<level_frm>,0,360,[white]
+   font=Arial,18,BT,[title_bgcol]
+   text=[range],[niv],<level_frm>,center,center
+
+'Room level
+   <room_frm>=<frame,TC,.5,.3>
+   IF= _NOT_(""=[niv_salle])
+      roundrect=[range],<room_frm>,[black],[whitesmoke],0.02,2,1.5
+      font=Arial,14,BT,[blue]
+      text=[range],"[niv_salle]",<room_frm>,center,center
+   ENDIF
+
+font=Arial,[points_ftsz],BT,[attack_col]
+'Attack value
+   IF= _NOT_(""=[att]) 
+      image=[range],[attack_img],<topleft_frmbox1,CR,[icon_sz]>,0,APTN
+      text=[range],[att],<topleft_frmbox1,HL,[points_dim]>,center,center
+   ENDIF
+'Automatic damage value
+   IF= (_NOT_(""=[d_a])) _AND_ (0<[d_a]) 
+      image=[range],[damage_img],<topleft_frmbox2,CR,[icon_sz]>,0,APTN
+      text=[range],[d_a],<topleft_frmbox2,HL,[points_dim]>,center,center
+   ENDIF
+'Spirit value
+   IF= _NOT_(""=[esprit])
+      image=[range],[spirit_img],<topleft_frmbox3,CR,[icon_sz]>,0,APTN
+      font=Arial,[points_ftsz],BT,[black]
+      text=[range],[esprit],<topleft_frmbox3,HL,[points_dim]>,center,center
+   ENDIF
+
+'Life points
+   IF= _NOT_(""=[PV])
+      image=[range],[life_img],<topright_frmbox1,CL,[icon_sz]>,0,APTN
+      font=Arial,[points_ftsz],BT,[defense_col]
+      text=[range],[PV],<topright_frmbox1,HR,[points_dim]>,center,center
+   ENDIF
+'Defense value
+   IF= _NOT_(""=[def])
+      image=[range],[defense_img],<topright_frmbox2,CL,[icon_sz]>,0,APTN
+      font=Arial,[points_ftsz],BT,[defense_col]
+      text=[range],[def],<topright_frmbox2,HR,[points_dim]>,center,center
+   ENDIF
+'Heal value
+   IF= (_NOT_(""=[con])) _AND_ (0<[con])
+      image=[range],[heal_img],<topright_frmbox3,CL,[icon_sz]>,0,APTN
+      font=Arial,[points_ftsz],BT,[defense_col]
+      text=[range],[con],<topright_frmbox3,HR,[points_dim]>,center,center
+   ENDIF
+
+'Coins value
+   IF= _NOT_(""=[value])
+      image=[range],[coins_img],<topright_frmbox4,CL,[icon_sz]>,0,APTN
+      font=Arial,[points_ftsz],BT,[coins_col]
+      text=[range],[value],<topright_frmbox4,HR,[points_dim]>,center,center
+   ENDIF
+

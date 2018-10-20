@@ -1,0 +1,9 @@
+INCLUDE="declarations.nde"
+
+LINKSEP=;
+LINKMULTI=#
+LINK=all_cards.csv
+
+INCLUDE="header.nde"
+
+INCLUDE="footer.nde"

@@ -1,0 +1,4 @@
+Z:\Users\avm\Documents\j2s\NAB\declarations.nde
+Z:\Users\avm\Documents\j2s\NAB\header.nde
+Z:\Users\avm\Documents\j2s\NAB\all_cards.nde
+Z:\Users\avm\Documents\j2s\NAB\footer.nde
