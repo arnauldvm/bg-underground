@@ -73,25 +73,7 @@ include::sections/old/phases.adoc[]
 
 include::sections/old/cards.adoc[]
 
-Autres aspects à développer
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Tutoriel ::
-Le deck de carte est vendu trié suivant un ordre prédéfini, avec
-des cartes d'explication intégrées. Le joueur joue sa première aventure
-solo tout en découvrant l'essentiel des règles au fur et à mesure (cf.
-http://www.boardgamegeek.com/boardgame/127398/legends-of-andor[Andor]).
-
-Règles de campagne ? ::
-
-Règles solo ! ::
-
-Chaque porte activant des règles particulières ::
-
-Autre option de développement ::
-les joueurs ne contrôlent pas 1 aventurier en particulier, mais
-incarnent des puissances divines qui manipulent l'ensemble des
-aventuriers pour renforcer leur influence sur le monde (...?)
+include::sections/old/other_aspects.adoc[]
 
 Recherche autour du nom
 ~~~~~~~~~~~~~~~~~~~~~~~
