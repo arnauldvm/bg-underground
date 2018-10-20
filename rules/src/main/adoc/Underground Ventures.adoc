@@ -17,7 +17,6 @@ Narrative arcs + multiple shared decks (building)
 :br: pass:[<br>]
 :em: pass:[<em>]
 :_em: pass:[</em>]
-:beta: pass:[&beta;]
 :lcurl: pass:[&#123;]
 :tilde: pass:[&#126;]
 
