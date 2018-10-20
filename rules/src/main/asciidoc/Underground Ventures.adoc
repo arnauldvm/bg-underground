@@ -27,6 +27,7 @@ endif::env-github[]
 :toclevels: 4
 :toc-title: Contenu
 //:numbered:
+:sectdir: {docdir}/sections
 
 :delstyle: line-through
 
@@ -36,6 +37,7 @@ ifdef::env-maven[]
 endif::env-maven[]
 
 ifdef::env-github[]
+:sectdir: ./sections
 // ! GitHub runs asciidoctor in SECURE mode!
 //     => no icons, include, stylesheets, data-uri, etc.
 //    see http://asciidoctor.org/docs/user-manual/#running-asciidoctor-securely
