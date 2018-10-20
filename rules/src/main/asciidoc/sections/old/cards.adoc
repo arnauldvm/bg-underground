@@ -1,14 +1,16 @@
-:sectdir: {docdir}/sections
-ifdef::env-github[:sectdir: ..]
+:sectdir_old: {docdir}/sections/old
+ifndef::env-maven[:sectdir_old: .]
 
 Les cartes
 ~~~~~~~~~~
 
+ifndef::env-github[]
 * <<_étude_initiale,Étude_initiale>>
 * <<_nouvelle_analyse,Nouvelle_analyse>>
+endif::env-github[]
 
 https://docs.google.com/spreadsheet/ccc?key=0Av0yUaMsCLd0dGRNMUZMdmFZMVpBMDNNem5LOGZQVGc&usp=sharing[Liste des cartes sur Google Drive]
 
-include::{sectdir}/old/cards-initial_study.adoc[]
+include::{sectdir_old}/cards-initial_study.adoc[]
 
-include::{sectdir}/old/cards-new_analysis.adoc[]
+include::{sectdir_old}/cards-new_analysis.adoc[]

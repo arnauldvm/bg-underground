@@ -1,17 +1,17 @@
-:sectdir: {docdir}/sections
-ifdef::env-github[:sectdir: ..]
+:sectdir_new: {docdir}/sections/new
+ifndef::env-maven[:sectdir_new: .]
 
 Carnet de notes
 ~~~~~~~~~~~~~~~
 
-include::{sectdir}/new/components.adoc[]
+include::{sectdir_new}/components.adoc[]
 
-include::{sectdir}/new/objective.adoc[]
+include::{sectdir_new}/objective.adoc[]
 
-include::{sectdir}/new/preparation.adoc[]
+include::{sectdir_new}/preparation.adoc[]
 
-include::{sectdir}/new/game_turn.adoc[]
+include::{sectdir_new}/game_turn.adoc[]
 
-include::{sectdir}/new/resolution.adoc[]
+include::{sectdir_new}/resolution.adoc[]
 
-include::{sectdir}/new/modules.adoc[]
+include::{sectdir_new}/modules.adoc[]
