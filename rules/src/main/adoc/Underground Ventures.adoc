@@ -156,9 +156,7 @@ Composition d'un module
 * 8 améliorations
 * 6 événements spéciaux
 
-&rarr;
-https://docs.google.com/spreadsheets/d/1OQAYdWOY2dhdnjVGGqx_NlSOnSvBfDpd-nKg32b-MZ0/edit?usp=sharing[liste
-des cartes par module]
+&rarr; https://docs.google.com/spreadsheets/d/1OQAYdWOY2dhdnjVGGqx_NlSOnSvBfDpd-nKg32b-MZ0/edit?usp=sharing[liste des cartes par module]
 
 Ancienne version
 ----------------
@@ -263,8 +261,7 @@ Les cartes
 * <<_étude_initiale,Étude_initiale>>
 * <<_nouvelle_analyse,Nouvelle_analyse>>
 
-https://docs.google.com/spreadsheet/ccc?key=0Av0yUaMsCLd0dGRNMUZMdmFZMVpBMDNNem5LOGZQVGc&usp=sharing[Liste
-des cartes sur Google Drive]
+https://docs.google.com/spreadsheet/ccc?key=0Av0yUaMsCLd0dGRNMUZMdmFZMVpBMDNNem5LOGZQVGc&usp=sharing[Liste des cartes sur Google Drive]
 
 Étude initiale
 ^^^^^^^^^^^^^^
