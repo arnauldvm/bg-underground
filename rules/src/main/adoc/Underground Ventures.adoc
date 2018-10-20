@@ -1,9 +1,9 @@
 Narrative arcs + multiple shared decks (building)
 =================================================
 :author: Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4061
-:revdate: 2014-09-10
-//:revremark: (Composition d'un module): + lien Google Drive
+:revnumber: 0.1
+:revdate: 2016-10-20
+:revstatus: WiP
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -14,14 +14,6 @@ Narrative arcs + multiple shared decks (building)
 //:numbered:
 :imagesdir: ../img
 //:data-uri: // This corrupts some images because of a bug in base64 encoding, see https://github.com/asciidoc/asciidoc/issues/98 and https://groups.google.com/d/topic/asciidoc/pC22vFTCxTc/discussion
-:br: pass:[<br>]
-:em: pass:[<em>]
-:_em: pass:[</em>]
-:beta: pass:[&beta;]
-:plus: pass:[&#43;]
-:minus: pass:[&#45;]
-:lcurl: pass:[&#123;]
-:tilde: pass:[&#126;]
 
 
 30-Jun-'13
@@ -35,17 +27,17 @@ Carnet de notes
 Matériel
 ^^^^^^^^
 
-* Cartes : deck de pioche : *monstres* {lcurl}-}, *pièges*
-{lcurl}-}, *trésors* {lcurl}{plus}}, *améliorations*
-{lcurl}{plus}} ({lcurl}-}=dos rouge,
-{lcurl}{plus}}=dos bleu)
-** {plus} 4 cartes *porte* et/ou *escalier* par *donjon* (1 par
-niveau) {plus} 1 carte *aventurier* ({plus}1 pion) par joueur
+* Cartes : deck de pioche : *monstres* {-}, *pièges*
+{-}, *trésors* +++{+}+++, *améliorations*
++++{+}+++ ({-}=dos rouge,
++++{+}+++=dos bleu)
+** + 4 cartes *porte* et/ou *escalier* par *donjon* (1 par
+niveau) + 1 carte *aventurier* (+1 pion) par joueur
 ** on garde l'idée des *modules* (càd le deck est constitué de plusieurs
 paquets de cartes (un par joueur), chaque module étant thématisé
 (morts-vivants, peaux vertes, chaos ...) et comprennant le
 nombre de cartes suffisant pour un joueur.
-* 4 Niveaux, _n_{plus}1 donjons (si _n_ joueurs), les portes
+* 4 Niveaux, _n_+1 donjons (si _n_ joueurs), les portes
 pourraient être imprimées sur des plateaux de jeu au lieu de cartes
 
 But du jeu
@@ -56,7 +48,7 @@ But du jeu
 Préparation
 ^^^^^^^^^^^
 
-* au début : 5 cartes en main par joueur {plus} draft
+* au début : 5 cartes en main par joueur + draft
 * on révèle les 3 premières carte de la pioche (= la rivière)
 
 Tour de jeu
@@ -110,10 +102,10 @@ retour automatique au village
 *** on pourrait imposer l'utilisation d'un escalier pour passer au
 niveau suivant, auquel cas les escaliers se poseraient face visible
 (sauf escaliers cachés ?) et clôtureraient (ou pas?) un niveau
-{minus}> à voir pendant les tests
+&rarr; à voir pendant les tests
 
 ? Ajouter un 'marché' pour améliorer l'aventurier hors donjon ?
-{minus}> uniquement si ça peut résoudre des problèmes d'équilibrage.
+&rarr; uniquement si ça peut résoudre des problèmes d'équilibrage.
 
 Résolution des rencontres
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -135,7 +127,7 @@ en cas de *victoire*
 en cas de *défaite*
 :: Exemple :
 ::: [underline]#Condition#: Force >=4 | Pouvoir >=2
-::: [underline]#Victoire#: Vie -2 & Or {plus}1
+::: [underline]#Victoire#: Vie -2 & Or +1
 ::: [underline]#Défaite#: Vie -3
 ::: (Les conditions et conséquences peuvent utiliser des opérateurs
 logiques (&, |))
@@ -164,9 +156,7 @@ Composition d'un module
 * 8 améliorations
 * 6 événements spéciaux
 
-{minus}>
-https://docs.google.com/spreadsheets/d/1OQAYdWOY2dhdnjVGGqx_NlSOnSvBfDpd-nKg32b-MZ0/edit?usp=sharing[liste
-des cartes par module]
+&rarr; https://docs.google.com/spreadsheets/d/1OQAYdWOY2dhdnjVGGqx_NlSOnSvBfDpd-nKg32b-MZ0/edit?usp=sharing[liste des cartes par module]
 
 Ancienne version
 ----------------
@@ -184,23 +174,24 @@ pour récolter des richesses.
 ** côté "aventurier" : 1 équipement, ou caractéristique spéciale, ou
 sort ... ; ou _re-fill_ d'une jauge (x PV, x mana ...)
 
-[none]
-* {em}Ou pas. Si on met un peu plus d'items dans les donjons, le
-personnage peut évoluer par l'exploration des donjons _uniquement_. Cela
+****
+_Ou pas. Si on met un peu plus d'items dans les donjons, le
+personnage peut évoluer par l'exploration des donjons __uniquement__. Cela
 simplifie et permet de recentrer le jeu sur les donjons. Dans ce cas pas
 besoin de côté "aventurier". Par contre une même carte devrait pouvoir
-combiner plusieurs choses (monstre et trésor, piège et trésor ...){_em} (Le
+combiner plusieurs choses (monstre et trésor, piège et trésor ...)_ (Le
 verso est uniforme et identique pour toutes les cartes.)
+****
 
 Phases
 ~~~~~~
 
 Les donjons doivent recéler des surprises, mais il faut limiter le
-hasard => une partie des cartes posées sur les donjons sont cachées
+hasard &rArr; une partie des cartes posées sur les donjons sont cachées
 (soit : 1 sur 2 ; soit : en fonction d'une indication sur la carte). À
 son tour un joueur pioche une carte et la prend dans sa main. Il choisit
 ensuite de poser 0 à n cartes sur un (des?) donjon(s). (_Éviter qu'un
-joueur pose tout un donjon en une seule fois => max 1/2/3 cartes par
+joueur pose tout un donjon en une seule fois &rArr; max 1/2/3 cartes par
 donjon à la fois ?_) Tant qu'une carte est en main, c'est le côté
 aventurier qui s'applique. Cela peut potentiellement même être un malus
 (incitation à poser vite les cartes donjons intéressantes). _(Les
@@ -212,16 +203,16 @@ Limiter la taille de la main pourrait suffire. Les donjons
 ont-ils aussi une taille maximale ? Les donjons pourraient se
 construire sur un plan quadrillé, se qui les amèneraient à se rejoindre.
 
-{em}Autre idée pour le _dungeon building_ : chaque carte correspond à un
+_Autre idée pour le __dungeon building__ : chaque carte correspond à un
 (plusieurs) niveaux de profondeur (exple : 2/3/4). La contrainte de pose
-est que la profondeur ne peut pas diminuer. (Exple : 1 - 1
-{minus} 1/2 - 3 - 3 - 3 - 6 -
-6/7, mais pas 1, 1, 1/2, 2, 1 ...) Ainsi on garde une croissance en
+est que la profondeur ne peut pas diminuer.
+(Exple : 1 - 1 - 1/2 - 3 - 3 - 3 - 6 - 6/7, mais pas 1, 1, 1/2, 2, 1 ...)
+Ainsi on garde une croissance en
 difficulté du donjon. On évite que le boss de fin apparaisse avant le
-gobelin apéritif.{_em}
+gobelin apéritif._
 
-[none]
-* {em}Révision de l'idée : pour chaque donjon, il y a n emplacements
+****
+_Révision de l'idée : pour chaque donjon, il y a n emplacements
 "verticaux" (par exemple 6), correspondant aux niveaux des cartes. Les
 cartes sont posées dans l'emplacement correspondant à leur niveau.
 Thématiquement, chacun de ces emplacements est une salle (un étage) du
@@ -229,13 +220,13 @@ donjon. Certaines cartes peuvent éventuellement avoir plusieurs niveaux
 possibles. On peut empiler "horizontalement" plusieurs cartes dans un
 emplacement, plusieurs monstres/trésors pouvant être présent dans une
 même salle (étage) du donjon. Les cartes d'un même niveau seront
-activées dans l'ordre _http://fr.wikipedia.org/wiki/LIFO[LIFO]_.
-L'alternance visible/caché se fait verticalement _et_ horizontalement.{_em}
+activées dans l'ordre __http://fr.wikipedia.org/wiki/LIFO[LIFO]__.
+L'alternance visible/caché se fait verticalement __et__ horizontalement._
 
-[none]
-* Un donjon n'est pas ouvert à l'exploration tant qu'il n'y a pas une
-suite ininterrompues de cartes depuis le premier niveau (pas de "trous")
-{minus} voire même jusqu'au dernier niveau.
+Un donjon n'est pas ouvert à l'exploration tant qu'il n'y a pas une
+suite ininterrompues de cartes depuis le premier niveau
+(pas de "trous") - voire même jusqu'au dernier niveau.
+****
 
 Lorsqu'il se sent prêt, un joueur peut lancer son aventurier dans
 l'exploration d'un des donjons disponibles. La résolution se fait dans
@@ -246,17 +237,18 @@ monstre déclenche immédiatement un combat ... Cette phase s'arrête soit
 avec l'épuisement des cartes donjon, soit avec la fuite ou la mort de
 l'aventurier (impact ?).
 
-[none]
-* _Impact de la fuite d'un aventurier : il devra reprendre
+****
+_Impact de la fuite d'un aventurier : il devra reprendre
 l'exploration du donjon depuis le premier niveau, mais comme les
 premières cartes auront été éliminées, il devra attendre pour cela que
 ces premiers niveaux soient à nouveau remplis._
+****
 
 Il sera probablement nécessaire de prévoir que le joueur puisse poser
 des cartes devant lui. Permet d'avoir plus de cartes, mais visibles et
 pas dispo pour _dungeon building_. _(Ne serait-il pas préférable
 que l'exploration du donjon se fasse en phase avec les tours de jeu
-(plutôt que dans une phase spéciale ? => Pas d'attente des autres
+(plutôt que dans une phase spéciale ? &rArr; Pas d'attente des autres
 joueurs, plus d'interaction, possibilité pour les autres joueurs
 d'intervenir sur le deck du donjon en cours d'exploration ... Un joueur,
 qu'il soit l'explorateur ou l'un de ses exposants, peut ajouter une
@@ -269,8 +261,7 @@ Les cartes
 * <<_étude_initiale,Étude_initiale>>
 * <<_nouvelle_analyse,Nouvelle_analyse>>
 
-https://docs.google.com/spreadsheet/ccc?key=0Av0yUaMsCLd0dGRNMUZMdmFZMVpBMDNNem5LOGZQVGc&usp=sharing[Liste
-des cartes sur Google Drive]
+https://docs.google.com/spreadsheet/ccc?key=0Av0yUaMsCLd0dGRNMUZMdmFZMVpBMDNNem5LOGZQVGc&usp=sharing[Liste des cartes sur Google Drive]
 
 Étude initiale
 ^^^^^^^^^^^^^^
@@ -280,11 +271,11 @@ trésor, 1 rencontre autre, 1 "porte"). Soit une taille de set
 d'aventurier moyenne de 6 (1 aventurier, 2 compétences, 2 item, 1 don)
 (sur table ou en main). Soit 5 dépenses de jauge dépensée par donjon
 (PV, sorts ...) Si on veut que chaque joueur ait l'occasion d'explorer 3
-donjons en moyenne : n x 3 x (8{plus}5) {plus} n x (6 - 2
+donjons en moyenne : n x 3 x (8+5) + n x (6 - 2
 [les items sont déjà comptés]) = n x 43 : 43 cartes par aventurier. Un
 deck permettant de jouer à 4 devrait donc être constitué de 172 cartes
 environ. Il contiendrait : 60 "points de jauge", 48 monstres (36 normaux
-{plus}12 boss), 12 items, 12 trésors, 12 rencontres autres, 8
++12 boss), 12 items, 12 trésors, 12 rencontres autres, 8
 compétences, 4 dons, 12 "portes", 4 aventuriers. _(Revoir la proportion
 donjons/aventuriers ?)_ _(Moins de monstres plus d'items ?)_
 _(Aventuriers identiques ou différents (si différents, prévoir plus que
@@ -302,11 +293,12 @@ Les autres cartes agissent sur ces caractéristiques (bonus, malus ...).
 Elles agissent, soit de manière permanente, soit un nombre de fois
 limité n (<=4).
 
-[none]
-* _Les cartes qui agissent un nombre de fois limité portent les
+****
+_Les cartes qui agissent un nombre de fois limité portent les
 numéros de n à 1 sur les côtés. Chaque fois qu'elle est utilisée, on
 fait faire un quart de tour à la carte de manière à ce que soit visible
 le nombre d'utilisations restantes._
+****
 
 La résolution du combat est déterministe. Un round de combat se résout
 en simultané pour les 2 protagonistes. Chacun perd en points de vie la
@@ -321,8 +313,8 @@ des adversaires tombe à 0 ou moins.
 
 [underline]#Ce système n'est pas tenable. Une estimation rapide donne qu'il
 faudrait en moyenne 3 tours pour éliminer un monstre. À supposer que
-chaque joueur explore {tilde}3 donjons par partie, contenant
-{tilde}3 monstres, cela ferait au minimum 27 tours par joueur, sans
+chaque joueur explore +++~+++3 donjons par partie, contenant
++++~+++3 monstres, cela ferait au minimum 27 tours par joueur, sans
 compter les tours passés à se reposer, les combats perdus ... Soit
 vraisemblablement 40 tours de jeu par partie. En comptant 1'30" de
 réflexion par joueur, on arrive à 120 min par partie !#
@@ -349,8 +341,9 @@ fait déterministes. Cela les rendra d'ailleurs moins ennuyants.#
 Dans ce cas, il quitte immédiatement le donjon et revient devant son
 propriétaire. Le monstre remet toutes ses jauges au maximum.
 
-[none]
-* Optionnel: Il perd (et laisse sur place) 1 objet au hasard
+****
+Optionnel: Il perd (et laisse sur place) 1 objet au hasard
+****
 
 Une fois revenu devant le joueur, l'aventurier est au repos. Il regagne
 1 PV par tour, [underline]#ou# 1 point d'esprit en échange de 3(?) PV. (Sans
@@ -370,11 +363,12 @@ Une carte piège se résout en appliquant les effets indiqués.
 Au début de chaque round, le joueur peut décider de déclencher l'effet
 d'une (_ou plusieurs ? combien max ?_) carte item.
 
-[none]
-* [line-through]#Optionnel: Certaines cartes effets (sorts) ont des conditions
+****
+[line-through]#Optionnel: Certaines cartes effets (sorts) ont des conditions
 d'utilisation liées à la caractéristique d'esprit.# +
 La dépense d'un point d'esprit permet de s'immuniser des effets d'un
 pouvoir spécial.
+****
 
 Entre chaque tour, un aventurier gagne un nombre de points de vie égal à
 sa constitution (sans jamais dépasser le maximum).
@@ -387,7 +381,7 @@ Jauges
 
 (Inspiration : Mice & Mystics (M&M), Zombie 15' (Z15) ...)
 
-* La plupart des monstres n'ont qu'1 PV => pas besoin de faire le
+* La plupart des monstres n'ont qu'1 PV &rArr; pas besoin de faire le
 décompte des PV, il suffit de retirer la carte quand elle est détruite
 * Quelques gros monstres peuvent avoir quelques PV
 * Les aventuriers ont quelques PV (genre 3-4).
@@ -406,7 +400,7 @@ Dés
 Autre idée : Le système actuel rend les combats prédéterminés, ce qui
 risque de rendre le jeu trop calculatoire et peu dynamique. De plus on
 risque d'avoir vite des situations de blocage par manque de granularité
-=> très complexe à équilibrer. Donc, je me propose de rendre le système
+&rArr; très complexe à équilibrer. Donc, je me propose de rendre le système
 plus aléatoire par l'introduction de dés.
 
 Utiliser des dés standard rendrait le jeu moins fluide (E.g. : j'ai une
@@ -414,7 +408,7 @@ Utiliser des dés standard rendrait le jeu moins fluide (E.g. : j'ai une
 bonus de force ... :-/).
 
 On pourrait utiliser des dés style FFG/M&M : les face présentent des
-symboles qui déterminent les actions réussies (=> granularité des taux
+symboles qui déterminent les actions réussies (&rArr; granularité des taux
 de réussite = 17%). J'imagine même qu'on fonction du type de créature /
 arme / ..., on utilise un dé différent, avec une répartition différente
 des symboles.
@@ -495,39 +489,22 @@ passe dans le jeu.
 Il faudrait donc trouver un nom plus sexy pour le proto.
 
 Recherche terminologique (fr vs. en) ::
-
- +
-donjon - keep
- +
-cachot - dungeon, oubliette
- +
-oubliette - oubliette
- +
-souterrain - tunnel, underground
- +
-crypte, caveau - crypt, vault
- +
-caverne - cave, cavern
- +
-galerie - tunnel, gallery, (drift)
- +
-grotte - cave
- +
-antre - lair, den, haunt
- +
-gouffre - chasm, abyss, gulf
- +
-catacombes - catacombs
- +
-repaire - den, lair
- +
-paquet - deck
- +
-carte - card
- +
-monstre - monster
- +
-{minus} explorer, adventurer, traveler, pathfinder, pioneer,
+donjon - keep +
+cachot - dungeon, oubliette +
+oubliette - oubliette +
+souterrain - tunnel, underground +
+crypte, caveau - crypt, vault +
+caverne - cave, cavern +
+galerie - tunnel, gallery, (drift) +
+grotte - cave +
+antre - lair, den, haunt +
+gouffre - chasm, abyss, gulf +
+catacombes - catacombs +
+repaire - den, lair +
+paquet - deck +
+carte - card +
+monstre - monster +
+&nbsp; - explorer, adventurer, traveler, pathfinder, pioneer,
 wanderer, venturer, venture
 
 Idées retenues ::
