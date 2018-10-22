@@ -9,7 +9,7 @@ ifndef::env-github[]
 * <<_nouvelle_analyse,Nouvelle_analyse>>
 endif::env-github[]
 
-https://docs.google.com/spreadsheet/ccc?key=0Av0yUaMsCLd0dGRNMUZMdmFZMVpBMDNNem5LOGZQVGc&usp=sharing[Liste des cartes sur Google Drive]
+link:{sectdir_new}/../../../../../../cards/Underground%20Ventures.xlsx[Liste des cartes sur Google Drive]
 
 include::{sectdir_old}/cards-initial_study.adoc[]
 

@@ -1,3 +1,6 @@
+:sectdir_new: {docdir}/sections/new
+ifndef::env-maven[:sectdir_new: .]
+
 Composition d'un module
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -12,4 +15,4 @@ Composition d'un module
 * 8 améliorations
 * 6 événements spéciaux
 
-&rarr; https://docs.google.com/spreadsheets/d/1OQAYdWOY2dhdnjVGGqx_NlSOnSvBfDpd-nKg32b-MZ0/edit?usp=sharing[liste des cartes par module]
+&rarr; link:{sectdir_new}/../../../../../../cards/Underground%20Ventures%20(new).xlsx[liste des cartes par module]
