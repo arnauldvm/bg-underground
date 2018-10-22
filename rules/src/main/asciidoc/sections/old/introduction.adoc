@@ -1,6 +1,8 @@
 Le jeu
 ~~~~~~
 
+Concept initial : Narrative arcs + multiple shared decks (building)
+
 Les joueurs incarnent des aventuriers qui partent explorer des donjons
 pour récolter des richesses.
 
